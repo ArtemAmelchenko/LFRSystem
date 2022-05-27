@@ -3,6 +3,7 @@
 #include <QJsonArray>
 #include <QJsonObject>
 #include <QJsonValue>
+#include <QDebug>
 #include <iostream>
 
 using namespace std;
@@ -19,18 +20,22 @@ const QList<PersonalCard> *PersonalCardManager::personalCards() const
 
 void PersonalCardManager::addCard(const PersonalCard &card)
 {
-	PersonalCard nCard = card;
-	nCard.id = QUuid::createUuid();
-	cards.append(std::move(card));
+	auto it = std::find_if(cards.begin(), cards.end(), [&](const PersonalCard &c){ return card.id == c.id; });
+	if (it == cards.end())
+		cards.append(card);
+	qDebug() << "card added";
+	emit personalCardsUpdated(cards);
 }
 
-void PersonalCardManager::editCard(QUuid cardID, const PersonalCard &card)
+void PersonalCardManager::editCard(const PersonalCard &card)
 {
-	auto it = std::find_if(cards.begin(), cards.end(), [&](const PersonalCard &card){ return card.id == cardID; });
+	auto it = std::find_if(cards.begin(), cards.end(), [&](const PersonalCard &c){ return card.id == c.id; });
 	if (it == cards.end())
-		return;
-	*it = card;
-	it->id = cardID;
+		cards.append(card);
+	else
+		*it = card;
+	qDebug() << "card edited";
+	emit personalCardsUpdated(cards);
 }
 
 void PersonalCardManager::deleteCard(int cardIndex)
@@ -38,6 +43,8 @@ void PersonalCardManager::deleteCard(int cardIndex)
 	if (cards.size() <= cardIndex)
 		return;
 	cards.erase(cards.begin() + cardIndex);
+	qDebug() << "card deleted";
+	emit personalCardsUpdated(cards);
 }
 
 void PersonalCardManager::deleteCard(QUuid cardID)
@@ -46,6 +53,8 @@ void PersonalCardManager::deleteCard(QUuid cardID)
 	if (it == cards.end())
 		return;
 	cards.erase(it);
+	qDebug() << "card deleted";
+	emit personalCardsUpdated(cards);
 }
 
 void PersonalCardManager::loadCards(const QString &filename)
@@ -78,6 +87,8 @@ void PersonalCardManager::loadCards(const QString &filename)
 		card.contrastCorrection = obj.take("contrast").toInt();
 		cards.append(card);
 	}
+	qDebug() << "card loaded";
+	emit personalCardsUpdated(cards);
 }
 
 void PersonalCardManager::saveCards(const QString &filename)
@@ -121,7 +132,7 @@ void PersonalCardManager::updateCards(QList<PersonalCard> newCards)
 				find = true;
 				if (!(cards[i] == newCards[j]))
 				{
-					cout << "emit PCE" << endl;
+					qDebug() << "emit PCE";
 					emit personalCardEdited(newCards[j]);
 					break;
 				}
@@ -129,7 +140,7 @@ void PersonalCardManager::updateCards(QList<PersonalCard> newCards)
 		}
 		if (!find)
 		{
-			cout << "emit PCD" << endl;
+			qDebug() << "emit PCD";
 			emit personalCardDeleted(cards[i]);
 		}
 	}
@@ -145,13 +156,14 @@ void PersonalCardManager::updateCards(QList<PersonalCard> newCards)
 		}
 		if (!find)
 		{
-			cout << "emit PCA" << endl;
+			qDebug() << "emit PCA";
 			emit personalCardAdded(newCards[i]);
 		}
 	}
 
 	cards.clear();
 	cards.append(newCards);
+	qDebug() << "cards updated";
 	emit personalCardsUpdated(cards);
 }
 
@@ -159,12 +171,15 @@ void PersonalCardManager::updateCardsFromSync(QList<PersonalCard> newCards)
 {
 	cards.clear();
 	cards.append(newCards);
+	qDebug() << "cards synced";
 	emit personalCardsUpdated(cards);
 }
 
 void PersonalCardManager::personalCardAddedSlot(PersonalCard card)
 {
 	cards.append(card);
+	qDebug() << "card added slot";
+	emit personalCardsUpdated(cards);
 }
 
 void PersonalCardManager::personalCardEditedSlot(PersonalCard card)
@@ -173,6 +188,8 @@ void PersonalCardManager::personalCardEditedSlot(PersonalCard card)
 	if (it == cards.end())
 		return;
 	*it = card;
+	qDebug() << "card edited slot";
+	emit personalCardsUpdated(cards);
 }
 
 void PersonalCardManager::personalCardDeletedSlot(PersonalCard card)
@@ -181,6 +198,8 @@ void PersonalCardManager::personalCardDeletedSlot(PersonalCard card)
 	if (it == cards.end())
 		return;
 	cards.erase(it);
+	qDebug() << "card deleted slot";
+	emit personalCardsUpdated(cards);
 }
 
 bool PersonalCard::operator ==(const PersonalCard &other) const

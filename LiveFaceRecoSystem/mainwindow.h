@@ -11,10 +11,10 @@
 #include <QGraphicsPixmapItem>
 #include <QThread>
 #include <QDate>
+#include <mutex>
 
 #include "LFR/lfrmanager.h"
 #include "LFR/videodetectionhandler.h"
-#include "messagehandler.h"
 #include "personalcardeditorform.h"
 #include "makephotoform.h"
 #include "addvideosourceform.h"
@@ -38,10 +38,6 @@ class MainWindow : public QMainWindow
 	//менеджер LFR
 	LFRManager *m_LFRManager;
 
-	//логировщик
-	MessageHandler *m_MessageHandler;
-	QThread messageHandlerThread;
-
 	//формы
 	MakePhotoForm *makePhotoForm;
 	PersonalCardEditorForm *cardEditForm;
@@ -59,6 +55,9 @@ class MainWindow : public QMainWindow
 
 	//количество видеопотоков
 	int videoSourcesNumber;
+
+	QQueue<QString> logs;
+	std::mutex logMut;
 
 	QList<QLabel *> imageLabels;
 	QList<QLabel *> fioLabels;
@@ -78,8 +77,6 @@ class MainWindow : public QMainWindow
 	//структура конфигурации
 	struct Configure
 	{
-		MessageHandler *log;
-
 		//структура информации о камере, записываемая в конфиг
 		struct Cam
 		{
@@ -113,6 +110,7 @@ public:
 	~MainWindow();
 
 	void setLicenseDate(QDate date);
+	void logMsg(QString msg);
 
 protected:
 	void closeEvent(QCloseEvent *event);
@@ -132,11 +130,12 @@ signals:
 	void setBrightnessCorrection(int corr);
 	void setContrastCorrection(int corr);
 
+	void pushMsg(QString msg);
+
 public slots:
 	void onAuthorised(QString login);
 	void updatePixmap(VideoDetectionHandler::VideoDisplay *videoDisplay, cv::Mat frame, DrawInfo info);
 	void updateDetectedPerson(bool detected, int id, double confidence, double similarity, VideoDetectionHandler::VideoDisplay *videoDisplay);
-	void addMessage(QString message);
 	void updatePersonalCards(const QList<PersonalCard> &cards);
 	void updateReles(const QList<DevicesManager::Rele> &reles);
 	void addCameraSourceByIndex(int sourceIndex, QString name, bool enterance, QUuid releID);
@@ -146,6 +145,8 @@ public slots:
 	void disconnected();
 
 private slots:
+	void pushMsgSlot(QString msg);
+
 	void on_OpenPersonalCardEditor_triggered();
 	void on_MakePhoto_triggered();
 	void on_DeviceControlAction_triggered();

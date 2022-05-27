@@ -2,6 +2,7 @@
 #include <QThread>
 #include <QDebug>
 #include <atomic>
+#include <thread>
 
 using namespace std;
 

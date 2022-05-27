@@ -26,12 +26,10 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         main.cpp \
         mainwindow.cpp \
-    messagehandler.cpp \
     personalcardeditorform.cpp \
     personalcardmanager.cpp \
     LFR/arcface.cpp \
     LFR/lfrmanager.cpp \
-    LFR/lfrmsghandler.cpp \
     LFR/live.cpp \
     LFR/livefacereco.cpp \
     LFR/mtcnn_new.cpp \
@@ -46,12 +44,10 @@ SOURCES += \
 
 HEADERS += \
         mainwindow.h \
-    messagehandler.h \
     personalcardeditorform.h \
     personalcardmanager.h \
     LFR/arcface.h \
     LFR/lfrmanager.h \
-    LFR/lfrmsghandler.h \
     LFR/live.h \
     LFR/livefacereco.hpp \
     LFR/mtcnn_new.h \

@@ -52,12 +52,10 @@ OBJECTS_DIR   = ./
 
 SOURCES       = ../LiveFaceRecoSystem/main.cpp \
 		../LiveFaceRecoSystem/mainwindow.cpp \
-		../LiveFaceRecoSystem/messagehandler.cpp \
 		../LiveFaceRecoSystem/personalcardeditorform.cpp \
 		../LiveFaceRecoSystem/personalcardmanager.cpp \
 		../LiveFaceRecoSystem/LFR/arcface.cpp \
 		../LiveFaceRecoSystem/LFR/lfrmanager.cpp \
-		../LiveFaceRecoSystem/LFR/lfrmsghandler.cpp \
 		../LiveFaceRecoSystem/LFR/live.cpp \
 		../LiveFaceRecoSystem/LFR/livefacereco.cpp \
 		../LiveFaceRecoSystem/LFR/mtcnn_new.cpp \
@@ -69,7 +67,6 @@ SOURCES       = ../LiveFaceRecoSystem/main.cpp \
 		../LiveFaceRecoSystem/devicecontrolform.cpp \
 		../LiveFaceRecoSystem/devicesmanager.cpp \
 		../LiveFaceRecoSystem/connectiontoserver.cpp moc_mainwindow.cpp \
-		moc_messagehandler.cpp \
 		moc_personalcardeditorform.cpp \
 		moc_personalcardmanager.cpp \
 		moc_lfrmanager.cpp \
@@ -83,12 +80,10 @@ SOURCES       = ../LiveFaceRecoSystem/main.cpp \
 		moc_connectiontoserver.cpp
 OBJECTS       = main.o \
 		mainwindow.o \
-		messagehandler.o \
 		personalcardeditorform.o \
 		personalcardmanager.o \
 		arcface.o \
 		lfrmanager.o \
-		lfrmsghandler.o \
 		live.o \
 		livefacereco.o \
 		mtcnn_new.o \
@@ -101,7 +96,6 @@ OBJECTS       = main.o \
 		devicesmanager.o \
 		connectiontoserver.o \
 		moc_mainwindow.o \
-		moc_messagehandler.o \
 		moc_personalcardeditorform.o \
 		moc_personalcardmanager.o \
 		moc_lfrmanager.o \
@@ -198,12 +192,10 @@ DIST          = /usr/lib/aarch64-linux-gnu/qt5/mkspecs/features/spec_pre.prf \
 		/usr/lib/aarch64-linux-gnu/qt5/mkspecs/features/yacc.prf \
 		/usr/lib/aarch64-linux-gnu/qt5/mkspecs/features/lex.prf \
 		../LiveFaceRecoSystem/LFRSystem.pro ../LiveFaceRecoSystem/mainwindow.h \
-		../LiveFaceRecoSystem/messagehandler.h \
 		../LiveFaceRecoSystem/personalcardeditorform.h \
 		../LiveFaceRecoSystem/personalcardmanager.h \
 		../LiveFaceRecoSystem/LFR/arcface.h \
 		../LiveFaceRecoSystem/LFR/lfrmanager.h \
-		../LiveFaceRecoSystem/LFR/lfrmsghandler.h \
 		../LiveFaceRecoSystem/LFR/live.h \
 		../LiveFaceRecoSystem/LFR/livefacereco.hpp \
 		../LiveFaceRecoSystem/LFR/mtcnn_new.h \
@@ -216,12 +208,10 @@ DIST          = /usr/lib/aarch64-linux-gnu/qt5/mkspecs/features/spec_pre.prf \
 		../LiveFaceRecoSystem/devicesmanager.h \
 		../LiveFaceRecoSystem/connectiontoserver.h ../LiveFaceRecoSystem/main.cpp \
 		../LiveFaceRecoSystem/mainwindow.cpp \
-		../LiveFaceRecoSystem/messagehandler.cpp \
 		../LiveFaceRecoSystem/personalcardeditorform.cpp \
 		../LiveFaceRecoSystem/personalcardmanager.cpp \
 		../LiveFaceRecoSystem/LFR/arcface.cpp \
 		../LiveFaceRecoSystem/LFR/lfrmanager.cpp \
-		../LiveFaceRecoSystem/LFR/lfrmsghandler.cpp \
 		../LiveFaceRecoSystem/LFR/live.cpp \
 		../LiveFaceRecoSystem/LFR/livefacereco.cpp \
 		../LiveFaceRecoSystem/LFR/mtcnn_new.cpp \
@@ -440,8 +430,8 @@ distdir: FORCE
 	@test -d $(DISTDIR) || mkdir -p $(DISTDIR)
 	$(COPY_FILE) --parents $(DIST) $(DISTDIR)/
 	$(COPY_FILE) --parents /usr/lib/aarch64-linux-gnu/qt5/mkspecs/features/data/dummy.cpp $(DISTDIR)/
-	$(COPY_FILE) --parents ../LiveFaceRecoSystem/mainwindow.h ../LiveFaceRecoSystem/messagehandler.h ../LiveFaceRecoSystem/personalcardeditorform.h ../LiveFaceRecoSystem/personalcardmanager.h ../LiveFaceRecoSystem/LFR/arcface.h ../LiveFaceRecoSystem/LFR/lfrmanager.h ../LiveFaceRecoSystem/LFR/lfrmsghandler.h ../LiveFaceRecoSystem/LFR/live.h ../LiveFaceRecoSystem/LFR/livefacereco.hpp ../LiveFaceRecoSystem/LFR/mtcnn_new.h ../LiveFaceRecoSystem/LFR/videodetectionhandler.h ../LiveFaceRecoSystem/makephotoform.h ../LiveFaceRecoSystem/addvideosourceform.h ../LiveFaceRecoSystem/showingcardmanager.h ../LiveFaceRecoSystem/authorisationform.h ../LiveFaceRecoSystem/devicecontrolform.h ../LiveFaceRecoSystem/devicesmanager.h ../LiveFaceRecoSystem/connectiontoserver.h $(DISTDIR)/
-	$(COPY_FILE) --parents ../LiveFaceRecoSystem/main.cpp ../LiveFaceRecoSystem/mainwindow.cpp ../LiveFaceRecoSystem/messagehandler.cpp ../LiveFaceRecoSystem/personalcardeditorform.cpp ../LiveFaceRecoSystem/personalcardmanager.cpp ../LiveFaceRecoSystem/LFR/arcface.cpp ../LiveFaceRecoSystem/LFR/lfrmanager.cpp ../LiveFaceRecoSystem/LFR/lfrmsghandler.cpp ../LiveFaceRecoSystem/LFR/live.cpp ../LiveFaceRecoSystem/LFR/livefacereco.cpp ../LiveFaceRecoSystem/LFR/mtcnn_new.cpp ../LiveFaceRecoSystem/LFR/videodetectionhandler.cpp ../LiveFaceRecoSystem/makephotoform.cpp ../LiveFaceRecoSystem/addvideosourceform.cpp ../LiveFaceRecoSystem/showingcardmanager.cpp ../LiveFaceRecoSystem/authorisationform.cpp ../LiveFaceRecoSystem/devicecontrolform.cpp ../LiveFaceRecoSystem/devicesmanager.cpp ../LiveFaceRecoSystem/connectiontoserver.cpp $(DISTDIR)/
+	$(COPY_FILE) --parents ../LiveFaceRecoSystem/mainwindow.h ../LiveFaceRecoSystem/personalcardeditorform.h ../LiveFaceRecoSystem/personalcardmanager.h ../LiveFaceRecoSystem/LFR/arcface.h ../LiveFaceRecoSystem/LFR/lfrmanager.h ../LiveFaceRecoSystem/LFR/live.h ../LiveFaceRecoSystem/LFR/livefacereco.hpp ../LiveFaceRecoSystem/LFR/mtcnn_new.h ../LiveFaceRecoSystem/LFR/videodetectionhandler.h ../LiveFaceRecoSystem/makephotoform.h ../LiveFaceRecoSystem/addvideosourceform.h ../LiveFaceRecoSystem/showingcardmanager.h ../LiveFaceRecoSystem/authorisationform.h ../LiveFaceRecoSystem/devicecontrolform.h ../LiveFaceRecoSystem/devicesmanager.h ../LiveFaceRecoSystem/connectiontoserver.h $(DISTDIR)/
+	$(COPY_FILE) --parents ../LiveFaceRecoSystem/main.cpp ../LiveFaceRecoSystem/mainwindow.cpp ../LiveFaceRecoSystem/personalcardeditorform.cpp ../LiveFaceRecoSystem/personalcardmanager.cpp ../LiveFaceRecoSystem/LFR/arcface.cpp ../LiveFaceRecoSystem/LFR/lfrmanager.cpp ../LiveFaceRecoSystem/LFR/live.cpp ../LiveFaceRecoSystem/LFR/livefacereco.cpp ../LiveFaceRecoSystem/LFR/mtcnn_new.cpp ../LiveFaceRecoSystem/LFR/videodetectionhandler.cpp ../LiveFaceRecoSystem/makephotoform.cpp ../LiveFaceRecoSystem/addvideosourceform.cpp ../LiveFaceRecoSystem/showingcardmanager.cpp ../LiveFaceRecoSystem/authorisationform.cpp ../LiveFaceRecoSystem/devicecontrolform.cpp ../LiveFaceRecoSystem/devicesmanager.cpp ../LiveFaceRecoSystem/connectiontoserver.cpp $(DISTDIR)/
 	$(COPY_FILE) --parents ../LiveFaceRecoSystem/mainwindow.ui ../LiveFaceRecoSystem/personalcardeditorform.ui ../LiveFaceRecoSystem/makephotoform.ui ../LiveFaceRecoSystem/addvideosourceform.ui ../LiveFaceRecoSystem/authorisationform.ui ../LiveFaceRecoSystem/devicecontrolform.ui $(DISTDIR)/
 
 
@@ -474,12 +464,11 @@ compiler_moc_predefs_clean:
 moc_predefs.h: /usr/lib/aarch64-linux-gnu/qt5/mkspecs/features/data/dummy.cpp
 	g++ -pipe -fopenmp -g -Wall -W -dM -E -o moc_predefs.h /usr/lib/aarch64-linux-gnu/qt5/mkspecs/features/data/dummy.cpp
 
-compiler_moc_header_make_all: moc_mainwindow.cpp moc_messagehandler.cpp moc_personalcardeditorform.cpp moc_personalcardmanager.cpp moc_lfrmanager.cpp moc_videodetectionhandler.cpp moc_makephotoform.cpp moc_addvideosourceform.cpp moc_showingcardmanager.cpp moc_authorisationform.cpp moc_devicecontrolform.cpp moc_devicesmanager.cpp moc_connectiontoserver.cpp
+compiler_moc_header_make_all: moc_mainwindow.cpp moc_personalcardeditorform.cpp moc_personalcardmanager.cpp moc_lfrmanager.cpp moc_videodetectionhandler.cpp moc_makephotoform.cpp moc_addvideosourceform.cpp moc_showingcardmanager.cpp moc_authorisationform.cpp moc_devicecontrolform.cpp moc_devicesmanager.cpp moc_connectiontoserver.cpp
 compiler_moc_header_clean:
-	-$(DEL_FILE) moc_mainwindow.cpp moc_messagehandler.cpp moc_personalcardeditorform.cpp moc_personalcardmanager.cpp moc_lfrmanager.cpp moc_videodetectionhandler.cpp moc_makephotoform.cpp moc_addvideosourceform.cpp moc_showingcardmanager.cpp moc_authorisationform.cpp moc_devicecontrolform.cpp moc_devicesmanager.cpp moc_connectiontoserver.cpp
+	-$(DEL_FILE) moc_mainwindow.cpp moc_personalcardeditorform.cpp moc_personalcardmanager.cpp moc_lfrmanager.cpp moc_videodetectionhandler.cpp moc_makephotoform.cpp moc_addvideosourceform.cpp moc_showingcardmanager.cpp moc_authorisationform.cpp moc_devicecontrolform.cpp moc_devicesmanager.cpp moc_connectiontoserver.cpp
 moc_mainwindow.cpp: ../LiveFaceRecoSystem/LFR/lfrmanager.h \
 		../LiveFaceRecoSystem/LFR/livefacereco.hpp \
-		../LiveFaceRecoSystem/LFR/lfrmsghandler.h \
 		../LiveFaceRecoSystem/LFR/mtcnn_new.h \
 		../LiveFaceRecoSystem/include/ncnn/net.h \
 		../LiveFaceRecoSystem/include/ncnn/blob.h \
@@ -492,7 +481,6 @@ moc_mainwindow.cpp: ../LiveFaceRecoSystem/LFR/lfrmanager.h \
 		../LiveFaceRecoSystem/include/ncnn/modelbin.h \
 		../LiveFaceRecoSystem/include/ncnn/paramdict.h \
 		../LiveFaceRecoSystem/include/ncnn/command.h \
-		../LiveFaceRecoSystem/messagehandler.h \
 		../LiveFaceRecoSystem/LFR/videodetectionhandler.h \
 		../LiveFaceRecoSystem/personalcardeditorform.h \
 		../LiveFaceRecoSystem/personalcardmanager.h \
@@ -507,26 +495,18 @@ moc_mainwindow.cpp: ../LiveFaceRecoSystem/LFR/lfrmanager.h \
 		/usr/lib/qt5/bin/moc
 	/usr/lib/qt5/bin/moc $(DEFINES) --include ./moc_predefs.h -I/usr/lib/aarch64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/artem/LiveFaceRecoSystem -I/home/artem/LiveFaceRecoSystem/include/ncnn -I/usr/local/include/opencv -I/usr/local/include -I/usr/include/aarch64-linux-gnu/qt5 -I/usr/include/aarch64-linux-gnu/qt5/QtMultimedia -I/usr/include/aarch64-linux-gnu/qt5/QtWidgets -I/usr/include/aarch64-linux-gnu/qt5/QtGui -I/usr/include/aarch64-linux-gnu/qt5/QtNetwork -I/usr/include/aarch64-linux-gnu/qt5/QtCore -I. -I/usr/include/c++/7 -I/usr/include/aarch64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/aarch64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/aarch64-linux-gnu/7/include-fixed -I/usr/include/aarch64-linux-gnu -I/usr/include ../LiveFaceRecoSystem/mainwindow.h -o moc_mainwindow.cpp
 
-moc_messagehandler.cpp: ../LiveFaceRecoSystem/messagehandler.h \
-		moc_predefs.h \
-		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include ./moc_predefs.h -I/usr/lib/aarch64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/artem/LiveFaceRecoSystem -I/home/artem/LiveFaceRecoSystem/include/ncnn -I/usr/local/include/opencv -I/usr/local/include -I/usr/include/aarch64-linux-gnu/qt5 -I/usr/include/aarch64-linux-gnu/qt5/QtMultimedia -I/usr/include/aarch64-linux-gnu/qt5/QtWidgets -I/usr/include/aarch64-linux-gnu/qt5/QtGui -I/usr/include/aarch64-linux-gnu/qt5/QtNetwork -I/usr/include/aarch64-linux-gnu/qt5/QtCore -I. -I/usr/include/c++/7 -I/usr/include/aarch64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/aarch64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/aarch64-linux-gnu/7/include-fixed -I/usr/include/aarch64-linux-gnu -I/usr/include ../LiveFaceRecoSystem/messagehandler.h -o moc_messagehandler.cpp
-
 moc_personalcardeditorform.cpp: ../LiveFaceRecoSystem/personalcardmanager.h \
-		../LiveFaceRecoSystem/messagehandler.h \
 		../LiveFaceRecoSystem/personalcardeditorform.h \
 		moc_predefs.h \
 		/usr/lib/qt5/bin/moc
 	/usr/lib/qt5/bin/moc $(DEFINES) --include ./moc_predefs.h -I/usr/lib/aarch64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/artem/LiveFaceRecoSystem -I/home/artem/LiveFaceRecoSystem/include/ncnn -I/usr/local/include/opencv -I/usr/local/include -I/usr/include/aarch64-linux-gnu/qt5 -I/usr/include/aarch64-linux-gnu/qt5/QtMultimedia -I/usr/include/aarch64-linux-gnu/qt5/QtWidgets -I/usr/include/aarch64-linux-gnu/qt5/QtGui -I/usr/include/aarch64-linux-gnu/qt5/QtNetwork -I/usr/include/aarch64-linux-gnu/qt5/QtCore -I. -I/usr/include/c++/7 -I/usr/include/aarch64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/aarch64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/aarch64-linux-gnu/7/include-fixed -I/usr/include/aarch64-linux-gnu -I/usr/include ../LiveFaceRecoSystem/personalcardeditorform.h -o moc_personalcardeditorform.cpp
 
-moc_personalcardmanager.cpp: ../LiveFaceRecoSystem/messagehandler.h \
-		../LiveFaceRecoSystem/personalcardmanager.h \
+moc_personalcardmanager.cpp: ../LiveFaceRecoSystem/personalcardmanager.h \
 		moc_predefs.h \
 		/usr/lib/qt5/bin/moc
 	/usr/lib/qt5/bin/moc $(DEFINES) --include ./moc_predefs.h -I/usr/lib/aarch64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/artem/LiveFaceRecoSystem -I/home/artem/LiveFaceRecoSystem/include/ncnn -I/usr/local/include/opencv -I/usr/local/include -I/usr/include/aarch64-linux-gnu/qt5 -I/usr/include/aarch64-linux-gnu/qt5/QtMultimedia -I/usr/include/aarch64-linux-gnu/qt5/QtWidgets -I/usr/include/aarch64-linux-gnu/qt5/QtGui -I/usr/include/aarch64-linux-gnu/qt5/QtNetwork -I/usr/include/aarch64-linux-gnu/qt5/QtCore -I. -I/usr/include/c++/7 -I/usr/include/aarch64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/aarch64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/aarch64-linux-gnu/7/include-fixed -I/usr/include/aarch64-linux-gnu -I/usr/include ../LiveFaceRecoSystem/personalcardmanager.h -o moc_personalcardmanager.cpp
 
 moc_lfrmanager.cpp: ../LiveFaceRecoSystem/LFR/livefacereco.hpp \
-		../LiveFaceRecoSystem/LFR/lfrmsghandler.h \
 		../LiveFaceRecoSystem/LFR/mtcnn_new.h \
 		../LiveFaceRecoSystem/include/ncnn/net.h \
 		../LiveFaceRecoSystem/include/ncnn/blob.h \
@@ -539,14 +519,12 @@ moc_lfrmanager.cpp: ../LiveFaceRecoSystem/LFR/livefacereco.hpp \
 		../LiveFaceRecoSystem/include/ncnn/modelbin.h \
 		../LiveFaceRecoSystem/include/ncnn/paramdict.h \
 		../LiveFaceRecoSystem/include/ncnn/command.h \
-		../LiveFaceRecoSystem/messagehandler.h \
 		../LiveFaceRecoSystem/LFR/lfrmanager.h \
 		moc_predefs.h \
 		/usr/lib/qt5/bin/moc
 	/usr/lib/qt5/bin/moc $(DEFINES) --include ./moc_predefs.h -I/usr/lib/aarch64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/artem/LiveFaceRecoSystem -I/home/artem/LiveFaceRecoSystem/include/ncnn -I/usr/local/include/opencv -I/usr/local/include -I/usr/include/aarch64-linux-gnu/qt5 -I/usr/include/aarch64-linux-gnu/qt5/QtMultimedia -I/usr/include/aarch64-linux-gnu/qt5/QtWidgets -I/usr/include/aarch64-linux-gnu/qt5/QtGui -I/usr/include/aarch64-linux-gnu/qt5/QtNetwork -I/usr/include/aarch64-linux-gnu/qt5/QtCore -I. -I/usr/include/c++/7 -I/usr/include/aarch64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/aarch64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/aarch64-linux-gnu/7/include-fixed -I/usr/include/aarch64-linux-gnu -I/usr/include ../LiveFaceRecoSystem/LFR/lfrmanager.h -o moc_lfrmanager.cpp
 
 moc_videodetectionhandler.cpp: ../LiveFaceRecoSystem/LFR/livefacereco.hpp \
-		../LiveFaceRecoSystem/LFR/lfrmsghandler.h \
 		../LiveFaceRecoSystem/LFR/mtcnn_new.h \
 		../LiveFaceRecoSystem/include/ncnn/net.h \
 		../LiveFaceRecoSystem/include/ncnn/blob.h \
@@ -577,7 +555,6 @@ moc_addvideosourceform.cpp: ../LiveFaceRecoSystem/devicesmanager.h \
 
 moc_showingcardmanager.cpp: ../LiveFaceRecoSystem/devicesmanager.h \
 		../LiveFaceRecoSystem/personalcardmanager.h \
-		../LiveFaceRecoSystem/messagehandler.h \
 		../LiveFaceRecoSystem/connectiontoserver.h \
 		../LiveFaceRecoSystem/showingcardmanager.h \
 		moc_predefs.h \
@@ -601,7 +578,6 @@ moc_devicesmanager.cpp: ../LiveFaceRecoSystem/devicesmanager.h \
 	/usr/lib/qt5/bin/moc $(DEFINES) --include ./moc_predefs.h -I/usr/lib/aarch64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/artem/LiveFaceRecoSystem -I/home/artem/LiveFaceRecoSystem/include/ncnn -I/usr/local/include/opencv -I/usr/local/include -I/usr/include/aarch64-linux-gnu/qt5 -I/usr/include/aarch64-linux-gnu/qt5/QtMultimedia -I/usr/include/aarch64-linux-gnu/qt5/QtWidgets -I/usr/include/aarch64-linux-gnu/qt5/QtGui -I/usr/include/aarch64-linux-gnu/qt5/QtNetwork -I/usr/include/aarch64-linux-gnu/qt5/QtCore -I. -I/usr/include/c++/7 -I/usr/include/aarch64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/aarch64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/aarch64-linux-gnu/7/include-fixed -I/usr/include/aarch64-linux-gnu -I/usr/include ../LiveFaceRecoSystem/devicesmanager.h -o moc_devicesmanager.cpp
 
 moc_connectiontoserver.cpp: ../LiveFaceRecoSystem/personalcardmanager.h \
-		../LiveFaceRecoSystem/messagehandler.h \
 		../LiveFaceRecoSystem/connectiontoserver.h \
 		moc_predefs.h \
 		/usr/lib/qt5/bin/moc
@@ -649,7 +625,6 @@ compiler_clean: compiler_moc_predefs_clean compiler_moc_header_clean compiler_ui
 main.o: ../LiveFaceRecoSystem/main.cpp ../LiveFaceRecoSystem/mainwindow.h \
 		../LiveFaceRecoSystem/LFR/lfrmanager.h \
 		../LiveFaceRecoSystem/LFR/livefacereco.hpp \
-		../LiveFaceRecoSystem/LFR/lfrmsghandler.h \
 		../LiveFaceRecoSystem/LFR/mtcnn_new.h \
 		../LiveFaceRecoSystem/include/ncnn/net.h \
 		../LiveFaceRecoSystem/include/ncnn/blob.h \
@@ -662,7 +637,6 @@ main.o: ../LiveFaceRecoSystem/main.cpp ../LiveFaceRecoSystem/mainwindow.h \
 		../LiveFaceRecoSystem/include/ncnn/modelbin.h \
 		../LiveFaceRecoSystem/include/ncnn/paramdict.h \
 		../LiveFaceRecoSystem/include/ncnn/command.h \
-		../LiveFaceRecoSystem/messagehandler.h \
 		../LiveFaceRecoSystem/LFR/videodetectionhandler.h \
 		../LiveFaceRecoSystem/personalcardeditorform.h \
 		../LiveFaceRecoSystem/personalcardmanager.h \
@@ -678,7 +652,6 @@ main.o: ../LiveFaceRecoSystem/main.cpp ../LiveFaceRecoSystem/mainwindow.h \
 mainwindow.o: ../LiveFaceRecoSystem/mainwindow.cpp ../LiveFaceRecoSystem/mainwindow.h \
 		../LiveFaceRecoSystem/LFR/lfrmanager.h \
 		../LiveFaceRecoSystem/LFR/livefacereco.hpp \
-		../LiveFaceRecoSystem/LFR/lfrmsghandler.h \
 		../LiveFaceRecoSystem/LFR/mtcnn_new.h \
 		../LiveFaceRecoSystem/include/ncnn/net.h \
 		../LiveFaceRecoSystem/include/ncnn/blob.h \
@@ -691,7 +664,6 @@ mainwindow.o: ../LiveFaceRecoSystem/mainwindow.cpp ../LiveFaceRecoSystem/mainwin
 		../LiveFaceRecoSystem/include/ncnn/modelbin.h \
 		../LiveFaceRecoSystem/include/ncnn/paramdict.h \
 		../LiveFaceRecoSystem/include/ncnn/command.h \
-		../LiveFaceRecoSystem/messagehandler.h \
 		../LiveFaceRecoSystem/LFR/videodetectionhandler.h \
 		../LiveFaceRecoSystem/personalcardeditorform.h \
 		../LiveFaceRecoSystem/personalcardmanager.h \
@@ -704,29 +676,10 @@ mainwindow.o: ../LiveFaceRecoSystem/mainwindow.cpp ../LiveFaceRecoSystem/mainwin
 		ui_mainwindow.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o mainwindow.o ../LiveFaceRecoSystem/mainwindow.cpp
 
-messagehandler.o: ../LiveFaceRecoSystem/messagehandler.cpp ../LiveFaceRecoSystem/messagehandler.h \
-		../LiveFaceRecoSystem/LFR/livefacereco.hpp \
-		../LiveFaceRecoSystem/LFR/lfrmsghandler.h \
-		../LiveFaceRecoSystem/LFR/mtcnn_new.h \
-		../LiveFaceRecoSystem/include/ncnn/net.h \
-		../LiveFaceRecoSystem/include/ncnn/blob.h \
-		../LiveFaceRecoSystem/include/ncnn/mat.h \
-		../LiveFaceRecoSystem/include/ncnn/allocator.h \
-		../LiveFaceRecoSystem/include/ncnn/platform.h \
-		../LiveFaceRecoSystem/include/ncnn/simplestl.h \
-		../LiveFaceRecoSystem/include/ncnn/option.h \
-		../LiveFaceRecoSystem/include/ncnn/layer.h \
-		../LiveFaceRecoSystem/include/ncnn/modelbin.h \
-		../LiveFaceRecoSystem/include/ncnn/paramdict.h \
-		../LiveFaceRecoSystem/include/ncnn/command.h
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o messagehandler.o ../LiveFaceRecoSystem/messagehandler.cpp
-
 personalcardeditorform.o: ../LiveFaceRecoSystem/personalcardeditorform.cpp ../LiveFaceRecoSystem/personalcardeditorform.h \
 		../LiveFaceRecoSystem/personalcardmanager.h \
-		../LiveFaceRecoSystem/messagehandler.h \
 		ui_personalcardeditorform.h \
 		../LiveFaceRecoSystem/LFR/livefacereco.hpp \
-		../LiveFaceRecoSystem/LFR/lfrmsghandler.h \
 		../LiveFaceRecoSystem/LFR/mtcnn_new.h \
 		../LiveFaceRecoSystem/include/ncnn/net.h \
 		../LiveFaceRecoSystem/include/ncnn/blob.h \
@@ -741,8 +694,7 @@ personalcardeditorform.o: ../LiveFaceRecoSystem/personalcardeditorform.cpp ../Li
 		../LiveFaceRecoSystem/include/ncnn/command.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o personalcardeditorform.o ../LiveFaceRecoSystem/personalcardeditorform.cpp
 
-personalcardmanager.o: ../LiveFaceRecoSystem/personalcardmanager.cpp ../LiveFaceRecoSystem/personalcardmanager.h \
-		../LiveFaceRecoSystem/messagehandler.h
+personalcardmanager.o: ../LiveFaceRecoSystem/personalcardmanager.cpp ../LiveFaceRecoSystem/personalcardmanager.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o personalcardmanager.o ../LiveFaceRecoSystem/personalcardmanager.cpp
 
 arcface.o: ../LiveFaceRecoSystem/LFR/arcface.cpp ../LiveFaceRecoSystem/LFR/arcface.h \
@@ -758,13 +710,11 @@ arcface.o: ../LiveFaceRecoSystem/LFR/arcface.cpp ../LiveFaceRecoSystem/LFR/arcfa
 		../LiveFaceRecoSystem/include/ncnn/paramdict.h \
 		../LiveFaceRecoSystem/include/ncnn/command.h \
 		../LiveFaceRecoSystem/LFR/livefacereco.hpp \
-		../LiveFaceRecoSystem/LFR/lfrmsghandler.h \
 		../LiveFaceRecoSystem/LFR/mtcnn_new.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o arcface.o ../LiveFaceRecoSystem/LFR/arcface.cpp
 
 lfrmanager.o: ../LiveFaceRecoSystem/LFR/lfrmanager.cpp ../LiveFaceRecoSystem/LFR/lfrmanager.h \
 		../LiveFaceRecoSystem/LFR/livefacereco.hpp \
-		../LiveFaceRecoSystem/LFR/lfrmsghandler.h \
 		../LiveFaceRecoSystem/LFR/mtcnn_new.h \
 		../LiveFaceRecoSystem/include/ncnn/net.h \
 		../LiveFaceRecoSystem/include/ncnn/blob.h \
@@ -777,7 +727,6 @@ lfrmanager.o: ../LiveFaceRecoSystem/LFR/lfrmanager.cpp ../LiveFaceRecoSystem/LFR
 		../LiveFaceRecoSystem/include/ncnn/modelbin.h \
 		../LiveFaceRecoSystem/include/ncnn/paramdict.h \
 		../LiveFaceRecoSystem/include/ncnn/command.h \
-		../LiveFaceRecoSystem/messagehandler.h \
 		../LiveFaceRecoSystem/mainwindow.h \
 		../LiveFaceRecoSystem/LFR/videodetectionhandler.h \
 		../LiveFaceRecoSystem/personalcardeditorform.h \
@@ -789,9 +738,6 @@ lfrmanager.o: ../LiveFaceRecoSystem/LFR/lfrmanager.cpp ../LiveFaceRecoSystem/LFR
 		../LiveFaceRecoSystem/connectiontoserver.h \
 		../LiveFaceRecoSystem/devicecontrolform.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o lfrmanager.o ../LiveFaceRecoSystem/LFR/lfrmanager.cpp
-
-lfrmsghandler.o: ../LiveFaceRecoSystem/LFR/lfrmsghandler.cpp ../LiveFaceRecoSystem/LFR/lfrmsghandler.h
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o lfrmsghandler.o ../LiveFaceRecoSystem/LFR/lfrmsghandler.cpp
 
 live.o: ../LiveFaceRecoSystem/LFR/live.cpp ../LiveFaceRecoSystem/LFR/live.h \
 		../LiveFaceRecoSystem/include/ncnn/net.h \
@@ -806,13 +752,11 @@ live.o: ../LiveFaceRecoSystem/LFR/live.cpp ../LiveFaceRecoSystem/LFR/live.h \
 		../LiveFaceRecoSystem/include/ncnn/paramdict.h \
 		../LiveFaceRecoSystem/include/ncnn/command.h \
 		../LiveFaceRecoSystem/LFR/livefacereco.hpp \
-		../LiveFaceRecoSystem/LFR/lfrmsghandler.h \
 		../LiveFaceRecoSystem/LFR/mtcnn_new.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o live.o ../LiveFaceRecoSystem/LFR/live.cpp
 
 livefacereco.o: ../LiveFaceRecoSystem/LFR/livefacereco.cpp ../LiveFaceRecoSystem/include/FacePreprocess.h \
 		../LiveFaceRecoSystem/LFR/livefacereco.hpp \
-		../LiveFaceRecoSystem/LFR/lfrmsghandler.h \
 		../LiveFaceRecoSystem/LFR/mtcnn_new.h \
 		../LiveFaceRecoSystem/include/ncnn/net.h \
 		../LiveFaceRecoSystem/include/ncnn/blob.h \
@@ -841,13 +785,11 @@ mtcnn_new.o: ../LiveFaceRecoSystem/LFR/mtcnn_new.cpp ../LiveFaceRecoSystem/LFR/m
 		../LiveFaceRecoSystem/include/ncnn/modelbin.h \
 		../LiveFaceRecoSystem/include/ncnn/paramdict.h \
 		../LiveFaceRecoSystem/include/ncnn/command.h \
-		../LiveFaceRecoSystem/LFR/livefacereco.hpp \
-		../LiveFaceRecoSystem/LFR/lfrmsghandler.h
+		../LiveFaceRecoSystem/LFR/livefacereco.hpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o mtcnn_new.o ../LiveFaceRecoSystem/LFR/mtcnn_new.cpp
 
 videodetectionhandler.o: ../LiveFaceRecoSystem/LFR/videodetectionhandler.cpp ../LiveFaceRecoSystem/LFR/videodetectionhandler.h \
 		../LiveFaceRecoSystem/LFR/livefacereco.hpp \
-		../LiveFaceRecoSystem/LFR/lfrmsghandler.h \
 		../LiveFaceRecoSystem/LFR/mtcnn_new.h \
 		../LiveFaceRecoSystem/include/ncnn/net.h \
 		../LiveFaceRecoSystem/include/ncnn/blob.h \
@@ -874,7 +816,6 @@ addvideosourceform.o: ../LiveFaceRecoSystem/addvideosourceform.cpp ../LiveFaceRe
 showingcardmanager.o: ../LiveFaceRecoSystem/showingcardmanager.cpp ../LiveFaceRecoSystem/showingcardmanager.h \
 		../LiveFaceRecoSystem/devicesmanager.h \
 		../LiveFaceRecoSystem/personalcardmanager.h \
-		../LiveFaceRecoSystem/messagehandler.h \
 		../LiveFaceRecoSystem/connectiontoserver.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o showingcardmanager.o ../LiveFaceRecoSystem/showingcardmanager.cpp
 
@@ -891,15 +832,11 @@ devicesmanager.o: ../LiveFaceRecoSystem/devicesmanager.cpp ../LiveFaceRecoSystem
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o devicesmanager.o ../LiveFaceRecoSystem/devicesmanager.cpp
 
 connectiontoserver.o: ../LiveFaceRecoSystem/connectiontoserver.cpp ../LiveFaceRecoSystem/connectiontoserver.h \
-		../LiveFaceRecoSystem/personalcardmanager.h \
-		../LiveFaceRecoSystem/messagehandler.h
+		../LiveFaceRecoSystem/personalcardmanager.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o connectiontoserver.o ../LiveFaceRecoSystem/connectiontoserver.cpp
 
 moc_mainwindow.o: moc_mainwindow.cpp 
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_mainwindow.o moc_mainwindow.cpp
-
-moc_messagehandler.o: moc_messagehandler.cpp 
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_messagehandler.o moc_messagehandler.cpp
 
 moc_personalcardeditorform.o: moc_personalcardeditorform.cpp 
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_personalcardeditorform.o moc_personalcardeditorform.cpp

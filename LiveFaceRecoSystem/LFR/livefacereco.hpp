@@ -4,7 +4,7 @@
 #include <vector>
 #include <opencv2/opencv.hpp>
 #include <queue>
-#include "lfrmsghandler.h"
+#include <mutex>
 #include "mtcnn_new.h"
 
 
@@ -26,8 +26,6 @@ public:
 
 	LiveFaceReco();
 	~LiveFaceReco();
-
-	void connectMessages(std::queue<std::string> *queue, std::mutex *mutex);
 
 	//работа с видеопотоками
 	int addVideoSource(int cameraIndex);
@@ -73,7 +71,7 @@ protected:
 	class DetectionSource
 	{
 	public:
-		DetectionSource(LFRMsgHandler *msgHandler = nullptr);
+		DetectionSource();
 		~DetectionSource();
 
 		Live *live;
@@ -86,21 +84,17 @@ protected:
 	protected:
 		bool configureLiveDetection();
 		bool initSourceMatrix();
-
-		LFRMsgHandler *m_msgHandler;
 	};
 
 	//класс, отвечающий за прием кадров, распознавание и идентификацию
 	class VideoDetection
 	{
 	public:
-		VideoDetection(LFRMsgHandler *msgHandler, DetectionSource *m_source);
+		VideoDetection(DetectionSource *m_source);
 		~VideoDetection();
 
 		bool connectCamera(int cameraIndex = 0);
 		bool connectCamera(const std::string &path);
-
-		void connectMessages(LFRMsgHandler *msgHandler);
 
 		//главный метод, возвращает кадр и информацию об идентифицированном человеке
 		FrameInfo MTCNNDetection();
@@ -136,8 +130,6 @@ protected:
 
 		std::mutex mut;
 
-		LFRMsgHandler *m_msgHandler;
-
 		mtcnn mm;
 
 	};
@@ -145,8 +137,6 @@ protected:
 	std::vector<VideoDetection *> videoDetections;
 	DetectionSource *source;
 	std::vector<PersonalInfo> personalInfos;
-	LFRMsgHandler msgHandler;
-	//Arcface *reco;
 
 public:
 	//класс, объект которого является приемником информации из VideoDetection

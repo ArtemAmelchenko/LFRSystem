@@ -1,5 +1,8 @@
 #include "connectiontoserver.h"
 #include <fstream>
+#include <QProcess>
+#include <QApplication>
+#include <QDebug>
 
 using namespace std;
 
@@ -87,6 +90,7 @@ ConnectionToServer::ConnectionToServer(QObject *parent)
 
 bool ConnectionToServer::connect(std::string ipStart, string ipEnd, int port)
 {
+	qDebug() << "start connecting";
 	boost::system::error_code ec;
 	boost::asio::ip::tcp::endpoint ep;
 	ep.address(boost::asio::ip::address::from_string(ipStart));
@@ -97,7 +101,7 @@ bool ConnectionToServer::connect(std::string ipStart, string ipEnd, int port)
 
 	while(true)
 	{
-		cout << ep.address().to_string() << endl;
+		qDebug() << ep.address().to_string().c_str();
 		socket.connect(ep, ec);
 		if (!ec)
 			break;
@@ -105,6 +109,7 @@ bool ConnectionToServer::connect(std::string ipStart, string ipEnd, int port)
 			return false;
 		ep.address(boost::asio::ip::address_v4(ep.address().to_v4().to_uint() + 1));
 	}
+	qDebug() << "connection: sending connect query";
 
 	http::verb verb = http::verb::get;
 	string query = "/connect";
@@ -121,7 +126,7 @@ bool ConnectionToServer::connect(std::string ipStart, string ipEnd, int port)
 	http::response<http::string_body> res;
 	http::read(socket, buffer, res);
 
-	std::cout << res.body() << std::endl;
+	qDebug() << res.body().c_str();
 	string nPort = res.body();
 	// Закрываем соединение
 	socket.shutdown(boost::asio::ip::tcp::socket::shutdown_both);
@@ -132,7 +137,7 @@ bool ConnectionToServer::connect(std::string ipStart, string ipEnd, int port)
 	if (ec)
 		return false;
 	connected = true;
-	cout << "CONNECTED !!!!!!!!!!!!!!!!!" << endl;
+	qDebug() << "CONNECTED !!!!!!!!!!!!!!!!!";
 	return true;
 }
 
@@ -146,19 +151,21 @@ void ConnectionToServer::run()
 	t1.detach();
 	std::thread t2 = std::thread([&]()
 	{
+		qDebug() << "t2";
 		while(running)
 		{
-			std::cout << "reading socket" << std::endl;
+			qDebug() << "reading socket";
 			boost::system::error_code ec;
 			boost::asio::read_until(socket, buff, '\n', ec);
 			if (ec)
 			{
 				disableConnection();
+				return;
 			}
 			string msg;
 			getline(in, msg);
 
-			cout << msg << endl;
+			qDebug() << msg.c_str();
 			if (msg == "personal card added")
 			{
 				PersonalCard pc;
@@ -167,7 +174,7 @@ void ConnectionToServer::run()
 					// disconnect
 					disableConnection();
 				}
-				cout << "conn: personal card added from server";
+				qDebug() << "conn: personal card added from server";
 				emit personalCardAdded(pc);
 			}
 			else if (msg == "personal card edited")
@@ -178,7 +185,7 @@ void ConnectionToServer::run()
 					// disconnect
 					disableConnection();
 				}
-				cout << "conn: personal card edited from server";
+				qDebug() << "conn: personal card edited from server";
 				emit personalCardEdited(pc);
 			}
 			else if (msg == "personal card deleted")
@@ -189,7 +196,7 @@ void ConnectionToServer::run()
 					// disconnect
 					disableConnection();
 				}
-				cout << "conn: personal card deleted from server";
+				qDebug() << "conn: personal card deleted from server";
 				emit personalCardDeleted(pc);
 			}
 			else if (msg == "sync")
@@ -198,9 +205,11 @@ void ConnectionToServer::run()
 			}
 			else if (msg == "get image")
 			{
-				cout << "recieving image" << endl;
-				recvImage("Image1.png");
-				cout << "recieved image" << endl;
+				sendImage();
+			}
+			else if (msg == "restart")
+			{
+				QProcess::startDetached(QApplication::applicationFilePath(), QStringList(), QApplication::applicationDirPath());
 			}
 		}
 	});
@@ -219,7 +228,7 @@ bool ConnectionToServer::isConnected() const
 
 bool ConnectionToServer::getImage(QString fileName)
 {
-	cout << "conn: getting image" << fileName.toStdString() << endl;
+	qDebug() << "conn: getting image " << fileName.toStdString().c_str();
 	string msg = "get image\n";
 	msg += fileName.toStdString() + "\n";
 	boost::asio::const_buffer buff(msg.data(), msg.size());
@@ -230,7 +239,7 @@ bool ConnectionToServer::getImage(QString fileName)
 
 void ConnectionToServer::addPersonalCard(PersonalCard card)
 {
-	cout << "conn: PCA" << endl;
+	qDebug() << "conn: PCA";
 	string msg = "personal card added\n";
 	msg += personalCardToJSON(card);
 	msg += "!end!";
@@ -241,7 +250,7 @@ void ConnectionToServer::addPersonalCard(PersonalCard card)
 
 void ConnectionToServer::editPersonalCard(PersonalCard card)
 {
-	cout << "conn: PCE" << endl;
+	qDebug() << "conn: PCE";
 	string msg = "personal card edited\n";
 	msg += personalCardToJSON(card);
 	msg += "!end!";
@@ -252,7 +261,7 @@ void ConnectionToServer::editPersonalCard(PersonalCard card)
 
 void ConnectionToServer::deletePersonalCard(PersonalCard card)
 {
-	cout << "conn: PCD" << endl;
+	qDebug() << "conn: PCD";
 	string msg = "personal card deleted\n";
 	msg += personalCardToJSON(card);
 	msg += "!end!";
@@ -263,7 +272,7 @@ void ConnectionToServer::deletePersonalCard(PersonalCard card)
 
 void ConnectionToServer::newPassingEvent(PassingEvent pe)
 {
-	cout << "NEW PASSING EVENT" << endl;
+	qDebug() << "NEW PASSING EVENT";
 	string msg = "new passing event\n";
 	msg += passingEventToJSON(pe);
 	msg += "!end!";
@@ -286,8 +295,9 @@ void ConnectionToServer::sync()
 {
 	lastSendingTime = QDateTime::currentDateTime();
 	int num;
+	boost::asio::read_until(socket, buff, '\n');
 	in >> num;
-	cout << num << endl;
+	qDebug() << num;
 	QList<PersonalCard> syncCards;
 	PersonalCard pc;
 	for (int i = 0; i < num; ++i)
@@ -307,7 +317,7 @@ bool ConnectionToServer::recvPersonalCard(PersonalCard &card, int millisec)
 	bool recv = false;
 	boost::asio::async_read_until(socket, buff, "!end!", [&](const boost::system::error_code& error, std::size_t bytes_transferred)
 	{
-		cout << "recv OK" << endl;
+		qDebug() << "recv OK";
 		recv = true;
 		std::string msg = readuntil(in, "!end!");
 		card = personalCardFromJSON(msg);
@@ -321,11 +331,10 @@ void ConnectionToServer::pinging()
 {
 	while (running)
 	{
-		if (lastSendingTime.secsTo(QDateTime::currentDateTime()) >= 2)
+		if (lastSendingTime.secsTo(QDateTime::currentDateTime()) >= 5)
 		{
 			string msg = "ping\n";
-			boost::asio::const_buffer buff(msg.data(), msg.size());
-			boost::asio::write(socket, buff);
+			boost::asio::write(socket, boost::asio::const_buffer(msg.data(), msg.size()));
 			lastSendingTime = QDateTime::currentDateTime();
 		}
 		this_thread::sleep_for(chrono::milliseconds(100));
@@ -337,11 +346,13 @@ bool ConnectionToServer::recvImage(const string &fileName, int millisec)
 	atomic<bool> recv(false);
 	int length;
 	read_until(socket, buff, "\n");
-	in >> length;
-	cout << "image length " << length << endl;
+	string len;
+	getline(in, len);
+	length = atoi(len.c_str());
+	qDebug() << "image length " << length;
 	boost::asio::async_read(socket, buff, boost::asio::transfer_exactly(length - buff.size()), [&](const boost::system::error_code& error, std::size_t bytes_transferred)
 	{
-		cout << "recv length " << bytes_transferred << endl;
+		qDebug() << "recv length " << bytes_transferred;
 		recv = true;
 		std::string msg(std::istreambuf_iterator<char>(in), {});
 		writeImage(msg, fileName);
@@ -360,11 +371,12 @@ void ConnectionToServer::writeImage(const string &data, const string &fileName)
 
 void ConnectionToServer::sendImage()
 {
+	lastSendingTime = QDateTime::currentDateTime();
 	string fileName;
 	read_until(socket, buff, "\n");
 	getline(in, fileName);
 
-	cout << "connection: sending " << fileName << endl;
+	qDebug() << "connection: sending " << fileName.c_str();
 
 	ifstream f("./img/" + fileName);
 	f.seekg(0, std::ios::end);
@@ -375,15 +387,16 @@ void ConnectionToServer::sendImage()
 	f.close();
 
 	int length = data.size();
-	string strLen = to_string(length);
-	cout << "connection: sending length " << strLen << endl;
+	string strLen = to_string(length) + "\n";
+	qDebug() << "connection: sending length " << strLen.c_str();
 	write(socket, boost::asio::const_buffer(strLen.data(), strLen.size()));
 	write(socket, boost::asio::const_buffer(data.data(), data.size()));
+	lastSendingTime = QDateTime::currentDateTime();
 }
 
 void ConnectionToServer::disableConnection()
 {
-	cout << "conn: Closing !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!";
+	qDebug() << "conn: Closing !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!";
 	socket.shutdown(boost::asio::ip::tcp::socket::shutdown_both);
 	socket.close();
 	connected = false;

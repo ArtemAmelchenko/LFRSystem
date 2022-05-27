@@ -1,0 +1,2764 @@
+2022-05-27 21:05:12.984 DBG default: LFR initialising
+2022-05-27 21:05:13.035 DBG default: OpenCV Version:  3 . 3 . 1
+2022-05-27 21:05:13.065 DBG default: Start loading TMP
+2022-05-27 21:05:13.065 DBG default: Loading failed (can't open file) Faces.tmp
+2022-05-27 21:05:13.103 DBG default: Loading config
+2022-05-27 21:05:13.104 DBG default: Config loaded
+2022-05-27 21:05:13.222 DBG default: checking
+2022-05-27 21:05:13.229 DBG default: trying connect
+2022-05-27 21:05:13.229 DBG default: start connecting
+2022-05-27 21:05:13.229 DBG default: 127.0.0.1
+2022-05-27 21:05:13.230 DBG default: failed to connect
+2022-05-27 21:05:13.230 DBG default: check end
+2022-05-27 21:05:13.328 DBG default: "admin authorised"
+2022-05-27 21:05:15.231 DBG default: checking
+2022-05-27 21:05:15.231 DBG default: trying connect
+2022-05-27 21:05:15.231 DBG default: start connecting
+2022-05-27 21:05:15.232 DBG default: 127.0.0.1
+2022-05-27 21:05:15.232 DBG default: failed to connect
+2022-05-27 21:05:15.233 DBG default: check end
+2022-05-27 21:05:17.233 DBG default: checking
+2022-05-27 21:06:41.197 DBG default: LFR initialising
+2022-05-27 21:06:41.242 DBG default: OpenCV Version:  3 . 3 . 1
+2022-05-27 21:06:41.271 DBG default: Start loading TMP
+2022-05-27 21:06:41.271 DBG default: Loading failed (can't open file) Faces.tmp
+2022-05-27 21:06:41.313 DBG default: Loading config
+2022-05-27 21:06:41.314 DBG default: Config loaded
+2022-05-27 21:06:41.430 DBG default: checking
+2022-05-27 21:06:41.431 DBG default: trying connect
+2022-05-27 21:06:41.431 DBG default: start connecting
+2022-05-27 21:06:41.431 DBG default: 127.0.0.1
+2022-05-27 21:06:41.431 DBG default: failed to connect
+2022-05-27 21:06:41.431 DBG default: check end
+2022-05-27 21:06:41.468 DBG default: "admin authorised"
+2022-05-27 21:06:43.431 DBG default: checking
+2022-05-27 21:06:43.432 DBG default: trying connect
+2022-05-27 21:06:43.432 DBG default: start connecting
+2022-05-27 21:06:43.432 DBG default: 127.0.0.1
+2022-05-27 21:06:43.432 DBG default: failed to connect
+2022-05-27 21:06:43.432 DBG default: check end
+2022-05-27 21:06:45.432 DBG default: checking
+2022-05-27 21:06:45.432 DBG default: trying connect
+2022-05-27 21:06:45.432 DBG default: start connecting
+2022-05-27 21:06:45.433 DBG default: 127.0.0.1
+2022-05-27 21:06:45.433 DBG default: failed to connect
+2022-05-27 21:06:45.433 DBG default: check end
+2022-05-27 21:06:47.433 DBG default: checking
+2022-05-27 21:06:47.433 DBG default: trying connect
+2022-05-27 21:06:47.433 DBG default: start connecting
+2022-05-27 21:06:47.433 DBG default: 127.0.0.1
+2022-05-27 21:06:47.433 DBG default: failed to connect
+2022-05-27 21:06:47.433 DBG default: check end
+2022-05-27 21:06:49.434 DBG default: checking
+2022-05-27 21:06:49.434 DBG default: trying connect
+2022-05-27 21:06:49.434 DBG default: start connecting
+2022-05-27 21:06:49.434 DBG default: 127.0.0.1
+2022-05-27 21:06:49.434 DBG default: failed to connect
+2022-05-27 21:06:49.434 DBG default: check end
+2022-05-27 21:06:51.434 DBG default: checking
+2022-05-27 21:06:51.435 DBG default: trying connect
+2022-05-27 21:06:51.435 DBG default: start connecting
+2022-05-27 21:06:51.435 DBG default: 127.0.0.1
+2022-05-27 21:06:51.435 DBG default: failed to connect
+2022-05-27 21:06:51.435 DBG default: check end
+2022-05-27 21:07:32.270 DBG default: LFR initialising
+2022-05-27 21:07:32.337 DBG default: OpenCV Version:  3 . 3 . 1
+2022-05-27 21:07:32.381 DBG default: Start loading TMP
+2022-05-27 21:07:32.381 DBG default: Loading failed (can't open file) Faces.tmp
+2022-05-27 21:07:32.429 DBG default: Loading config
+2022-05-27 21:07:32.429 DBG default: Config loaded
+2022-05-27 21:07:32.556 DBG default: checking
+2022-05-27 21:07:32.556 DBG default: trying connect
+2022-05-27 21:07:32.556 DBG default: start connecting
+2022-05-27 21:07:32.557 DBG default: 127.0.0.1
+2022-05-27 21:07:32.557 DBG default: failed to connect
+2022-05-27 21:07:32.557 DBG default: check end
+2022-05-27 21:07:32.583 DBG default: "admin authorised"
+2022-05-27 21:07:34.557 DBG default: checking
+2022-05-27 21:07:34.557 DBG default: trying connect
+2022-05-27 21:07:34.557 DBG default: start connecting
+2022-05-27 21:07:34.557 DBG default: 127.0.0.1
+2022-05-27 21:07:34.558 DBG default: failed to connect
+2022-05-27 21:07:34.558 DBG default: check end
+2022-05-27 21:07:36.558 DBG default: checking
+2022-05-27 21:07:36.563 DBG default: trying connect
+2022-05-27 21:07:36.563 DBG default: start connecting
+2022-05-27 21:07:36.563 DBG default: 127.0.0.1
+2022-05-27 21:07:36.564 DBG default: failed to connect
+2022-05-27 21:07:36.564 DBG default: check end
+2022-05-27 21:07:38.564 DBG default: checking
+2022-05-27 21:07:38.564 DBG default: trying connect
+2022-05-27 21:07:38.564 DBG default: start connecting
+2022-05-27 21:07:38.564 DBG default: 127.0.0.1
+2022-05-27 21:07:38.564 DBG default: failed to connect
+2022-05-27 21:07:38.565 DBG default: check end
+2022-05-27 21:07:40.565 DBG default: checking
+2022-05-27 21:07:40.565 DBG default: trying connect
+2022-05-27 21:07:40.565 DBG default: start connecting
+2022-05-27 21:07:40.565 DBG default: 127.0.0.1
+2022-05-27 21:07:40.565 DBG default: failed to connect
+2022-05-27 21:07:40.565 DBG default: check end
+2022-05-27 21:07:42.566 DBG default: checking
+2022-05-27 21:07:42.566 DBG default: trying connect
+2022-05-27 21:07:42.566 DBG default: start connecting
+2022-05-27 21:07:42.566 DBG default: 127.0.0.1
+2022-05-27 21:07:42.566 DBG default: failed to connect
+2022-05-27 21:07:42.566 DBG default: check end
+2022-05-27 21:07:44.566 DBG default: checking
+2022-05-27 21:07:44.567 DBG default: trying connect
+2022-05-27 21:07:44.567 DBG default: start connecting
+2022-05-27 21:07:44.567 DBG default: 127.0.0.1
+2022-05-27 21:07:44.567 DBG default: failed to connect
+2022-05-27 21:07:44.567 DBG default: check end
+2022-05-27 22:23:29.947 DBG default: LFR initialising
+2022-05-27 22:23:30.041 DBG default: OpenCV Version:  3 . 3 . 1
+2022-05-27 22:23:30.109 DBG default: Start loading TMP
+2022-05-27 22:23:30.110 DBG default: Loading failed (can't open file) Faces.tmp
+2022-05-27 22:23:30.154 DBG default: Loading config
+2022-05-27 22:23:30.155 DBG default: Config loaded
+2022-05-27 22:24:25.937 DBG default: LFR initialising
+2022-05-27 22:24:32.085 DBG default: OpenCV Version:  3 . 3 . 1
+2022-05-27 22:24:34.780 DBG default: Start loading TMP
+2022-05-27 22:24:36.425 DBG default: Loading failed (can't open file) Faces.tmp
+2022-05-27 22:24:37.330 DBG default: Loading config
+2022-05-27 22:24:37.993 DBG default: Config loaded
+2022-05-27 22:24:38.850 DBG default: checking
+2022-05-27 22:24:39.331 DBG default: trying connect
+2022-05-27 22:24:51.514 DBG default: LFR initialising
+2022-05-27 22:24:51.552 DBG default: OpenCV Version:  3 . 3 . 1
+2022-05-27 22:24:51.574 DBG default: Start loading TMP
+2022-05-27 22:24:51.574 DBG default: Loading failed (can't open file) Faces.tmp
+2022-05-27 22:24:51.620 DBG default: Loading config
+2022-05-27 22:24:51.621 DBG default: Config loaded
+2022-05-27 22:25:49.020 DBG default: LFR initialising
+2022-05-27 22:25:49.064 DBG default: OpenCV Version:  3 . 3 . 1
+2022-05-27 22:25:49.091 DBG default: Start loading TMP
+2022-05-27 22:25:49.093 DBG default: Loading failed (can't open file) Faces.tmp
+2022-05-27 22:25:49.140 DBG default: Loading config
+2022-05-27 22:25:49.140 DBG default: Config loaded
+2022-05-27 22:26:19.337 DBG default: LFR initialising
+2022-05-27 22:26:19.387 DBG default: OpenCV Version:  3 . 3 . 1
+2022-05-27 22:26:19.413 DBG default: Start loading TMP
+2022-05-27 22:26:19.414 DBG default: Loading failed (can't open file) Faces.tmp
+2022-05-27 22:26:19.460 DBG default: Loading config
+2022-05-27 22:26:19.461 DBG default: Config loaded
+2022-05-27 22:27:04.855 DBG default: LFR initialising
+2022-05-27 22:27:04.899 DBG default: OpenCV Version:  3 . 3 . 1
+2022-05-27 22:27:04.927 DBG default: Start loading TMP
+2022-05-27 22:27:04.927 DBG default: Loading failed (can't open file) Faces.tmp
+2022-05-27 22:27:04.976 DBG default: Loading config
+2022-05-27 22:27:04.976 DBG default: Config loaded
+2022-05-27 22:27:46.057 DBG default: LFR initialising
+2022-05-27 22:27:46.108 DBG default: OpenCV Version:  3 . 3 . 1
+2022-05-27 22:27:46.133 DBG default: Start loading TMP
+2022-05-27 22:27:46.134 DBG default: Loading failed (can't open file) Faces.tmp
+2022-05-27 22:27:46.184 DBG default: Loading config
+2022-05-27 22:27:46.184 DBG default: Config loaded
+2022-05-27 22:27:46.519 DBG default: checking
+2022-05-27 22:27:46.519 DBG default: trying connect
+2022-05-27 22:27:46.519 DBG default: start connecting
+2022-05-27 22:27:46.519 DBG default: 127.0.0.1
+2022-05-27 22:27:46.519 DBG default: failed to connect
+2022-05-27 22:27:46.519 DBG default: check end
+2022-05-27 22:28:47.300 DBG default: LFR initialising
+2022-05-27 22:28:47.336 DBG default: OpenCV Version:  3 . 3 . 1
+2022-05-27 22:28:47.358 DBG default: Start loading TMP
+2022-05-27 22:28:47.359 DBG default: Loading failed (can't open file) Faces.tmp
+2022-05-27 22:28:47.404 DBG default: Loading config
+2022-05-27 22:28:47.404 DBG default: Config loaded
+2022-05-27 22:28:47.508 DBG default: checking
+2022-05-27 22:28:47.508 DBG default: trying connect
+2022-05-27 22:28:47.508 DBG default: start connecting
+2022-05-27 22:28:47.508 DBG default: 127.0.0.1
+2022-05-27 22:28:47.508 DBG default: failed to connect
+2022-05-27 22:28:47.509 DBG default: check end
+2022-05-27 22:28:47.535 DBG default: "admin authorised"
+2022-05-27 22:28:49.509 DBG default: checking
+2022-05-27 22:28:49.509 DBG default: trying connect
+2022-05-27 22:28:49.509 DBG default: start connecting
+2022-05-27 22:28:49.510 DBG default: 127.0.0.1
+2022-05-27 22:28:49.510 DBG default: failed to connect
+2022-05-27 22:28:49.512 DBG default: check end
+2022-05-27 22:28:51.513 DBG default: checking
+2022-05-27 22:28:51.515 DBG default: trying connect
+2022-05-27 22:28:51.516 DBG default: start connecting
+2022-05-27 22:28:51.517 DBG default: 127.0.0.1
+2022-05-27 22:28:51.518 DBG default: failed to connect
+2022-05-27 22:28:51.518 DBG default: check end
+2022-05-27 22:29:52.523 DBG default: LFR initialising
+2022-05-27 22:29:52.566 DBG default: OpenCV Version:  3 . 3 . 1
+2022-05-27 22:29:52.594 DBG default: Start loading TMP
+2022-05-27 22:29:52.595 DBG default: Loading failed (can't open file) Faces.tmp
+2022-05-27 22:29:52.642 DBG default: Loading config
+2022-05-27 22:29:52.643 DBG default: Config loaded
+2022-05-27 22:29:52.981 DBG default: checking
+2022-05-27 22:29:52.981 DBG default: trying connect
+2022-05-27 22:29:52.982 DBG default: start connecting
+2022-05-27 22:29:52.982 DBG default: 127.0.0.1
+2022-05-27 22:29:52.982 DBG default: failed to connect
+2022-05-27 22:29:52.982 DBG default: check end
+2022-05-27 22:30:38.873 DBG default: LFR initialising
+2022-05-27 22:30:38.917 DBG default: OpenCV Version:  3 . 3 . 1
+2022-05-27 22:30:38.943 DBG default: Start loading TMP
+2022-05-27 22:30:38.944 DBG default: Loading failed (can't open file) Faces.tmp
+2022-05-27 22:30:38.992 DBG default: Loading config
+2022-05-27 22:30:38.992 DBG default: Config loaded
+2022-05-27 22:30:39.329 DBG default: checking
+2022-05-27 22:30:39.330 DBG default: trying connect
+2022-05-27 22:30:39.330 DBG default: start connecting
+2022-05-27 22:30:39.330 DBG default: 127.0.0.1
+2022-05-27 22:30:39.330 DBG default: failed to connect
+2022-05-27 22:31:40.890 DBG default: LFR initialising
+2022-05-27 22:31:40.936 DBG default: OpenCV Version:  3 . 3 . 1
+2022-05-27 22:31:40.961 DBG default: Start loading TMP
+2022-05-27 22:31:40.962 DBG default: Loading failed (can't open file) Faces.tmp
+2022-05-27 22:31:41.011 DBG default: Loading config
+2022-05-27 22:31:41.011 DBG default: Config loaded
+2022-05-27 22:31:41.345 DBG default: checking
+2022-05-27 22:31:41.345 DBG default: trying connect
+2022-05-27 22:31:41.345 DBG default: start connecting
+2022-05-27 22:31:41.345 DBG default: 127.0.0.1
+2022-05-27 22:31:41.345 DBG default: failed to connect
+2022-05-27 22:31:41.345 DBG default: check end
+2022-05-27 22:36:28.516 DBG default: LFR initialising
+2022-05-27 22:36:28.666 DBG default: OpenCV Version:  3 . 3 . 1
+2022-05-27 22:36:28.735 DBG default: Start loading TMP
+2022-05-27 22:36:28.736 DBG default: Loading failed (can't open file) Faces.tmp
+2022-05-27 22:36:28.795 DBG default: Loading config
+2022-05-27 22:36:28.796 DBG default: Config loaded
+2022-05-27 22:36:29.021 DBG default: checking
+2022-05-27 22:36:29.021 DBG default: trying connect
+2022-05-27 22:36:29.021 DBG default: start connecting
+2022-05-27 22:36:29.021 DBG default: 127.0.0.1
+2022-05-27 22:36:29.021 DBG default: failed to connect
+2022-05-27 22:36:29.021 DBG default: check end
+2022-05-27 22:36:29.049 DBG default: "admin authorised"
+2022-05-27 22:36:31.022 DBG default: checking
+2022-05-27 22:36:31.024 DBG default: trying connect
+2022-05-27 22:36:31.025 DBG default: start connecting
+2022-05-27 22:36:31.026 DBG default: 127.0.0.1
+2022-05-27 22:36:31.028 DBG default: failed to connect
+2022-05-27 22:36:31.029 DBG default: check end
+2022-05-27 22:36:33.030 DBG default: checking
+2022-05-27 22:36:33.032 DBG default: trying connect
+2022-05-27 22:36:33.033 DBG default: start connecting
+2022-05-27 22:36:33.034 DBG default: 127.0.0.1
+2022-05-27 22:36:33.036 DBG default: failed to connect
+2022-05-27 22:36:33.037 DBG default: check end
+2022-05-27 22:36:35.038 DBG default: checking
+2022-05-27 22:36:35.039 DBG default: trying connect
+2022-05-27 22:36:35.039 DBG default: start connecting
+2022-05-27 22:36:35.040 DBG default: 127.0.0.1
+2022-05-27 22:36:35.041 DBG default: failed to connect
+2022-05-27 22:36:35.041 DBG default: check end
+2022-05-27 22:36:37.042 DBG default: checking
+2022-05-27 22:36:37.042 DBG default: trying connect
+2022-05-27 22:36:37.042 DBG default: start connecting
+2022-05-27 22:36:37.042 DBG default: 127.0.0.1
+2022-05-27 22:36:37.043 DBG default: failed to connect
+2022-05-27 22:36:37.043 DBG default: check end
+2022-05-27 22:37:49.781 DBG default: LFR initialising
+2022-05-27 22:37:49.814 DBG default: OpenCV Version:  3 . 3 . 1
+2022-05-27 22:37:49.835 DBG default: Start loading TMP
+2022-05-27 22:37:49.836 DBG default: Loading failed (can't open file) Faces.tmp
+2022-05-27 22:37:49.881 DBG default: Loading config
+2022-05-27 22:37:49.881 DBG default: Config loaded
+2022-05-27 22:37:49.979 DBG default: checking
+2022-05-27 22:37:49.979 DBG default: trying connect
+2022-05-27 22:37:49.980 DBG default: start connecting
+2022-05-27 22:37:49.980 DBG default: 127.0.0.1
+2022-05-27 22:37:49.980 DBG default: failed to connect
+2022-05-27 22:37:49.980 DBG default: check end
+2022-05-27 22:37:50.022 DBG default: "admin authorised"
+2022-05-27 22:37:51.980 DBG default: checking
+2022-05-27 22:37:51.981 DBG default: trying connect
+2022-05-27 22:37:51.982 DBG default: start connecting
+2022-05-27 22:37:51.983 DBG default: 127.0.0.1
+2022-05-27 22:37:51.985 DBG default: failed to connect
+2022-05-27 22:37:51.986 DBG default: check end
+2022-05-27 22:37:53.987 DBG default: checking
+2022-05-27 22:37:53.988 DBG default: trying connect
+2022-05-27 22:37:53.989 DBG default: start connecting
+2022-05-27 22:37:53.992 DBG default: 127.0.0.1
+2022-05-27 22:37:53.993 DBG default: failed to connect
+2022-05-27 22:37:53.994 DBG default: check end
+2022-05-27 22:37:55.995 DBG default: checking
+2022-05-27 22:37:55.996 DBG default: trying connect
+2022-05-27 22:37:55.997 DBG default: start connecting
+2022-05-27 22:37:55.998 DBG default: 127.0.0.1
+2022-05-27 22:37:56.001 DBG default: failed to connect
+2022-05-27 22:37:56.001 DBG default: check end
+2022-05-27 22:37:58.002 DBG default: checking
+2022-05-27 22:37:58.002 DBG default: trying connect
+2022-05-27 22:37:58.002 DBG default: start connecting
+2022-05-27 22:37:58.003 DBG default: 127.0.0.1
+2022-05-27 22:37:58.003 DBG default: failed to connect
+2022-05-27 22:37:58.004 DBG default: check end
+2022-05-27 22:38:00.004 DBG default: checking
+2022-05-27 22:38:00.004 DBG default: trying connect
+2022-05-27 22:38:00.005 DBG default: start connecting
+2022-05-27 22:38:00.005 DBG default: 127.0.0.1
+2022-05-27 22:38:00.005 DBG default: failed to connect
+2022-05-27 22:38:00.005 DBG default: check end
+2022-05-27 22:38:02.006 DBG default: checking
+2022-05-27 22:38:02.009 DBG default: trying connect
+2022-05-27 22:38:02.010 DBG default: start connecting
+2022-05-27 22:38:02.011 DBG default: 127.0.0.1
+2022-05-27 22:38:02.013 DBG default: failed to connect
+2022-05-27 22:38:02.013 DBG default: check end
+2022-05-27 22:38:04.014 DBG default: checking
+2022-05-27 22:38:04.015 DBG default: trying connect
+2022-05-27 22:38:04.015 DBG default: start connecting
+2022-05-27 22:38:04.016 DBG default: 127.0.0.1
+2022-05-27 22:38:04.017 DBG default: failed to connect
+2022-05-27 22:38:04.018 DBG default: check end
+2022-05-27 22:38:06.019 DBG default: checking
+2022-05-27 22:38:06.020 DBG default: trying connect
+2022-05-27 22:38:06.021 DBG default: start connecting
+2022-05-27 22:38:06.022 DBG default: 127.0.0.1
+2022-05-27 22:38:06.025 DBG default: failed to connect
+2022-05-27 22:38:06.026 DBG default: check end
+2022-05-27 22:38:08.027 DBG default: checking
+2022-05-27 22:38:08.028 DBG default: trying connect
+2022-05-27 22:38:08.029 DBG default: start connecting
+2022-05-27 22:38:08.031 DBG default: 127.0.0.1
+2022-05-27 22:38:08.033 DBG default: failed to connect
+2022-05-27 22:38:08.033 DBG default: check end
+2022-05-27 22:38:10.035 DBG default: checking
+2022-05-27 22:38:10.036 DBG default: trying connect
+2022-05-27 22:38:10.038 DBG default: start connecting
+2022-05-27 22:38:10.040 DBG default: 127.0.0.1
+2022-05-27 22:38:10.041 DBG default: failed to connect
+2022-05-27 22:38:10.042 DBG default: check end
+2022-05-27 22:38:12.043 DBG default: checking
+2022-05-27 22:38:12.044 DBG default: trying connect
+2022-05-27 22:38:12.046 DBG default: start connecting
+2022-05-27 22:38:12.047 DBG default: 127.0.0.1
+2022-05-27 22:38:12.049 DBG default: failed to connect
+2022-05-27 22:38:12.049 DBG default: check end
+2022-05-27 22:38:14.050 DBG default: checking
+2022-05-27 22:38:14.052 DBG default: trying connect
+2022-05-27 22:38:14.053 DBG default: start connecting
+2022-05-27 22:38:14.054 DBG default: 127.0.0.1
+2022-05-27 22:38:14.057 DBG default: failed to connect
+2022-05-27 22:38:14.057 DBG default: check end
+2022-05-27 22:38:16.058 DBG default: checking
+2022-05-27 22:38:16.059 DBG default: trying connect
+2022-05-27 22:38:16.061 DBG default: start connecting
+2022-05-27 22:38:16.062 DBG default: 127.0.0.1
+2022-05-27 22:38:16.064 DBG default: failed to connect
+2022-05-27 22:38:16.065 DBG default: check end
+2022-05-27 22:38:18.066 DBG default: checking
+2022-05-27 22:38:18.067 DBG default: trying connect
+2022-05-27 22:38:18.068 DBG default: start connecting
+2022-05-27 22:38:18.069 DBG default: 127.0.0.1
+2022-05-27 22:38:18.071 DBG default: failed to connect
+2022-05-27 22:38:18.072 DBG default: check end
+2022-05-27 22:38:20.074 DBG default: checking
+2022-05-27 22:38:20.075 DBG default: trying connect
+2022-05-27 22:38:20.077 DBG default: start connecting
+2022-05-27 22:38:20.078 DBG default: 127.0.0.1
+2022-05-27 22:38:20.080 DBG default: failed to connect
+2022-05-27 22:38:20.081 DBG default: check end
+2022-05-27 22:38:22.082 DBG default: checking
+2022-05-27 22:38:22.083 DBG default: trying connect
+2022-05-27 22:38:22.085 DBG default: start connecting
+2022-05-27 22:38:22.086 DBG default: 127.0.0.1
+2022-05-27 22:38:22.089 DBG default: failed to connect
+2022-05-27 22:38:22.090 DBG default: check end
+2022-05-27 22:38:24.093 DBG default: checking
+2022-05-27 22:38:24.094 DBG default: trying connect
+2022-05-27 22:38:24.095 DBG default: start connecting
+2022-05-27 22:38:24.097 DBG default: 127.0.0.1
+2022-05-27 22:38:24.098 DBG default: failed to connect
+2022-05-27 22:38:24.098 DBG default: check end
+2022-05-27 22:38:26.099 DBG default: checking
+2022-05-27 22:38:26.101 DBG default: trying connect
+2022-05-27 22:38:26.102 DBG default: start connecting
+2022-05-27 22:38:26.104 DBG default: 127.0.0.1
+2022-05-27 22:38:26.105 DBG default: failed to connect
+2022-05-27 22:38:26.106 DBG default: check end
+2022-05-27 22:38:28.106 DBG default: checking
+2022-05-27 22:38:28.109 DBG default: trying connect
+2022-05-27 22:38:28.110 DBG default: start connecting
+2022-05-27 22:38:28.111 DBG default: 127.0.0.1
+2022-05-27 22:38:28.113 DBG default: failed to connect
+2022-05-27 22:38:28.113 DBG default: check end
+2022-05-27 22:38:30.115 DBG default: checking
+2022-05-27 22:38:30.116 DBG default: trying connect
+2022-05-27 22:38:30.117 DBG default: start connecting
+2022-05-27 22:38:30.118 DBG default: 127.0.0.1
+2022-05-27 22:38:30.121 DBG default: failed to connect
+2022-05-27 22:38:30.121 DBG default: check end
+2022-05-27 22:38:32.123 DBG default: checking
+2022-05-27 22:38:32.124 DBG default: trying connect
+2022-05-27 22:38:32.125 DBG default: start connecting
+2022-05-27 22:38:32.131 DBG default: 127.0.0.1
+2022-05-27 22:38:32.133 DBG default: failed to connect
+2022-05-27 22:38:32.133 DBG default: check end
+2022-05-27 22:38:34.135 DBG default: checking
+2022-05-27 22:38:34.136 DBG default: trying connect
+2022-05-27 22:38:34.137 DBG default: start connecting
+2022-05-27 22:38:34.138 DBG default: 127.0.0.1
+2022-05-27 22:38:34.141 DBG default: failed to connect
+2022-05-27 22:38:34.141 DBG default: check end
+2022-05-27 22:38:36.142 DBG default: checking
+2022-05-27 22:38:36.143 DBG default: trying connect
+2022-05-27 22:38:36.145 DBG default: start connecting
+2022-05-27 22:38:36.146 DBG default: 127.0.0.1
+2022-05-27 22:38:36.148 DBG default: failed to connect
+2022-05-27 22:38:36.149 DBG default: check end
+2022-05-27 22:38:38.150 DBG default: checking
+2022-05-27 22:38:38.151 DBG default: trying connect
+2022-05-27 22:38:38.153 DBG default: start connecting
+2022-05-27 22:38:38.153 DBG default: 127.0.0.1
+2022-05-27 22:38:38.154 DBG default: failed to connect
+2022-05-27 22:38:38.155 DBG default: check end
+2022-05-27 22:38:40.156 DBG default: checking
+2022-05-27 22:38:40.158 DBG default: trying connect
+2022-05-27 22:38:40.159 DBG default: start connecting
+2022-05-27 22:38:40.160 DBG default: 127.0.0.1
+2022-05-27 22:38:40.161 DBG default: failed to connect
+2022-05-27 22:38:40.162 DBG default: check end
+2022-05-27 22:38:42.163 DBG default: checking
+2022-05-27 22:38:42.164 DBG default: trying connect
+2022-05-27 22:38:42.165 DBG default: start connecting
+2022-05-27 22:38:42.167 DBG default: 127.0.0.1
+2022-05-27 22:38:42.169 DBG default: failed to connect
+2022-05-27 22:38:42.169 DBG default: check end
+2022-05-27 22:38:44.170 DBG default: checking
+2022-05-27 22:38:44.170 DBG default: trying connect
+2022-05-27 22:38:44.171 DBG default: start connecting
+2022-05-27 22:38:44.171 DBG default: 127.0.0.1
+2022-05-27 22:38:44.172 DBG default: failed to connect
+2022-05-27 22:38:44.172 DBG default: check end
+2022-05-27 22:38:46.173 DBG default: checking
+2022-05-27 22:38:46.175 DBG default: trying connect
+2022-05-27 22:38:46.178 DBG default: start connecting
+2022-05-27 22:38:46.179 DBG default: 127.0.0.1
+2022-05-27 22:38:46.181 DBG default: failed to connect
+2022-05-27 22:38:46.181 DBG default: check end
+2022-05-27 22:38:48.182 DBG default: checking
+2022-05-27 22:38:48.183 DBG default: trying connect
+2022-05-27 22:38:48.185 DBG default: start connecting
+2022-05-27 22:38:48.186 DBG default: 127.0.0.1
+2022-05-27 22:38:48.188 DBG default: failed to connect
+2022-05-27 22:38:48.189 DBG default: check end
+2022-05-27 22:38:50.189 DBG default: checking
+2022-05-27 22:38:50.191 DBG default: trying connect
+2022-05-27 22:38:50.191 DBG default: start connecting
+2022-05-27 22:38:50.191 DBG default: 127.0.0.1
+2022-05-27 22:38:50.194 DBG default: failed to connect
+2022-05-27 22:38:50.195 DBG default: check end
+2022-05-27 22:38:52.196 DBG default: checking
+2022-05-27 22:38:52.197 DBG default: trying connect
+2022-05-27 22:38:52.198 DBG default: start connecting
+2022-05-27 22:38:52.199 DBG default: 127.0.0.1
+2022-05-27 22:38:52.201 DBG default: failed to connect
+2022-05-27 22:38:52.201 DBG default: check end
+2022-05-27 22:38:54.202 DBG default: checking
+2022-05-27 22:38:54.204 DBG default: trying connect
+2022-05-27 22:38:54.205 DBG default: start connecting
+2022-05-27 22:38:54.206 DBG default: 127.0.0.1
+2022-05-27 22:38:54.208 DBG default: failed to connect
+2022-05-27 22:38:54.209 DBG default: check end
+2022-05-27 22:38:56.210 DBG default: checking
+2022-05-27 22:38:56.211 DBG default: trying connect
+2022-05-27 22:38:56.213 DBG default: start connecting
+2022-05-27 22:38:56.213 DBG default: 127.0.0.1
+2022-05-27 22:38:56.214 DBG default: failed to connect
+2022-05-27 22:38:56.215 DBG default: check end
+2022-05-27 22:38:58.216 DBG default: checking
+2022-05-27 22:38:58.218 DBG default: trying connect
+2022-05-27 22:38:58.218 DBG default: start connecting
+2022-05-27 22:38:58.219 DBG default: 127.0.0.1
+2022-05-27 22:38:58.220 DBG default: failed to connect
+2022-05-27 22:38:58.220 DBG default: check end
+2022-05-27 22:39:00.222 DBG default: checking
+2022-05-27 22:39:00.223 DBG default: trying connect
+2022-05-27 22:39:00.225 DBG default: start connecting
+2022-05-27 22:39:00.226 DBG default: 127.0.0.1
+2022-05-27 22:39:00.228 DBG default: failed to connect
+2022-05-27 22:39:00.229 DBG default: check end
+2022-05-27 22:39:02.230 DBG default: checking
+2022-05-27 22:39:02.231 DBG default: trying connect
+2022-05-27 22:39:02.233 DBG default: start connecting
+2022-05-27 22:39:02.234 DBG default: 127.0.0.1
+2022-05-27 22:39:02.236 DBG default: failed to connect
+2022-05-27 22:39:02.237 DBG default: check end
+2022-05-27 22:39:04.238 DBG default: checking
+2022-05-27 22:39:04.238 DBG default: trying connect
+2022-05-27 22:39:04.238 DBG default: start connecting
+2022-05-27 22:39:04.238 DBG default: 127.0.0.1
+2022-05-27 22:39:04.238 DBG default: failed to connect
+2022-05-27 22:39:04.238 DBG default: check end
+2022-05-27 22:41:15.877 DBG default: LFR initialising
+2022-05-27 22:41:15.910 DBG default: OpenCV Version:  3 . 3 . 1
+2022-05-27 22:41:15.932 DBG default: Start loading TMP
+2022-05-27 22:41:15.933 DBG default: Loading failed (can't open file) Faces.tmp
+2022-05-27 22:41:15.980 DBG default: Loading config
+2022-05-27 22:41:15.980 DBG default: Config loaded
+2022-05-27 22:41:16.084 DBG default: checking
+2022-05-27 22:41:16.084 DBG default: trying connect
+2022-05-27 22:41:16.084 DBG default: start connecting
+2022-05-27 22:41:16.084 DBG default: 127.0.0.1
+2022-05-27 22:41:16.085 DBG default: connection: sending connect query
+2022-05-27 22:41:16.086 DBG default: 8081
+2022-05-27 22:41:16.088 DBG default: CONNECTED !!!!!!!!!!!!!!!!!
+2022-05-27 22:41:16.089 DBG default: run conn
+2022-05-27 22:41:16.089 DBG default: check end
+2022-05-27 22:41:16.089 DBG default: t2
+2022-05-27 22:41:16.095 DBG default: reading socket
+2022-05-27 22:41:16.095 DBG default: sync
+2022-05-27 22:41:16.095 DBG default: 2
+2022-05-27 22:41:16.095 DBG default: recv OK
+2022-05-27 22:41:16.095 DBG default: recv OK
+2022-05-27 22:41:16.100 DBG default: conn: getting image  Anatoly_Bataev.jpg
+2022-05-27 22:41:16.104 DBG default: image length  18981
+2022-05-27 22:41:16.138 DBG default: "admin authorised"
+2022-05-27 22:41:16.144 DBG default: recv length  18981
+2022-05-27 22:41:16.147 DBG default: conn: getting image  Andrey_Rybalko.jpg
+2022-05-27 22:41:16.151 DBG default: image length  24674
+2022-05-27 22:41:16.192 DBG default: recv length  24674
+2022-05-27 22:41:16.366 DBG default: Start saving TMP
+2022-05-27 22:41:16.367 DBG default: TMP saved:  2 , size =  1106
+2022-05-27 22:41:16.367 DBG default: reading socket
+2022-05-27 22:41:18.097 DBG default: checking
+2022-05-27 22:41:18.099 DBG default: check end
+2022-05-27 22:41:20.100 DBG default: checking
+2022-05-27 22:41:20.100 DBG default: check end
+2022-05-27 22:41:22.101 DBG default: checking
+2022-05-27 22:41:22.102 DBG default: check end
+2022-05-27 22:41:24.103 DBG default: checking
+2022-05-27 22:41:24.103 DBG default: check end
+2022-05-27 22:41:26.104 DBG default: checking
+2022-05-27 22:41:26.104 DBG default: check end
+2022-05-27 22:41:28.105 DBG default: checking
+2022-05-27 22:41:28.106 DBG default: check end
+2022-05-27 22:41:29.158 DBG default: Start saving TMP
+2022-05-27 22:41:29.159 DBG default: TMP saved:  2 , size =  1106
+2022-05-27 22:42:15.304 DBG default: LFR initialising
+2022-05-27 22:42:15.339 DBG default: OpenCV Version:  3 . 3 . 1
+2022-05-27 22:42:15.361 DBG default: Start loading TMP
+2022-05-27 22:42:15.361 DBG default: TMP loaded:  2
+2022-05-27 22:42:15.408 DBG default: Loading config
+2022-05-27 22:42:15.408 DBG default: Config loaded
+2022-05-27 22:42:15.499 DBG default: checking
+2022-05-27 22:42:15.499 DBG default: trying connect
+2022-05-27 22:42:15.499 DBG default: start connecting
+2022-05-27 22:42:15.500 DBG default: 127.0.0.1
+2022-05-27 22:42:15.500 DBG default: connection: sending connect query
+2022-05-27 22:42:15.501 DBG default: 8081
+2022-05-27 22:42:15.502 DBG default: CONNECTED !!!!!!!!!!!!!!!!!
+2022-05-27 22:42:15.502 DBG default: run conn
+2022-05-27 22:42:15.502 DBG default: check end
+2022-05-27 22:42:15.502 DBG default: t2
+2022-05-27 22:42:15.502 DBG default: reading socket
+2022-05-27 22:42:15.503 DBG default: sync
+2022-05-27 22:42:15.503 DBG default: 2
+2022-05-27 22:42:15.503 DBG default: recv OK
+2022-05-27 22:42:15.503 DBG default: recv OK
+2022-05-27 22:42:15.514 DBG default: "admin authorised"
+2022-05-27 22:42:15.616 DBG default: Start saving TMP
+2022-05-27 22:42:15.617 DBG default: TMP saved:  2 , size =  1106
+2022-05-27 22:42:15.618 DBG default: reading socket
+2022-05-27 22:42:17.502 DBG default: checking
+2022-05-27 22:42:17.503 DBG default: check end
+2022-05-27 22:42:19.506 DBG default: checking
+2022-05-27 22:42:19.506 DBG default: check end
+2022-05-27 22:42:21.507 DBG default: checking
+2022-05-27 22:42:21.507 DBG default: check end
+2022-05-27 22:42:23.508 DBG default: checking
+2022-05-27 22:42:23.509 DBG default: check end
+2022-05-27 22:42:25.510 DBG default: checking
+2022-05-27 22:42:25.510 DBG default: check end
+2022-05-27 22:42:27.510 DBG default: checking
+2022-05-27 22:42:27.511 DBG default: check end
+2022-05-27 22:42:29.511 DBG default: checking
+2022-05-27 22:42:29.513 DBG default: check end
+2022-05-27 22:42:31.515 DBG default: checking
+2022-05-27 22:42:31.517 DBG default: check end
+2022-05-27 22:42:33.519 DBG default: checking
+2022-05-27 22:42:33.521 DBG default: check end
+2022-05-27 22:42:35.523 DBG default: checking
+2022-05-27 22:42:35.525 DBG default: check end
+2022-05-27 22:42:37.527 DBG default: checking
+2022-05-27 22:42:37.529 DBG default: check end
+2022-05-27 22:42:39.532 DBG default: checking
+2022-05-27 22:42:39.533 DBG default: check end
+2022-05-27 22:42:41.535 DBG default: checking
+2022-05-27 22:42:41.537 DBG default: check end
+2022-05-27 22:42:43.538 DBG default: checking
+2022-05-27 22:42:43.539 DBG default: check end
+2022-05-27 22:42:45.541 DBG default: checking
+2022-05-27 22:42:45.541 DBG default: check end
+2022-05-27 22:42:47.542 DBG default: checking
+2022-05-27 22:42:47.542 DBG default: check end
+2022-05-27 22:42:49.543 DBG default: checking
+2022-05-27 22:42:49.543 DBG default: check end
+2022-05-27 22:42:51.544 DBG default: checking
+2022-05-27 22:42:51.544 DBG default: check end
+2022-05-27 22:42:53.545 DBG default: checking
+2022-05-27 22:42:53.545 DBG default: check end
+2022-05-27 22:42:55.546 DBG default: checking
+2022-05-27 22:42:55.547 DBG default: check end
+2022-05-27 22:42:57.548 DBG default: checking
+2022-05-27 22:42:57.548 DBG default: check end
+2022-05-27 22:42:59.549 DBG default: checking
+2022-05-27 22:42:59.549 DBG default: check end
+2022-05-27 22:43:01.550 DBG default: checking
+2022-05-27 22:43:01.551 DBG default: check end
+2022-05-27 22:43:03.552 DBG default: checking
+2022-05-27 22:43:03.553 DBG default: check end
+2022-05-27 22:43:05.554 DBG default: checking
+2022-05-27 22:43:05.554 DBG default: check end
+2022-05-27 22:43:07.554 DBG default: checking
+2022-05-27 22:43:07.555 DBG default: check end
+2022-05-27 22:43:09.555 DBG default: checking
+2022-05-27 22:43:09.555 DBG default: check end
+2022-05-27 22:43:11.555 DBG default: checking
+2022-05-27 22:43:11.556 DBG default: check end
+2022-05-27 22:43:13.556 DBG default: checking
+2022-05-27 22:43:13.556 DBG default: check end
+2022-05-27 22:43:15.557 DBG default: checking
+2022-05-27 22:43:15.557 DBG default: check end
+2022-05-27 22:43:17.558 DBG default: checking
+2022-05-27 22:43:17.559 DBG default: check end
+2022-05-27 22:43:19.571 DBG default: checking
+2022-05-27 22:43:19.573 DBG default: check end
+2022-05-27 22:43:21.573 DBG default: checking
+2022-05-27 22:43:21.575 DBG default: check end
+2022-05-27 22:43:23.576 DBG default: checking
+2022-05-27 22:43:23.576 DBG default: check end
+2022-05-27 22:43:25.577 DBG default: checking
+2022-05-27 22:43:25.579 DBG default: check end
+2022-05-27 22:43:27.581 DBG default: checking
+2022-05-27 22:43:27.582 DBG default: check end
+2022-05-27 22:43:29.582 DBG default: checking
+2022-05-27 22:43:29.583 DBG default: check end
+2022-05-27 22:43:31.589 DBG default: checking
+2022-05-27 22:43:31.590 DBG default: check end
+2022-05-27 22:43:33.592 DBG default: checking
+2022-05-27 22:43:33.594 DBG default: check end
+2022-05-27 22:43:35.596 DBG default: checking
+2022-05-27 22:43:35.597 DBG default: check end
+2022-05-27 22:43:37.597 DBG default: checking
+2022-05-27 22:43:37.599 DBG default: check end
+2022-05-27 22:43:39.600 DBG default: checking
+2022-05-27 22:43:39.601 DBG default: check end
+2022-05-27 22:43:41.602 DBG default: checking
+2022-05-27 22:43:41.602 DBG default: check end
+2022-05-27 22:43:43.603 DBG default: checking
+2022-05-27 22:43:43.603 DBG default: check end
+2022-05-27 22:43:45.605 DBG default: checking
+2022-05-27 22:43:45.606 DBG default: check end
+2022-05-27 22:43:46.837 DBG default: emit PCA
+2022-05-27 22:43:46.837 DBG default: conn: PCA
+2022-05-27 22:43:46.838 DBG default: get image
+2022-05-27 22:43:46.839 DBG default: connection: sending  Dostovalov_Dmitry.jpg
+2022-05-27 22:43:46.839 DBG default: connection: sending length  6095
+
+2022-05-27 22:43:46.839 DBG default: reading socket
+2022-05-27 22:43:47.002 DBG default: Start saving TMP
+2022-05-27 22:43:47.002 DBG default: TMP saved:  3 , size =  1660
+2022-05-27 22:43:47.606 DBG default: checking
+2022-05-27 22:43:47.608 DBG default: check end
+2022-05-27 22:43:49.647 DBG default: checking
+2022-05-27 22:43:49.650 DBG default: check end
+2022-05-27 22:43:51.651 DBG default: checking
+2022-05-27 22:43:51.651 DBG default: check end
+2022-05-27 22:43:53.653 DBG default: checking
+2022-05-27 22:43:53.653 DBG default: check end
+2022-05-27 22:43:55.654 DBG default: checking
+2022-05-27 22:43:55.655 DBG default: check end
+2022-05-27 22:43:57.655 DBG default: checking
+2022-05-27 22:43:57.656 DBG default: check end
+2022-05-27 22:43:59.657 DBG default: checking
+2022-05-27 22:43:59.657 DBG default: check end
+2022-05-27 22:44:01.591 DBG default: Start saving TMP
+2022-05-27 22:44:01.592 DBG default: TMP saved:  3 , size =  1660
+2022-05-27 22:51:47.263 DBG default: LFR initialising
+2022-05-27 22:51:47.311 DBG default: OpenCV Version:  3 . 3 . 1
+2022-05-27 22:51:47.339 DBG default: Start loading TMP
+2022-05-27 22:51:47.339 DBG default: TMP loaded:  3
+2022-05-27 22:51:47.373 DBG default: card loaded
+2022-05-27 22:51:47.427 DBG default: Start saving TMP
+2022-05-27 22:51:47.428 DBG default: TMP saved:  2 , size =  1106
+2022-05-27 22:51:47.439 DBG default: Loading config
+2022-05-27 22:51:47.439 DBG default: Config loaded
+2022-05-27 22:51:47.524 DBG default: checking
+2022-05-27 22:51:47.524 DBG default: trying connect
+2022-05-27 22:51:47.524 DBG default: start connecting
+2022-05-27 22:51:47.525 DBG default: 127.0.0.1
+2022-05-27 22:51:47.525 DBG default: connection: sending connect query
+2022-05-27 22:51:47.526 DBG default: 8081
+2022-05-27 22:51:47.527 DBG default: CONNECTED !!!!!!!!!!!!!!!!!
+2022-05-27 22:51:47.527 DBG default: run conn
+2022-05-27 22:51:47.527 DBG default: check end
+2022-05-27 22:51:47.528 DBG default: t2
+2022-05-27 22:51:47.528 DBG default: reading socket
+2022-05-27 22:51:47.528 DBG default: sync
+2022-05-27 22:51:47.528 DBG default: 3
+2022-05-27 22:51:47.528 DBG default: recv OK
+2022-05-27 22:51:47.529 DBG default: recv OK
+2022-05-27 22:51:47.529 DBG default: recv OK
+2022-05-27 22:51:47.529 DBG default: cards synced
+2022-05-27 22:51:47.539 DBG default: "admin authorised"
+2022-05-27 22:51:47.751 DBG default: Start saving TMP
+2022-05-27 22:51:47.752 DBG default: TMP saved:  3 , size =  1660
+2022-05-27 22:51:47.752 DBG default: reading socket
+2022-05-27 22:51:49.528 DBG default: checking
+2022-05-27 22:51:49.529 DBG default: check end
+2022-05-27 22:51:51.531 DBG default: checking
+2022-05-27 22:51:51.533 DBG default: check end
+2022-05-27 22:51:53.534 DBG default: checking
+2022-05-27 22:51:53.534 DBG default: check end
+2022-05-27 22:51:55.534 DBG default: checking
+2022-05-27 22:51:55.535 DBG default: check end
+2022-05-27 22:51:55.752 DBG default: Start saving TMP
+2022-05-27 22:51:55.787 DBG default: TMP saved:  3 , size =  1660
+2022-05-27 22:53:53.662 DBG default: LFR initialising
+2022-05-27 22:53:53.697 DBG default: OpenCV Version:  3 . 3 . 1
+2022-05-27 22:53:53.718 DBG default: Start loading TMP
+2022-05-27 22:53:53.718 DBG default: TMP loaded:  3
+2022-05-27 22:53:53.752 DBG default: card loaded
+2022-05-27 22:53:53.815 DBG default: Start saving TMP
+2022-05-27 22:53:53.815 DBG default: TMP saved:  2 , size =  1106
+2022-05-27 22:53:53.827 DBG default: Loading config
+2022-05-27 22:53:53.827 DBG default: Config loaded
+2022-05-27 22:53:53.913 DBG default: checking
+2022-05-27 22:53:53.913 DBG default: trying connect
+2022-05-27 22:53:53.914 DBG default: start connecting
+2022-05-27 22:53:53.914 DBG default: 127.0.0.1
+2022-05-27 22:53:53.914 DBG default: connection: sending connect query
+2022-05-27 22:53:53.915 DBG default: 8081
+2022-05-27 22:53:53.915 DBG default: CONNECTED !!!!!!!!!!!!!!!!!
+2022-05-27 22:53:53.915 DBG default: run conn
+2022-05-27 22:53:53.916 DBG default: check end
+2022-05-27 22:53:53.917 DBG default: t2
+2022-05-27 22:53:53.917 DBG default: reading socket
+2022-05-27 22:53:53.917 DBG default: sync
+2022-05-27 22:53:53.917 DBG default: 3
+2022-05-27 22:53:53.917 DBG default: recv OK
+2022-05-27 22:53:53.918 DBG default: recv OK
+2022-05-27 22:53:53.918 DBG default: recv OK
+2022-05-27 22:53:53.918 DBG default: cards synced
+2022-05-27 22:53:53.928 DBG default: "admin authorised"
+2022-05-27 22:53:54.122 DBG default: Start saving TMP
+2022-05-27 22:53:54.123 DBG default: TMP saved:  3 , size =  1660
+2022-05-27 22:53:54.123 DBG default: reading socket
+2022-05-27 22:53:55.917 DBG default: checking
+2022-05-27 22:53:55.919 DBG default: check end
+2022-05-27 22:53:57.920 DBG default: checking
+2022-05-27 22:53:57.922 DBG default: check end
+2022-05-27 22:53:59.924 DBG default: checking
+2022-05-27 22:53:59.925 DBG default: check end
+2022-05-27 22:54:01.927 DBG default: checking
+2022-05-27 22:54:01.927 DBG default: check end
+2022-05-27 22:54:03.927 DBG default: checking
+2022-05-27 22:54:03.928 DBG default: check end
+2022-05-27 22:54:05.929 DBG default: checking
+2022-05-27 22:54:05.929 DBG default: check end
+2022-05-27 22:54:06.490 DBG default: Start saving TMP
+2022-05-27 22:54:06.491 DBG default: TMP saved:  3 , size =  1660
+2022-05-27 22:54:59.322 DBG default: LFR initialising
+2022-05-27 22:54:59.361 DBG default: OpenCV Version:  3 . 3 . 1
+2022-05-27 22:54:59.383 DBG default: Start loading TMP
+2022-05-27 22:54:59.383 DBG default: TMP loaded:  3
+2022-05-27 22:54:59.417 DBG default: card loaded
+2022-05-27 22:54:59.477 DBG default: Start saving TMP
+2022-05-27 22:54:59.477 DBG default: TMP saved:  2 , size =  1106
+2022-05-27 22:54:59.489 DBG default: Loading config
+2022-05-27 22:54:59.489 DBG default: Config loaded
+2022-05-27 22:54:59.578 DBG default: checking
+2022-05-27 22:54:59.579 DBG default: trying connect
+2022-05-27 22:54:59.579 DBG default: start connecting
+2022-05-27 22:54:59.579 DBG default: 127.0.0.1
+2022-05-27 22:54:59.579 DBG default: connection: sending connect query
+2022-05-27 22:54:59.581 DBG default: 8081
+2022-05-27 22:54:59.582 DBG default: CONNECTED !!!!!!!!!!!!!!!!!
+2022-05-27 22:54:59.582 DBG default: run conn
+2022-05-27 22:54:59.582 DBG default: check end
+2022-05-27 22:54:59.583 DBG default: t2
+2022-05-27 22:54:59.583 DBG default: reading socket
+2022-05-27 22:54:59.585 DBG default: sync
+2022-05-27 22:54:59.585 DBG default: 2
+2022-05-27 22:54:59.585 DBG default: recv OK
+2022-05-27 22:54:59.585 DBG default: recv OK
+2022-05-27 22:54:59.585 DBG default: cards synced
+2022-05-27 22:54:59.598 DBG default: "admin authorised"
+2022-05-27 22:54:59.722 DBG default: Start saving TMP
+2022-05-27 22:54:59.722 DBG default: TMP saved:  2 , size =  1106
+2022-05-27 22:54:59.723 DBG default: reading socket
+2022-05-27 22:55:01.583 DBG default: checking
+2022-05-27 22:55:01.583 DBG default: check end
+2022-05-27 22:55:03.591 DBG default: checking
+2022-05-27 22:55:03.593 DBG default: check end
+2022-05-27 22:55:05.595 DBG default: checking
+2022-05-27 22:55:05.596 DBG default: check end
+2022-05-27 22:55:07.597 DBG default: checking
+2022-05-27 22:55:07.598 DBG default: check end
+2022-05-27 22:55:09.598 DBG default: checking
+2022-05-27 22:55:09.599 DBG default: check end
+2022-05-27 22:55:11.601 DBG default: checking
+2022-05-27 22:55:11.601 DBG default: check end
+2022-05-27 22:55:13.602 DBG default: checking
+2022-05-27 22:55:13.603 DBG default: check end
+2022-05-27 22:55:15.604 DBG default: checking
+2022-05-27 22:55:15.606 DBG default: check end
+2022-05-27 22:55:17.607 DBG default: checking
+2022-05-27 22:55:17.608 DBG default: check end
+2022-05-27 22:55:19.608 DBG default: checking
+2022-05-27 22:55:19.609 DBG default: check end
+2022-05-27 22:55:21.611 DBG default: checking
+2022-05-27 22:55:21.613 DBG default: check end
+2022-05-27 22:55:23.614 DBG default: checking
+2022-05-27 22:55:23.615 DBG default: check end
+2022-05-27 22:55:25.616 DBG default: checking
+2022-05-27 22:55:25.616 DBG default: check end
+2022-05-27 22:55:27.617 DBG default: checking
+2022-05-27 22:55:27.618 DBG default: check end
+2022-05-27 22:55:29.620 DBG default: checking
+2022-05-27 22:55:29.621 DBG default: check end
+2022-05-27 22:55:31.621 DBG default: checking
+2022-05-27 22:55:31.623 DBG default: check end
+2022-05-27 22:55:33.630 DBG default: checking
+2022-05-27 22:55:33.632 DBG default: check end
+2022-05-27 22:55:35.633 DBG default: checking
+2022-05-27 22:55:35.634 DBG default: check end
+2022-05-27 22:55:37.634 DBG default: checking
+2022-05-27 22:55:37.636 DBG default: check end
+2022-05-27 22:55:39.167 DBG default: emit PCA
+2022-05-27 22:55:39.167 DBG default: conn: PCA
+2022-05-27 22:55:39.168 DBG default: cards updated
+2022-05-27 22:55:39.169 DBG default: get image
+2022-05-27 22:55:39.169 DBG default: connection: sending  Dostovalov_Dmitry.jpg
+2022-05-27 22:55:39.169 DBG default: connection: sending length  6095
+
+2022-05-27 22:55:39.170 DBG default: reading socket
+2022-05-27 22:55:39.429 DBG default: Start saving TMP
+2022-05-27 22:55:39.430 DBG default: TMP saved:  3 , size =  1660
+2022-05-27 22:55:39.638 DBG default: checking
+2022-05-27 22:55:39.638 DBG default: check end
+2022-05-27 22:55:41.639 DBG default: checking
+2022-05-27 22:55:41.640 DBG default: check end
+2022-05-27 22:55:43.642 DBG default: checking
+2022-05-27 22:55:43.643 DBG default: check end
+2022-05-27 22:55:45.645 DBG default: checking
+2022-05-27 22:55:45.645 DBG default: check end
+2022-05-27 22:55:47.646 DBG default: checking
+2022-05-27 22:55:47.647 DBG default: check end
+2022-05-27 22:55:49.648 DBG default: checking
+2022-05-27 22:55:49.650 DBG default: check end
+2022-05-27 22:55:51.652 DBG default: checking
+2022-05-27 22:55:51.654 DBG default: check end
+2022-05-27 22:55:53.656 DBG default: checking
+2022-05-27 22:55:53.656 DBG default: check end
+2022-05-27 22:55:55.657 DBG default: checking
+2022-05-27 22:55:55.659 DBG default: check end
+2022-05-27 22:55:57.660 DBG default: checking
+2022-05-27 22:55:57.660 DBG default: check end
+2022-05-27 22:55:59.661 DBG default: checking
+2022-05-27 22:55:59.662 DBG default: check end
+2022-05-27 22:56:01.664 DBG default: checking
+2022-05-27 22:56:01.665 DBG default: check end
+2022-05-27 22:56:03.667 DBG default: checking
+2022-05-27 22:56:03.668 DBG default: check end
+2022-05-27 22:56:05.670 DBG default: checking
+2022-05-27 22:56:05.670 DBG default: check end
+2022-05-27 22:56:07.671 DBG default: checking
+2022-05-27 22:56:07.673 DBG default: check end
+2022-05-27 22:56:07.901 DBG default: emit PCE
+2022-05-27 22:56:07.901 DBG default: conn: PCE
+2022-05-27 22:56:07.902 DBG default: cards updated
+2022-05-27 22:56:07.903 DBG default: get image
+2022-05-27 22:56:07.903 DBG default: connection: sending  Dostovalov_Dmitry.jpg
+2022-05-27 22:56:07.903 DBG default: connection: sending length  6095
+
+2022-05-27 22:56:07.903 DBG default: reading socket
+2022-05-27 22:56:08.125 DBG default: Start saving TMP
+2022-05-27 22:56:08.125 DBG default: TMP saved:  3 , size =  1663
+2022-05-27 22:56:09.675 DBG default: checking
+2022-05-27 22:56:09.675 DBG default: check end
+2022-05-27 22:56:11.677 DBG default: checking
+2022-05-27 22:56:11.678 DBG default: check end
+2022-05-27 22:56:13.683 DBG default: checking
+2022-05-27 22:56:13.684 DBG default: check end
+2022-05-27 22:56:15.687 DBG default: checking
+2022-05-27 22:56:15.688 DBG default: check end
+2022-05-27 22:56:17.689 DBG default: checking
+2022-05-27 22:56:17.690 DBG default: check end
+2022-05-27 22:56:19.692 DBG default: checking
+2022-05-27 22:56:19.693 DBG default: check end
+2022-05-27 22:56:21.694 DBG default: checking
+2022-05-27 22:56:21.695 DBG default: check end
+2022-05-27 22:56:23.698 DBG default: checking
+2022-05-27 22:56:23.699 DBG default: check end
+2022-05-27 22:56:25.700 DBG default: checking
+2022-05-27 22:56:25.700 DBG default: check end
+2022-05-27 22:56:27.701 DBG default: checking
+2022-05-27 22:56:27.702 DBG default: check end
+2022-05-27 22:56:29.704 DBG default: checking
+2022-05-27 22:56:29.705 DBG default: check end
+2022-05-27 22:56:31.706 DBG default: checking
+2022-05-27 22:56:31.706 DBG default: check end
+2022-05-27 22:56:33.707 DBG default: checking
+2022-05-27 22:56:33.708 DBG default: check end
+2022-05-27 22:56:35.708 DBG default: checking
+2022-05-27 22:56:35.709 DBG default: check end
+2022-05-27 22:56:36.035 DBG default: cards updated
+2022-05-27 22:56:36.177 DBG default: Start saving TMP
+2022-05-27 22:56:36.177 DBG default: TMP saved:  3 , size =  1663
+2022-05-27 22:56:37.710 DBG default: checking
+2022-05-27 22:56:37.711 DBG default: check end
+2022-05-27 22:56:39.714 DBG default: checking
+2022-05-27 22:56:39.715 DBG default: check end
+2022-05-27 22:56:41.716 DBG default: checking
+2022-05-27 22:56:41.717 DBG default: check end
+2022-05-27 22:56:43.720 DBG default: checking
+2022-05-27 22:56:43.720 DBG default: check end
+2022-05-27 22:56:45.722 DBG default: checking
+2022-05-27 22:56:45.723 DBG default: check end
+2022-05-27 22:56:47.725 DBG default: checking
+2022-05-27 22:56:47.725 DBG default: check end
+2022-05-27 22:56:49.726 DBG default: checking
+2022-05-27 22:56:49.726 DBG default: check end
+2022-05-27 22:56:51.727 DBG default: checking
+2022-05-27 22:56:51.728 DBG default: check end
+2022-05-27 22:56:53.731 DBG default: checking
+2022-05-27 22:56:53.731 DBG default: check end
+2022-05-27 22:56:55.733 DBG default: checking
+2022-05-27 22:56:55.733 DBG default: check end
+2022-05-27 22:56:57.734 DBG default: checking
+2022-05-27 22:56:57.735 DBG default: check end
+2022-05-27 22:56:59.736 DBG default: checking
+2022-05-27 22:56:59.736 DBG default: check end
+2022-05-27 22:57:01.737 DBG default: checking
+2022-05-27 22:57:01.737 DBG default: check end
+2022-05-27 22:57:03.738 DBG default: checking
+2022-05-27 22:57:03.739 DBG default: check end
+2022-05-27 22:57:05.741 DBG default: checking
+2022-05-27 22:57:05.741 DBG default: check end
+2022-05-27 22:57:07.741 DBG default: checking
+2022-05-27 22:57:07.741 DBG default: check end
+2022-05-27 22:57:09.742 DBG default: checking
+2022-05-27 22:57:09.744 DBG default: check end
+2022-05-27 22:57:11.746 DBG default: checking
+2022-05-27 22:57:11.748 DBG default: check end
+2022-05-27 22:57:13.749 DBG default: checking
+2022-05-27 22:57:13.750 DBG default: check end
+2022-05-27 22:57:15.750 DBG default: checking
+2022-05-27 22:57:15.751 DBG default: check end
+2022-05-27 22:57:17.752 DBG default: checking
+2022-05-27 22:57:17.752 DBG default: check end
+2022-05-27 22:57:19.754 DBG default: checking
+2022-05-27 22:57:19.755 DBG default: check end
+2022-05-27 22:57:21.756 DBG default: checking
+2022-05-27 22:57:21.758 DBG default: check end
+2022-05-27 22:57:23.760 DBG default: checking
+2022-05-27 22:57:23.761 DBG default: check end
+2022-05-27 22:57:25.762 DBG default: checking
+2022-05-27 22:57:25.763 DBG default: check end
+2022-05-27 22:57:27.765 DBG default: checking
+2022-05-27 22:57:27.766 DBG default: check end
+2022-05-27 22:57:29.767 DBG default: checking
+2022-05-27 22:57:29.767 DBG default: check end
+2022-05-27 22:57:31.768 DBG default: checking
+2022-05-27 22:57:31.769 DBG default: check end
+2022-05-27 22:57:33.769 DBG default: checking
+2022-05-27 22:57:33.769 DBG default: check end
+2022-05-27 22:57:35.652 FTL default: ASSERT failure in QList<T>::operator[]: "index out of range", file /usr/include/aarch64-linux-gnu/qt5/QtCore/qlist.h, line 549
+2022-05-27 22:58:17.502 DBG default: LFR initialising
+2022-05-27 22:58:17.537 DBG default: OpenCV Version:  3 . 3 . 1
+2022-05-27 22:58:17.562 DBG default: Start loading TMP
+2022-05-27 22:58:17.562 DBG default: TMP loaded:  3
+2022-05-27 22:58:17.596 DBG default: card loaded
+2022-05-27 22:58:17.684 DBG default: Start saving TMP
+2022-05-27 22:58:17.684 DBG default: TMP saved:  3 , size =  1663
+2022-05-27 22:58:17.696 DBG default: Loading config
+2022-05-27 22:58:17.696 DBG default: Config loaded
+2022-05-27 22:58:17.781 DBG default: checking
+2022-05-27 22:58:17.781 DBG default: trying connect
+2022-05-27 22:58:17.781 DBG default: start connecting
+2022-05-27 22:58:17.782 DBG default: 127.0.0.1
+2022-05-27 22:58:17.782 DBG default: connection: sending connect query
+2022-05-27 22:58:17.783 DBG default: 8081
+2022-05-27 22:58:17.783 DBG default: CONNECTED !!!!!!!!!!!!!!!!!
+2022-05-27 22:58:17.783 DBG default: run conn
+2022-05-27 22:58:17.784 DBG default: check end
+2022-05-27 22:58:17.784 DBG default: t2
+2022-05-27 22:58:17.785 DBG default: reading socket
+2022-05-27 22:58:17.785 DBG default: sync
+2022-05-27 22:58:17.785 DBG default: 3
+2022-05-27 22:58:17.785 DBG default: recv OK
+2022-05-27 22:58:17.785 DBG default: recv OK
+2022-05-27 22:58:17.786 DBG default: recv OK
+2022-05-27 22:58:17.786 DBG default: cards synced
+2022-05-27 22:58:17.795 DBG default: "admin authorised"
+2022-05-27 22:58:17.981 DBG default: Start saving TMP
+2022-05-27 22:58:17.982 DBG default: TMP saved:  3 , size =  1663
+2022-05-27 22:58:17.983 DBG default: reading socket
+2022-05-27 22:58:17.983 DBG default: personal card added
+2022-05-27 22:58:17.983 DBG default: recv OK
+2022-05-27 22:58:17.983 DBG default: conn: personal card added from server
+2022-05-27 22:58:17.984 DBG default: card added slot
+2022-05-27 22:58:18.208 DBG default: Start saving TMP
+2022-05-27 22:58:18.208 DBG default: TMP saved:  4 , size =  2217
+2022-05-27 22:58:18.209 DBG default: reading socket
+2022-05-27 22:58:18.209 DBG default: personal card edited
+2022-05-27 22:58:18.209 DBG default: recv OK
+2022-05-27 22:58:18.209 DBG default: conn: personal card edited from server
+2022-05-27 22:58:18.209 DBG default: card edited slot
+2022-05-27 22:58:18.359 DBG default: Start saving TMP
+2022-05-27 22:58:18.360 DBG default: TMP saved:  4 , size =  2217
+2022-05-27 22:58:18.360 DBG default: reading socket
+2022-05-27 22:58:19.785 DBG default: checking
+2022-05-27 22:58:19.786 DBG default: check end
+2022-05-27 22:58:21.787 DBG default: checking
+2022-05-27 22:58:21.787 DBG default: check end
+2022-05-27 22:58:23.788 DBG default: checking
+2022-05-27 22:58:23.790 DBG default: check end
+2022-05-27 22:58:25.792 DBG default: checking
+2022-05-27 22:58:25.793 DBG default: check end
+2022-05-27 22:58:27.795 DBG default: checking
+2022-05-27 22:58:27.795 DBG default: check end
+2022-05-27 22:58:29.796 DBG default: checking
+2022-05-27 22:58:29.797 DBG default: check end
+2022-05-27 22:58:31.796 DBG default: Start saving TMP
+2022-05-27 22:58:31.797 DBG default: checking
+2022-05-27 22:58:31.797 DBG default: check end
+2022-05-27 22:58:31.797 DBG default: TMP saved:  4 , size =  2217
+2022-05-27 22:58:34.218 DBG default: LFR initialising
+2022-05-27 22:58:34.253 DBG default: OpenCV Version:  3 . 3 . 1
+2022-05-27 22:58:34.275 DBG default: Start loading TMP
+2022-05-27 22:58:34.275 DBG default: TMP loaded:  4
+2022-05-27 22:58:34.310 DBG default: card loaded
+2022-05-27 22:58:34.417 DBG default: Start saving TMP
+2022-05-27 22:58:34.418 DBG default: TMP saved:  4 , size =  2217
+2022-05-27 22:58:34.429 DBG default: Loading config
+2022-05-27 22:58:34.429 DBG default: Config loaded
+2022-05-27 22:58:34.516 DBG default: checking
+2022-05-27 22:58:34.516 DBG default: trying connect
+2022-05-27 22:58:34.516 DBG default: start connecting
+2022-05-27 22:58:34.517 DBG default: 127.0.0.1
+2022-05-27 22:58:34.517 DBG default: connection: sending connect query
+2022-05-27 22:58:34.518 DBG default: 8081
+2022-05-27 22:58:34.518 DBG default: CONNECTED !!!!!!!!!!!!!!!!!
+2022-05-27 22:58:34.518 DBG default: run conn
+2022-05-27 22:58:34.519 DBG default: check end
+2022-05-27 22:58:34.519 DBG default: t2
+2022-05-27 22:58:34.520 DBG default: reading socket
+2022-05-27 22:58:34.520 DBG default: sync
+2022-05-27 22:58:34.520 DBG default: 3
+2022-05-27 22:58:34.520 DBG default: recv OK
+2022-05-27 22:58:34.521 DBG default: recv OK
+2022-05-27 22:58:34.521 DBG default: recv OK
+2022-05-27 22:58:34.521 DBG default: cards synced
+2022-05-27 22:58:34.536 DBG default: "admin authorised"
+2022-05-27 22:58:34.741 DBG default: Start saving TMP
+2022-05-27 22:58:34.742 DBG default: TMP saved:  3 , size =  1663
+2022-05-27 22:58:34.742 DBG default: reading socket
+2022-05-27 22:58:36.520 DBG default: checking
+2022-05-27 22:58:36.522 DBG default: check end
+2022-05-27 22:58:38.525 DBG default: checking
+2022-05-27 22:58:38.526 DBG default: check end
+2022-05-27 22:58:40.528 DBG default: checking
+2022-05-27 22:58:40.529 DBG default: check end
+2022-05-27 22:58:42.529 DBG default: checking
+2022-05-27 22:58:42.530 DBG default: check end
+2022-05-27 22:58:44.532 DBG default: checking
+2022-05-27 22:58:44.534 DBG default: check end
+2022-05-27 22:58:46.535 DBG default: checking
+2022-05-27 22:58:46.536 DBG default: check end
+2022-05-27 22:58:48.537 DBG default: checking
+2022-05-27 22:58:48.537 DBG default: check end
+2022-05-27 22:58:50.538 DBG default: checking
+2022-05-27 22:58:50.538 DBG default: check end
+2022-05-27 22:58:52.539 DBG default: checking
+2022-05-27 22:58:52.539 DBG default: check end
+2022-05-27 22:58:54.541 DBG default: checking
+2022-05-27 22:58:54.542 DBG default: check end
+2022-05-27 22:58:56.543 DBG default: checking
+2022-05-27 22:58:56.545 DBG default: check end
+2022-05-27 22:58:58.546 DBG default: checking
+2022-05-27 22:58:58.546 DBG default: check end
+2022-05-27 22:59:00.547 DBG default: checking
+2022-05-27 22:59:00.547 DBG default: check end
+2022-05-27 22:59:02.548 DBG default: checking
+2022-05-27 22:59:02.550 DBG default: check end
+2022-05-27 22:59:04.551 DBG default: checking
+2022-05-27 22:59:04.552 DBG default: check end
+2022-05-27 22:59:06.553 DBG default: checking
+2022-05-27 22:59:06.554 DBG default: check end
+2022-05-27 22:59:08.555 DBG default: checking
+2022-05-27 22:59:08.556 DBG default: check end
+2022-05-27 22:59:10.559 DBG default: checking
+2022-05-27 22:59:10.559 DBG default: check end
+2022-05-27 22:59:12.566 DBG default: checking
+2022-05-27 22:59:12.567 DBG default: check end
+2022-05-27 22:59:14.570 DBG default: checking
+2022-05-27 22:59:14.571 DBG default: check end
+2022-05-27 22:59:16.572 DBG default: checking
+2022-05-27 22:59:16.574 DBG default: check end
+2022-05-27 22:59:18.575 DBG default: checking
+2022-05-27 22:59:18.576 DBG default: check end
+2022-05-27 22:59:20.576 DBG default: checking
+2022-05-27 22:59:20.576 DBG default: check end
+2022-05-27 22:59:22.577 DBG default: checking
+2022-05-27 22:59:22.578 DBG default: check end
+2022-05-27 22:59:24.578 DBG default: checking
+2022-05-27 22:59:24.578 DBG default: check end
+2022-05-27 22:59:26.579 DBG default: checking
+2022-05-27 22:59:26.581 DBG default: check end
+2022-05-27 22:59:26.719 DBG default: Start saving TMP
+2022-05-27 22:59:26.720 DBG default: TMP saved:  3 , size =  1663
+2022-05-27 23:00:56.646 DBG default: LFR initialising
+2022-05-27 23:00:56.680 DBG default: OpenCV Version:  3 . 3 . 1
+2022-05-27 23:00:56.699 DBG default: Start loading TMP
+2022-05-27 23:00:56.700 DBG default: TMP loaded:  3
+2022-05-27 23:00:56.745 DBG default: Loading config
+2022-05-27 23:00:56.745 DBG default: Config loaded
+2022-05-27 23:00:56.836 DBG default: checking
+2022-05-27 23:00:56.836 DBG default: trying connect
+2022-05-27 23:00:56.836 DBG default: start connecting
+2022-05-27 23:00:56.836 DBG default: 127.0.0.1
+2022-05-27 23:00:56.836 DBG default: connection: sending connect query
+2022-05-27 23:00:56.838 DBG default: 8081
+2022-05-27 23:00:56.838 DBG default: CONNECTED !!!!!!!!!!!!!!!!!
+2022-05-27 23:00:56.838 DBG default: run conn
+2022-05-27 23:00:56.839 DBG default: check end
+2022-05-27 23:00:56.839 DBG default: t2
+2022-05-27 23:00:56.839 DBG default: reading socket
+2022-05-27 23:00:56.840 DBG default: sync
+2022-05-27 23:00:56.841 DBG default: 0
+2022-05-27 23:00:56.841 DBG default: cards synced
+2022-05-27 23:00:56.841 DBG default: reading socket
+2022-05-27 23:00:56.841 DBG default: 
+2022-05-27 23:00:56.841 DBG default: reading socket
+2022-05-27 23:00:56.851 DBG default: "admin authorised"
+2022-05-27 23:00:58.839 DBG default: checking
+2022-05-27 23:00:58.840 DBG default: check end
+2022-05-27 23:01:00.841 DBG default: checking
+2022-05-27 23:01:00.842 DBG default: check end
+2022-05-27 23:01:02.843 DBG default: checking
+2022-05-27 23:01:02.843 DBG default: check end
+2022-05-27 23:01:04.843 DBG default: checking
+2022-05-27 23:01:04.844 DBG default: check end
+2022-05-27 23:01:06.845 DBG default: checking
+2022-05-27 23:01:06.847 DBG default: check end
+2022-05-27 23:01:08.848 DBG default: checking
+2022-05-27 23:01:08.849 DBG default: check end
+2022-05-27 23:01:10.849 DBG default: checking
+2022-05-27 23:01:10.849 DBG default: check end
+2022-05-27 23:01:12.849 DBG default: checking
+2022-05-27 23:01:12.849 DBG default: check end
+2022-05-27 23:01:14.850 DBG default: checking
+2022-05-27 23:01:14.851 DBG default: check end
+2022-05-27 23:01:16.852 DBG default: checking
+2022-05-27 23:01:16.852 DBG default: check end
+2022-05-27 23:01:18.852 DBG default: checking
+2022-05-27 23:01:18.853 DBG default: check end
+2022-05-27 23:01:20.025 DBG default: emit PCA
+2022-05-27 23:01:20.025 DBG default: conn: PCA
+2022-05-27 23:01:20.028 DBG default: get image
+2022-05-27 23:01:20.028 DBG default: cards updated
+2022-05-27 23:01:20.028 DBG default: connection: sending  Anatoly_Bataev.jpg
+2022-05-27 23:01:20.029 DBG default: connection: sending length  18981
+
+2022-05-27 23:01:20.029 DBG default: reading socket
+2022-05-27 23:01:20.201 DBG default: Start saving TMP
+2022-05-27 23:01:20.202 DBG default: TMP saved:  1 , size =  555
+2022-05-27 23:01:20.853 DBG default: checking
+2022-05-27 23:01:20.854 DBG default: check end
+2022-05-27 23:01:22.855 DBG default: checking
+2022-05-27 23:01:22.855 DBG default: check end
+2022-05-27 23:01:24.856 DBG default: checking
+2022-05-27 23:01:24.857 DBG default: check end
+2022-05-27 23:01:26.858 DBG default: checking
+2022-05-27 23:01:26.860 DBG default: check end
+2022-05-27 23:01:28.862 DBG default: checking
+2022-05-27 23:01:28.863 DBG default: check end
+2022-05-27 23:01:30.864 DBG default: checking
+2022-05-27 23:01:30.865 DBG default: check end
+2022-05-27 23:01:32.865 DBG default: checking
+2022-05-27 23:01:32.867 DBG default: check end
+2022-05-27 23:01:34.868 DBG default: checking
+2022-05-27 23:01:34.869 DBG default: check end
+2022-05-27 23:01:36.870 DBG default: checking
+2022-05-27 23:01:36.871 DBG default: check end
+2022-05-27 23:01:38.873 DBG default: checking
+2022-05-27 23:01:38.874 DBG default: check end
+2022-05-27 23:01:40.876 DBG default: checking
+2022-05-27 23:01:40.877 DBG default: check end
+2022-05-27 23:01:42.880 DBG default: checking
+2022-05-27 23:01:42.882 DBG default: check end
+2022-05-27 23:01:44.883 DBG default: checking
+2022-05-27 23:01:44.885 DBG default: check end
+2022-05-27 23:01:46.886 DBG default: checking
+2022-05-27 23:01:46.888 DBG default: check end
+2022-05-27 23:01:48.889 DBG default: checking
+2022-05-27 23:01:48.890 DBG default: check end
+2022-05-27 23:01:50.891 DBG default: checking
+2022-05-27 23:01:50.893 DBG default: check end
+2022-05-27 23:01:52.895 DBG default: checking
+2022-05-27 23:01:52.895 DBG default: check end
+2022-05-27 23:01:53.610 DBG default: emit PCE
+2022-05-27 23:01:53.611 DBG default: conn: PCE
+2022-05-27 23:01:53.611 DBG default: cards updated
+2022-05-27 23:01:53.613 DBG default: get image
+2022-05-27 23:01:53.614 DBG default: connection: sending  Anatoly_Bataev.jpg
+2022-05-27 23:01:53.614 DBG default: connection: sending length  18981
+
+2022-05-27 23:01:53.614 DBG default: reading socket
+2022-05-27 23:01:53.769 DBG default: Start saving TMP
+2022-05-27 23:01:53.770 DBG default: TMP saved:  1 , size =  555
+2022-05-27 23:01:54.896 DBG default: checking
+2022-05-27 23:01:54.896 DBG default: check end
+2022-05-27 23:01:56.897 DBG default: checking
+2022-05-27 23:01:56.898 DBG default: check end
+2022-05-27 23:01:58.899 DBG default: checking
+2022-05-27 23:01:58.900 DBG default: check end
+2022-05-27 23:02:00.902 DBG default: checking
+2022-05-27 23:02:00.903 DBG default: check end
+2022-05-27 23:02:02.905 DBG default: checking
+2022-05-27 23:02:02.905 DBG default: check end
+2022-05-27 23:02:04.906 DBG default: checking
+2022-05-27 23:02:04.907 DBG default: check end
+2022-05-27 23:02:06.907 DBG default: checking
+2022-05-27 23:02:06.908 DBG default: check end
+2022-05-27 23:02:08.909 DBG default: checking
+2022-05-27 23:02:08.909 DBG default: check end
+2022-05-27 23:02:10.910 DBG default: checking
+2022-05-27 23:02:10.910 DBG default: check end
+2022-05-27 23:02:11.602 DBG default: personal card edited
+2022-05-27 23:02:11.602 DBG default: recv OK
+2022-05-27 23:02:11.602 DBG default: conn: personal card edited from server
+2022-05-27 23:02:11.603 DBG default: card edited slot
+2022-05-27 23:02:11.674 DBG default: Start saving TMP
+2022-05-27 23:02:11.675 DBG default: TMP saved:  1 , size =  555
+2022-05-27 23:02:11.675 DBG default: reading socket
+2022-05-27 23:02:12.911 DBG default: checking
+2022-05-27 23:02:12.911 DBG default: check end
+2022-05-27 23:02:14.911 DBG default: checking
+2022-05-27 23:02:14.911 DBG default: check end
+2022-05-27 23:02:16.912 DBG default: checking
+2022-05-27 23:02:16.912 DBG default: check end
+2022-05-27 23:02:18.913 DBG default: checking
+2022-05-27 23:02:18.913 DBG default: check end
+2022-05-27 23:02:20.914 DBG default: checking
+2022-05-27 23:02:20.914 DBG default: check end
+2022-05-27 23:02:22.915 DBG default: checking
+2022-05-27 23:02:22.917 DBG default: check end
+2022-05-27 23:02:24.920 DBG default: checking
+2022-05-27 23:02:24.921 DBG default: check end
+2022-05-27 23:02:26.923 DBG default: checking
+2022-05-27 23:02:26.923 DBG default: check end
+2022-05-27 23:02:28.923 DBG default: checking
+2022-05-27 23:02:28.923 DBG default: check end
+2022-05-27 23:02:30.924 DBG default: checking
+2022-05-27 23:02:30.924 DBG default: check end
+2022-05-27 23:02:32.924 DBG default: checking
+2022-05-27 23:02:32.926 DBG default: check end
+2022-05-27 23:02:34.927 DBG default: checking
+2022-05-27 23:02:34.929 DBG default: check end
+2022-05-27 23:02:36.930 DBG default: checking
+2022-05-27 23:02:36.931 DBG default: check end
+2022-05-27 23:02:38.545 DBG default: emit PCA
+2022-05-27 23:02:38.545 DBG default: conn: PCA
+2022-05-27 23:02:38.546 DBG default: cards updated
+2022-05-27 23:02:38.548 DBG default: get image
+2022-05-27 23:02:38.548 DBG default: connection: sending  Dostovalov_Dmitry.jpg
+2022-05-27 23:02:38.549 DBG default: connection: sending length  6095
+
+2022-05-27 23:02:38.549 DBG default: reading socket
+2022-05-27 23:02:38.667 DBG default: Start saving TMP
+2022-05-27 23:02:38.668 DBG default: TMP saved:  2 , size =  1109
+2022-05-27 23:02:38.931 DBG default: checking
+2022-05-27 23:02:38.931 DBG default: check end
+2022-05-27 23:02:40.933 DBG default: checking
+2022-05-27 23:02:40.933 DBG default: check end
+2022-05-27 23:02:42.934 DBG default: checking
+2022-05-27 23:02:42.935 DBG default: check end
+2022-05-27 23:02:44.936 DBG default: checking
+2022-05-27 23:02:44.938 DBG default: check end
+2022-05-27 23:02:46.940 DBG default: checking
+2022-05-27 23:02:46.940 DBG default: check end
+2022-05-27 23:02:48.940 DBG default: checking
+2022-05-27 23:02:48.940 DBG default: check end
+2022-05-27 23:02:50.941 DBG default: checking
+2022-05-27 23:02:50.942 DBG default: check end
+2022-05-27 23:02:52.943 DBG default: checking
+2022-05-27 23:02:52.943 DBG default: check end
+2022-05-27 23:02:54.943 DBG default: checking
+2022-05-27 23:02:54.943 DBG default: check end
+2022-05-27 23:02:56.949 DBG default: checking
+2022-05-27 23:02:56.950 DBG default: check end
+2022-05-27 23:02:58.074 DBG default: emit PCE
+2022-05-27 23:02:58.075 DBG default: conn: PCE
+2022-05-27 23:02:58.075 DBG default: cards updated
+2022-05-27 23:02:58.076 DBG default: get image
+2022-05-27 23:02:58.076 DBG default: connection: sending  Dostovalov_Dmitry.jpg
+2022-05-27 23:02:58.077 DBG default: connection: sending length  6095
+
+2022-05-27 23:02:58.077 DBG default: reading socket
+2022-05-27 23:02:58.251 DBG default: Start saving TMP
+2022-05-27 23:02:58.251 DBG default: TMP saved:  2 , size =  1109
+2022-05-27 23:02:58.950 DBG default: checking
+2022-05-27 23:02:58.951 DBG default: check end
+2022-05-27 23:03:00.953 DBG default: checking
+2022-05-27 23:03:00.954 DBG default: check end
+2022-05-27 23:03:02.956 DBG default: checking
+2022-05-27 23:03:02.957 DBG default: check end
+2022-05-27 23:03:04.959 DBG default: checking
+2022-05-27 23:03:04.960 DBG default: check end
+2022-05-27 23:03:06.962 DBG default: checking
+2022-05-27 23:03:06.963 DBG default: check end
+2022-05-27 23:03:08.965 DBG default: checking
+2022-05-27 23:03:08.966 DBG default: check end
+2022-05-27 23:03:10.967 DBG default: checking
+2022-05-27 23:03:10.967 DBG default: check end
+2022-05-27 23:03:12.968 DBG default: checking
+2022-05-27 23:03:12.969 DBG default: check end
+2022-05-27 23:03:13.664 DBG default: personal card edited
+2022-05-27 23:03:13.665 DBG default: recv OK
+2022-05-27 23:03:13.665 DBG default: conn: personal card edited from server
+2022-05-27 23:03:13.665 DBG default: card edited slot
+2022-05-27 23:03:13.796 DBG default: Start saving TMP
+2022-05-27 23:03:13.798 DBG default: TMP saved:  2 , size =  1109
+2022-05-27 23:03:13.798 DBG default: reading socket
+2022-05-27 23:03:14.971 DBG default: checking
+2022-05-27 23:03:14.971 DBG default: check end
+2022-05-27 23:03:16.972 DBG default: checking
+2022-05-27 23:03:16.972 DBG default: check end
+2022-05-27 23:03:18.973 DBG default: checking
+2022-05-27 23:03:18.973 DBG default: check end
+2022-05-27 23:03:20.974 DBG default: checking
+2022-05-27 23:03:20.975 DBG default: check end
+2022-05-27 23:03:22.978 DBG default: checking
+2022-05-27 23:03:22.979 DBG default: check end
+2022-05-27 23:03:24.981 DBG default: checking
+2022-05-27 23:03:24.982 DBG default: check end
+2022-05-27 23:03:26.984 DBG default: checking
+2022-05-27 23:03:26.985 DBG default: check end
+2022-05-27 23:03:28.987 DBG default: checking
+2022-05-27 23:03:28.988 DBG default: check end
+2022-05-27 23:03:30.989 DBG default: checking
+2022-05-27 23:03:30.990 DBG default: check end
+2022-05-27 23:03:32.992 DBG default: checking
+2022-05-27 23:03:32.994 DBG default: check end
+2022-05-27 23:03:34.995 DBG default: checking
+2022-05-27 23:03:34.995 DBG default: check end
+2022-05-27 23:03:36.997 DBG default: checking
+2022-05-27 23:03:36.998 DBG default: check end
+2022-05-27 23:03:39.000 DBG default: checking
+2022-05-27 23:03:39.002 DBG default: check end
+2022-05-27 23:03:41.003 DBG default: checking
+2022-05-27 23:03:41.005 DBG default: check end
+2022-05-27 23:03:43.007 DBG default: checking
+2022-05-27 23:03:43.008 DBG default: check end
+2022-05-27 23:03:45.009 DBG default: checking
+2022-05-27 23:03:45.010 DBG default: check end
+2022-05-27 23:03:47.011 DBG default: checking
+2022-05-27 23:03:47.011 DBG default: check end
+2022-05-27 23:03:49.011 DBG default: checking
+2022-05-27 23:03:49.012 DBG default: check end
+2022-05-27 23:03:51.012 DBG default: checking
+2022-05-27 23:03:51.012 DBG default: check end
+2022-05-27 23:03:53.012 DBG default: checking
+2022-05-27 23:03:53.012 DBG default: check end
+2022-05-27 23:03:55.013 DBG default: checking
+2022-05-27 23:03:55.013 DBG default: check end
+2022-05-27 23:03:57.013 DBG default: checking
+2022-05-27 23:03:57.014 DBG default: check end
+2022-05-27 23:03:59.014 DBG default: checking
+2022-05-27 23:03:59.015 DBG default: check end
+2022-05-27 23:04:01.015 DBG default: checking
+2022-05-27 23:04:01.015 DBG default: check end
+2022-05-27 23:04:03.015 DBG default: checking
+2022-05-27 23:04:03.016 DBG default: check end
+2022-05-27 23:04:05.016 DBG default: checking
+2022-05-27 23:04:05.019 DBG default: check end
+2022-05-27 23:04:07.022 DBG default: checking
+2022-05-27 23:04:07.022 DBG default: check end
+2022-05-27 23:04:09.022 DBG default: checking
+2022-05-27 23:04:09.023 DBG default: check end
+2022-05-27 23:04:11.023 DBG default: checking
+2022-05-27 23:04:11.023 DBG default: check end
+2022-05-27 23:04:13.023 DBG default: checking
+2022-05-27 23:04:13.024 DBG default: check end
+2022-05-27 23:04:15.024 DBG default: checking
+2022-05-27 23:04:15.025 DBG default: check end
+2022-05-27 23:04:17.026 DBG default: checking
+2022-05-27 23:04:17.030 DBG default: check end
+2022-05-27 23:04:19.031 DBG default: checking
+2022-05-27 23:04:19.031 DBG default: check end
+2022-05-27 23:04:21.031 DBG default: checking
+2022-05-27 23:04:21.031 DBG default: check end
+2022-05-27 23:04:23.031 DBG default: checking
+2022-05-27 23:04:23.032 DBG default: check end
+2022-05-27 23:04:25.032 DBG default: checking
+2022-05-27 23:04:25.032 DBG default: check end
+2022-05-27 23:04:27.032 DBG default: checking
+2022-05-27 23:04:27.032 DBG default: check end
+2022-05-27 23:04:29.033 DBG default: checking
+2022-05-27 23:04:29.033 DBG default: check end
+2022-05-27 23:04:31.033 DBG default: checking
+2022-05-27 23:04:31.034 DBG default: check end
+2022-05-27 23:04:33.034 DBG default: checking
+2022-05-27 23:04:33.034 DBG default: check end
+2022-05-27 23:04:35.035 DBG default: checking
+2022-05-27 23:04:35.035 DBG default: check end
+2022-05-27 23:04:37.035 DBG default: checking
+2022-05-27 23:04:37.036 DBG default: check end
+2022-05-27 23:04:39.036 DBG default: checking
+2022-05-27 23:04:39.037 DBG default: check end
+2022-05-27 23:04:41.037 DBG default: checking
+2022-05-27 23:04:41.037 DBG default: check end
+2022-05-27 23:04:43.037 DBG default: checking
+2022-05-27 23:04:43.038 DBG default: check end
+2022-05-27 23:04:45.038 DBG default: checking
+2022-05-27 23:04:45.038 DBG default: check end
+2022-05-27 23:04:47.039 DBG default: checking
+2022-05-27 23:04:47.039 DBG default: check end
+2022-05-27 23:04:49.039 DBG default: checking
+2022-05-27 23:04:49.039 DBG default: check end
+2022-05-27 23:04:51.040 DBG default: checking
+2022-05-27 23:04:51.040 DBG default: check end
+2022-05-27 23:04:53.040 DBG default: checking
+2022-05-27 23:04:53.041 DBG default: check end
+2022-05-27 23:04:55.041 DBG default: checking
+2022-05-27 23:04:55.041 DBG default: check end
+2022-05-27 23:04:57.041 DBG default: checking
+2022-05-27 23:04:57.041 DBG default: check end
+2022-05-27 23:04:59.042 DBG default: checking
+2022-05-27 23:04:59.042 DBG default: check end
+2022-05-27 23:05:01.042 DBG default: checking
+2022-05-27 23:05:01.042 DBG default: check end
+2022-05-27 23:05:03.043 DBG default: checking
+2022-05-27 23:05:03.043 DBG default: check end
+2022-05-27 23:05:05.043 DBG default: checking
+2022-05-27 23:05:05.043 DBG default: check end
+2022-05-27 23:05:07.044 DBG default: checking
+2022-05-27 23:05:07.044 DBG default: check end
+2022-05-27 23:05:09.044 DBG default: checking
+2022-05-27 23:05:09.044 DBG default: check end
+2022-05-27 23:05:11.045 DBG default: checking
+2022-05-27 23:05:11.045 DBG default: check end
+2022-05-27 23:05:13.045 DBG default: checking
+2022-05-27 23:05:13.045 DBG default: check end
+2022-05-27 23:05:15.046 DBG default: checking
+2022-05-27 23:05:15.046 DBG default: check end
+2022-05-27 23:05:17.046 DBG default: checking
+2022-05-27 23:05:17.046 DBG default: check end
+2022-05-27 23:05:19.047 DBG default: checking
+2022-05-27 23:05:19.047 DBG default: check end
+2022-05-27 23:05:21.047 DBG default: checking
+2022-05-27 23:05:21.047 DBG default: check end
+2022-05-27 23:05:23.048 DBG default: checking
+2022-05-27 23:05:23.048 DBG default: check end
+2022-05-27 23:05:25.048 DBG default: checking
+2022-05-27 23:05:25.048 DBG default: check end
+2022-05-27 23:05:27.049 DBG default: checking
+2022-05-27 23:05:27.049 DBG default: check end
+2022-05-27 23:05:29.049 DBG default: checking
+2022-05-27 23:05:29.050 DBG default: check end
+2022-05-27 23:05:31.050 DBG default: checking
+2022-05-27 23:05:31.050 DBG default: check end
+2022-05-27 23:05:33.051 DBG default: checking
+2022-05-27 23:05:33.051 DBG default: check end
+2022-05-27 23:05:35.051 DBG default: checking
+2022-05-27 23:05:35.052 DBG default: check end
+2022-05-27 23:05:37.052 DBG default: checking
+2022-05-27 23:05:37.052 DBG default: check end
+2022-05-27 23:05:39.053 DBG default: checking
+2022-05-27 23:05:39.053 DBG default: check end
+2022-05-27 23:05:41.053 DBG default: checking
+2022-05-27 23:05:41.054 DBG default: check end
+2022-05-27 23:05:43.054 DBG default: checking
+2022-05-27 23:05:43.055 DBG default: check end
+2022-05-27 23:05:45.055 DBG default: checking
+2022-05-27 23:05:45.055 DBG default: check end
+2022-05-27 23:05:47.056 DBG default: checking
+2022-05-27 23:05:47.056 DBG default: check end
+2022-05-27 23:05:49.056 DBG default: checking
+2022-05-27 23:05:49.063 DBG default: check end
+2022-05-27 23:05:51.064 DBG default: checking
+2022-05-27 23:05:51.064 DBG default: check end
+2022-05-27 23:05:53.064 DBG default: checking
+2022-05-27 23:05:53.065 DBG default: check end
+2022-05-27 23:05:55.065 DBG default: checking
+2022-05-27 23:05:55.066 DBG default: check end
+2022-05-27 23:05:57.066 DBG default: checking
+2022-05-27 23:05:57.067 DBG default: check end
+2022-05-27 23:05:59.067 DBG default: checking
+2022-05-27 23:05:59.067 DBG default: check end
+2022-05-27 23:06:01.068 DBG default: checking
+2022-05-27 23:06:01.068 DBG default: check end
+2022-05-27 23:06:03.068 DBG default: checking
+2022-05-27 23:06:03.069 DBG default: check end
+2022-05-27 23:06:05.069 DBG default: checking
+2022-05-27 23:06:05.069 DBG default: check end
+2022-05-27 23:06:07.070 DBG default: checking
+2022-05-27 23:06:07.070 DBG default: check end
+2022-05-27 23:06:09.071 DBG default: checking
+2022-05-27 23:06:09.071 DBG default: check end
+2022-05-27 23:06:11.072 DBG default: checking
+2022-05-27 23:06:11.072 DBG default: check end
+2022-05-27 23:06:13.072 DBG default: checking
+2022-05-27 23:06:13.073 DBG default: check end
+2022-05-27 23:06:15.073 DBG default: checking
+2022-05-27 23:06:15.074 DBG default: check end
+2022-05-27 23:06:17.074 DBG default: checking
+2022-05-27 23:06:17.075 DBG default: check end
+2022-05-27 23:06:19.075 DBG default: checking
+2022-05-27 23:06:19.075 DBG default: check end
+2022-05-27 23:06:21.076 DBG default: checking
+2022-05-27 23:06:21.076 DBG default: check end
+2022-05-27 23:06:23.077 DBG default: checking
+2022-05-27 23:06:23.077 DBG default: check end
+2022-05-27 23:06:25.078 DBG default: checking
+2022-05-27 23:06:25.078 DBG default: check end
+2022-05-27 23:06:27.078 DBG default: checking
+2022-05-27 23:06:27.079 DBG default: check end
+2022-05-27 23:06:29.079 DBG default: checking
+2022-05-27 23:06:29.080 DBG default: check end
+2022-05-27 23:06:31.080 DBG default: checking
+2022-05-27 23:06:31.081 DBG default: check end
+2022-05-27 23:06:33.081 DBG default: checking
+2022-05-27 23:06:33.081 DBG default: check end
+2022-05-27 23:06:35.082 DBG default: checking
+2022-05-27 23:06:35.082 DBG default: check end
+2022-05-27 23:06:37.083 DBG default: checking
+2022-05-27 23:06:37.083 DBG default: check end
+2022-05-27 23:06:39.084 DBG default: checking
+2022-05-27 23:06:39.084 DBG default: check end
+2022-05-27 23:06:41.085 DBG default: checking
+2022-05-27 23:06:41.086 DBG default: check end
+2022-05-27 23:06:43.086 DBG default: checking
+2022-05-27 23:06:43.086 DBG default: check end
+2022-05-27 23:06:45.087 DBG default: checking
+2022-05-27 23:06:45.087 DBG default: check end
+2022-05-27 23:06:47.088 DBG default: checking
+2022-05-27 23:06:47.088 DBG default: check end
+2022-05-27 23:06:49.089 DBG default: checking
+2022-05-27 23:06:49.089 DBG default: check end
+2022-05-27 23:06:51.090 DBG default: checking
+2022-05-27 23:06:51.090 DBG default: check end
+2022-05-27 23:06:53.090 DBG default: checking
+2022-05-27 23:06:53.090 DBG default: check end
+2022-05-27 23:06:55.091 DBG default: checking
+2022-05-27 23:06:55.092 DBG default: check end
+2022-05-27 23:06:57.092 DBG default: checking
+2022-05-27 23:06:57.093 DBG default: check end
+2022-05-27 23:06:59.093 DBG default: checking
+2022-05-27 23:06:59.094 DBG default: check end
+2022-05-27 23:07:01.095 DBG default: checking
+2022-05-27 23:07:01.095 DBG default: check end
+2022-05-27 23:07:03.096 DBG default: checking
+2022-05-27 23:07:03.097 DBG default: check end
+2022-05-27 23:07:05.098 DBG default: checking
+2022-05-27 23:07:05.098 DBG default: check end
+2022-05-27 23:07:07.099 DBG default: checking
+2022-05-27 23:07:07.099 DBG default: check end
+2022-05-27 23:07:09.099 DBG default: checking
+2022-05-27 23:07:09.100 DBG default: check end
+2022-05-27 23:07:11.101 DBG default: checking
+2022-05-27 23:07:11.102 DBG default: check end
+2022-05-27 23:07:13.103 DBG default: checking
+2022-05-27 23:07:13.103 DBG default: check end
+2022-05-27 23:07:15.104 DBG default: checking
+2022-05-27 23:07:15.105 DBG default: check end
+2022-05-27 23:07:17.105 DBG default: checking
+2022-05-27 23:07:17.106 DBG default: check end
+2022-05-27 23:07:19.107 DBG default: checking
+2022-05-27 23:07:19.108 DBG default: check end
+2022-05-27 23:07:21.108 DBG default: checking
+2022-05-27 23:07:21.109 DBG default: check end
+2022-05-27 23:07:23.109 DBG default: checking
+2022-05-27 23:07:23.109 DBG default: check end
+2022-05-27 23:07:25.110 DBG default: checking
+2022-05-27 23:07:25.110 DBG default: check end
+2022-05-27 23:07:27.112 DBG default: checking
+2022-05-27 23:07:27.113 DBG default: check end
+2022-05-27 23:07:29.114 DBG default: checking
+2022-05-27 23:07:29.114 DBG default: check end
+2022-05-27 23:07:31.115 DBG default: checking
+2022-05-27 23:07:31.116 DBG default: check end
+2022-05-27 23:07:33.116 DBG default: checking
+2022-05-27 23:07:33.116 DBG default: check end
+2022-05-27 23:07:35.117 DBG default: checking
+2022-05-27 23:07:35.117 DBG default: check end
+2022-05-27 23:07:37.117 DBG default: checking
+2022-05-27 23:07:37.117 DBG default: check end
+2022-05-27 23:07:39.117 DBG default: checking
+2022-05-27 23:07:39.118 DBG default: check end
+2022-05-27 23:07:41.118 DBG default: checking
+2022-05-27 23:07:41.119 DBG default: check end
+2022-05-27 23:07:43.119 DBG default: checking
+2022-05-27 23:07:43.120 DBG default: check end
+2022-05-27 23:07:45.120 DBG default: checking
+2022-05-27 23:07:45.121 DBG default: check end
+2022-05-27 23:07:47.121 DBG default: checking
+2022-05-27 23:07:47.121 DBG default: check end
+2022-05-27 23:07:49.122 DBG default: checking
+2022-05-27 23:07:49.123 DBG default: check end
+2022-05-27 23:07:51.124 DBG default: checking
+2022-05-27 23:07:51.124 DBG default: check end
+2022-05-27 23:07:53.125 DBG default: checking
+2022-05-27 23:07:53.125 DBG default: check end
+2022-05-27 23:07:55.126 DBG default: checking
+2022-05-27 23:07:55.126 DBG default: check end
+2022-05-27 23:07:57.126 DBG default: checking
+2022-05-27 23:07:57.126 DBG default: check end
+2022-05-27 23:07:59.127 DBG default: checking
+2022-05-27 23:07:59.127 DBG default: check end
+2022-05-27 23:08:01.129 DBG default: checking
+2022-05-27 23:08:01.129 DBG default: check end
+2022-05-27 23:08:03.130 DBG default: checking
+2022-05-27 23:08:03.130 DBG default: check end
+2022-05-27 23:08:05.131 DBG default: checking
+2022-05-27 23:08:05.131 DBG default: check end
+2022-05-27 23:08:07.131 DBG default: checking
+2022-05-27 23:08:07.131 DBG default: check end
+2022-05-27 23:08:09.131 DBG default: checking
+2022-05-27 23:08:09.132 DBG default: check end
+2022-05-27 23:08:11.132 DBG default: checking
+2022-05-27 23:08:11.132 DBG default: check end
+2022-05-27 23:08:13.132 DBG default: checking
+2022-05-27 23:08:13.133 DBG default: check end
+2022-05-27 23:08:15.134 DBG default: checking
+2022-05-27 23:08:15.134 DBG default: check end
+2022-05-27 23:08:17.134 DBG default: checking
+2022-05-27 23:08:17.134 DBG default: check end
+2022-05-27 23:08:19.135 DBG default: checking
+2022-05-27 23:08:19.136 DBG default: check end
+2022-05-27 23:08:21.137 DBG default: checking
+2022-05-27 23:08:21.137 DBG default: check end
+2022-05-27 23:08:23.137 DBG default: checking
+2022-05-27 23:08:23.138 DBG default: check end
+2022-05-27 23:08:25.139 DBG default: checking
+2022-05-27 23:08:25.139 DBG default: check end
+2022-05-27 23:08:27.140 DBG default: checking
+2022-05-27 23:08:27.140 DBG default: check end
+2022-05-27 23:08:29.141 DBG default: checking
+2022-05-27 23:08:29.141 DBG default: check end
+2022-05-27 23:08:31.142 DBG default: checking
+2022-05-27 23:08:31.142 DBG default: check end
+2022-05-27 23:08:33.143 DBG default: checking
+2022-05-27 23:08:33.143 DBG default: check end
+2022-05-27 23:08:35.143 DBG default: checking
+2022-05-27 23:08:35.144 DBG default: check end
+2022-05-27 23:08:37.144 DBG default: checking
+2022-05-27 23:08:37.144 DBG default: check end
+2022-05-27 23:08:39.145 DBG default: checking
+2022-05-27 23:08:39.145 DBG default: check end
+2022-05-27 23:08:41.145 DBG default: checking
+2022-05-27 23:08:41.146 DBG default: check end
+2022-05-27 23:08:43.146 DBG default: checking
+2022-05-27 23:08:43.146 DBG default: check end
+2022-05-27 23:08:45.146 DBG default: checking
+2022-05-27 23:08:45.146 DBG default: check end
+2022-05-27 23:08:47.147 DBG default: checking
+2022-05-27 23:08:47.147 DBG default: check end
+2022-05-27 23:08:49.147 DBG default: checking
+2022-05-27 23:08:49.147 DBG default: check end
+2022-05-27 23:08:51.147 DBG default: checking
+2022-05-27 23:08:51.148 DBG default: check end
+2022-05-27 23:08:53.148 DBG default: checking
+2022-05-27 23:08:53.149 DBG default: check end
+2022-05-27 23:08:55.150 DBG default: checking
+2022-05-27 23:08:55.150 DBG default: check end
+2022-05-27 23:08:57.151 DBG default: checking
+2022-05-27 23:08:57.152 DBG default: check end
+2022-05-27 23:08:59.153 DBG default: checking
+2022-05-27 23:08:59.154 DBG default: check end
+2022-05-27 23:09:01.154 DBG default: checking
+2022-05-27 23:09:01.155 DBG default: check end
+2022-05-27 23:09:03.156 DBG default: checking
+2022-05-27 23:09:03.157 DBG default: check end
+2022-05-27 23:09:05.158 DBG default: checking
+2022-05-27 23:09:05.158 DBG default: check end
+2022-05-27 23:09:07.159 DBG default: checking
+2022-05-27 23:09:07.159 DBG default: check end
+2022-05-27 23:09:09.162 DBG default: checking
+2022-05-27 23:09:09.162 DBG default: check end
+2022-05-27 23:09:11.162 DBG default: checking
+2022-05-27 23:09:11.163 DBG default: check end
+2022-05-27 23:09:13.163 DBG default: checking
+2022-05-27 23:09:13.163 DBG default: check end
+2022-05-27 23:09:15.163 DBG default: checking
+2022-05-27 23:09:15.163 DBG default: check end
+2022-05-27 23:09:17.164 DBG default: checking
+2022-05-27 23:09:17.165 DBG default: check end
+2022-05-27 23:09:19.166 DBG default: checking
+2022-05-27 23:09:19.166 DBG default: check end
+2022-05-27 23:09:21.167 DBG default: checking
+2022-05-27 23:09:21.168 DBG default: check end
+2022-05-27 23:09:23.168 DBG default: checking
+2022-05-27 23:09:23.168 DBG default: check end
+2022-05-27 23:09:25.169 DBG default: checking
+2022-05-27 23:09:25.169 DBG default: check end
+2022-05-27 23:09:27.170 DBG default: checking
+2022-05-27 23:09:27.170 DBG default: check end
+2022-05-27 23:09:29.171 DBG default: checking
+2022-05-27 23:09:29.172 DBG default: check end
+2022-05-27 23:09:31.173 DBG default: checking
+2022-05-27 23:09:31.173 DBG default: check end
+2022-05-27 23:09:33.174 DBG default: checking
+2022-05-27 23:09:33.174 DBG default: check end
+2022-05-27 23:09:35.174 DBG default: checking
+2022-05-27 23:09:35.174 DBG default: check end
+2022-05-27 23:09:37.175 DBG default: checking
+2022-05-27 23:09:37.175 DBG default: check end
+2022-05-27 23:09:39.176 DBG default: checking
+2022-05-27 23:09:39.177 DBG default: check end
+2022-05-27 23:09:41.177 DBG default: checking
+2022-05-27 23:09:41.177 DBG default: check end
+2022-05-27 23:09:43.178 DBG default: checking
+2022-05-27 23:09:43.178 DBG default: check end
+2022-05-27 23:09:45.179 DBG default: checking
+2022-05-27 23:09:45.179 DBG default: check end
+2022-05-27 23:09:47.179 DBG default: checking
+2022-05-27 23:09:47.179 DBG default: check end
+2022-05-27 23:09:49.180 DBG default: checking
+2022-05-27 23:09:49.181 DBG default: check end
+2022-05-27 23:09:51.181 DBG default: checking
+2022-05-27 23:09:51.182 DBG default: check end
+2022-05-27 23:09:53.182 DBG default: checking
+2022-05-27 23:09:53.183 DBG default: check end
+2022-05-27 23:09:55.184 DBG default: checking
+2022-05-27 23:09:55.184 DBG default: check end
+2022-05-27 23:09:57.185 DBG default: checking
+2022-05-27 23:09:57.185 DBG default: check end
+2022-05-27 23:09:59.186 DBG default: checking
+2022-05-27 23:09:59.187 DBG default: check end
+2022-05-27 23:10:01.187 DBG default: checking
+2022-05-27 23:10:01.188 DBG default: check end
+2022-05-27 23:10:03.188 DBG default: checking
+2022-05-27 23:10:03.189 DBG default: check end
+2022-05-27 23:10:05.190 DBG default: checking
+2022-05-27 23:10:05.190 DBG default: check end
+2022-05-27 23:10:07.191 DBG default: checking
+2022-05-27 23:10:07.191 DBG default: check end
+2022-05-27 23:10:09.192 DBG default: checking
+2022-05-27 23:10:09.193 DBG default: check end
+2022-05-27 23:10:11.194 DBG default: checking
+2022-05-27 23:10:11.194 DBG default: check end
+2022-05-27 23:10:13.194 DBG default: checking
+2022-05-27 23:10:13.195 DBG default: check end
+2022-05-27 23:10:15.195 DBG default: checking
+2022-05-27 23:10:15.196 DBG default: check end
+2022-05-27 23:10:17.196 DBG default: checking
+2022-05-27 23:10:17.196 DBG default: check end
+2022-05-27 23:10:19.197 DBG default: checking
+2022-05-27 23:10:19.197 DBG default: check end
+2022-05-27 23:10:21.197 DBG default: checking
+2022-05-27 23:10:21.197 DBG default: check end
+2022-05-27 23:10:23.198 DBG default: checking
+2022-05-27 23:10:23.198 DBG default: check end
+2022-05-27 23:10:25.199 DBG default: checking
+2022-05-27 23:10:25.199 DBG default: check end
+2022-05-27 23:10:27.200 DBG default: checking
+2022-05-27 23:10:27.200 DBG default: check end
+2022-05-27 23:10:29.201 DBG default: checking
+2022-05-27 23:10:29.202 DBG default: check end
+2022-05-27 23:10:31.208 DBG default: checking
+2022-05-27 23:10:31.209 DBG default: check end
+2022-05-27 23:10:33.210 DBG default: checking
+2022-05-27 23:10:33.210 DBG default: check end
+2022-05-27 23:10:35.210 DBG default: checking
+2022-05-27 23:10:35.211 DBG default: check end
+2022-05-27 23:10:37.211 DBG default: checking
+2022-05-27 23:10:37.211 DBG default: check end
+2022-05-27 23:10:39.212 DBG default: checking
+2022-05-27 23:10:39.212 DBG default: check end
+2022-05-27 23:10:41.212 DBG default: checking
+2022-05-27 23:10:41.212 DBG default: check end
+2022-05-27 23:10:43.213 DBG default: checking
+2022-05-27 23:10:43.213 DBG default: check end
+2022-05-27 23:10:45.213 DBG default: checking
+2022-05-27 23:10:45.214 DBG default: check end
+2022-05-27 23:10:47.214 DBG default: checking
+2022-05-27 23:10:47.214 DBG default: check end
+2022-05-27 23:10:49.215 DBG default: checking
+2022-05-27 23:10:49.216 DBG default: check end
+2022-05-27 23:10:51.216 DBG default: checking
+2022-05-27 23:10:51.216 DBG default: check end
+2022-05-27 23:10:53.216 DBG default: checking
+2022-05-27 23:10:53.216 DBG default: check end
+2022-05-27 23:10:55.217 DBG default: checking
+2022-05-27 23:10:55.217 DBG default: check end
+2022-05-27 23:10:57.217 DBG default: checking
+2022-05-27 23:10:57.218 DBG default: check end
+2022-05-27 23:10:59.218 DBG default: checking
+2022-05-27 23:10:59.218 DBG default: check end
+2022-05-27 23:11:01.219 DBG default: checking
+2022-05-27 23:11:01.219 DBG default: check end
+2022-05-27 23:11:03.220 DBG default: checking
+2022-05-27 23:11:03.220 DBG default: check end
+2022-05-27 23:11:05.220 DBG default: checking
+2022-05-27 23:11:05.221 DBG default: check end
+2022-05-27 23:11:07.221 DBG default: checking
+2022-05-27 23:11:07.221 DBG default: check end
+2022-05-27 23:11:09.222 DBG default: checking
+2022-05-27 23:11:09.222 DBG default: check end
+2022-05-27 23:11:11.222 DBG default: checking
+2022-05-27 23:11:11.223 DBG default: check end
+2022-05-27 23:11:13.223 DBG default: checking
+2022-05-27 23:11:13.223 DBG default: check end
+2022-05-27 23:11:15.224 DBG default: checking
+2022-05-27 23:11:15.224 DBG default: check end
+2022-05-27 23:11:17.225 DBG default: checking
+2022-05-27 23:11:17.225 DBG default: check end
+2022-05-27 23:11:19.226 DBG default: checking
+2022-05-27 23:11:19.227 DBG default: check end
+2022-05-27 23:11:21.227 DBG default: checking
+2022-05-27 23:11:21.227 DBG default: check end
+2022-05-27 23:11:23.228 DBG default: checking
+2022-05-27 23:11:23.228 DBG default: check end
+2022-05-27 23:11:25.228 DBG default: checking
+2022-05-27 23:11:25.228 DBG default: check end
+2022-05-27 23:11:27.229 DBG default: checking
+2022-05-27 23:11:27.229 DBG default: check end
+2022-05-27 23:11:29.229 DBG default: checking
+2022-05-27 23:11:29.229 DBG default: check end
+2022-05-27 23:11:31.229 DBG default: checking
+2022-05-27 23:11:31.230 DBG default: check end
+2022-05-27 23:11:33.230 DBG default: checking
+2022-05-27 23:11:33.230 DBG default: check end
+2022-05-27 23:11:35.230 DBG default: checking
+2022-05-27 23:11:35.230 DBG default: check end
+2022-05-27 23:11:37.231 DBG default: checking
+2022-05-27 23:11:37.231 DBG default: check end
+2022-05-27 23:11:39.231 DBG default: checking
+2022-05-27 23:11:39.232 DBG default: check end
+2022-05-27 23:11:41.232 DBG default: checking
+2022-05-27 23:11:41.233 DBG default: check end
+2022-05-27 23:11:43.233 DBG default: checking
+2022-05-27 23:11:43.233 DBG default: check end
+2022-05-27 23:11:45.233 DBG default: checking
+2022-05-27 23:11:45.233 DBG default: check end
+2022-05-27 23:11:47.234 DBG default: checking
+2022-05-27 23:11:47.234 DBG default: check end
+2022-05-27 23:11:49.234 DBG default: checking
+2022-05-27 23:11:49.235 DBG default: check end
+2022-05-27 23:11:51.235 DBG default: checking
+2022-05-27 23:11:51.235 DBG default: check end
+2022-05-27 23:11:53.236 DBG default: checking
+2022-05-27 23:11:53.236 DBG default: check end
+2022-05-27 23:11:55.236 DBG default: checking
+2022-05-27 23:11:55.236 DBG default: check end
+2022-05-27 23:11:57.237 DBG default: checking
+2022-05-27 23:11:57.237 DBG default: check end
+2022-05-27 23:11:59.237 DBG default: checking
+2022-05-27 23:11:59.237 DBG default: check end
+2022-05-27 23:12:01.238 DBG default: checking
+2022-05-27 23:12:01.238 DBG default: check end
+2022-05-27 23:12:03.239 DBG default: checking
+2022-05-27 23:12:03.240 DBG default: check end
+2022-05-27 23:12:05.241 DBG default: checking
+2022-05-27 23:12:05.241 DBG default: check end
+2022-05-27 23:12:07.242 DBG default: checking
+2022-05-27 23:12:07.242 DBG default: check end
+2022-05-27 23:12:09.243 DBG default: checking
+2022-05-27 23:12:09.244 DBG default: check end
+2022-05-27 23:12:11.245 DBG default: checking
+2022-05-27 23:12:11.245 DBG default: check end
+2022-05-27 23:12:13.247 DBG default: checking
+2022-05-27 23:12:13.247 DBG default: check end
+2022-05-27 23:12:15.248 DBG default: checking
+2022-05-27 23:12:15.248 DBG default: check end
+2022-05-27 23:12:17.249 DBG default: checking
+2022-05-27 23:12:17.249 DBG default: check end
+2022-05-27 23:12:19.250 DBG default: checking
+2022-05-27 23:12:19.251 DBG default: check end
+2022-05-27 23:12:21.252 DBG default: checking
+2022-05-27 23:12:21.254 DBG default: check end
+2022-05-27 23:12:23.255 DBG default: checking
+2022-05-27 23:12:23.255 DBG default: check end
+2022-05-27 23:12:25.256 DBG default: checking
+2022-05-27 23:12:25.256 DBG default: check end
+2022-05-27 23:12:27.257 DBG default: checking
+2022-05-27 23:12:27.257 DBG default: check end
+2022-05-27 23:12:29.258 DBG default: checking
+2022-05-27 23:12:29.258 DBG default: check end
+2022-05-27 23:12:31.260 DBG default: checking
+2022-05-27 23:12:31.261 DBG default: check end
+2022-05-27 23:12:33.262 DBG default: checking
+2022-05-27 23:12:33.262 DBG default: check end
+2022-05-27 23:12:35.263 DBG default: checking
+2022-05-27 23:12:35.264 DBG default: check end
+2022-05-27 23:12:37.265 DBG default: checking
+2022-05-27 23:12:37.265 DBG default: check end
+2022-05-27 23:12:39.266 DBG default: checking
+2022-05-27 23:12:39.268 DBG default: check end
+2022-05-27 23:12:41.268 DBG default: checking
+2022-05-27 23:12:41.269 DBG default: check end
+2022-05-27 23:12:43.270 DBG default: checking
+2022-05-27 23:12:43.272 DBG default: check end
+2022-05-27 23:12:45.273 DBG default: checking
+2022-05-27 23:12:45.275 DBG default: check end
+2022-05-27 23:12:47.275 DBG default: checking
+2022-05-27 23:12:47.276 DBG default: check end
+2022-05-27 23:12:49.277 DBG default: checking
+2022-05-27 23:12:49.278 DBG default: check end
+2022-05-27 23:12:51.280 DBG default: checking
+2022-05-27 23:12:51.283 DBG default: check end
+2022-05-27 23:12:53.283 DBG default: checking
+2022-05-27 23:12:53.284 DBG default: check end
+2022-05-27 23:12:55.286 DBG default: checking
+2022-05-27 23:12:55.287 DBG default: check end
+2022-05-27 23:12:57.289 DBG default: checking
+2022-05-27 23:12:57.289 DBG default: check end
+2022-05-27 23:12:59.290 DBG default: checking
+2022-05-27 23:12:59.290 DBG default: check end
+2022-05-27 23:13:01.291 DBG default: checking
+2022-05-27 23:13:01.293 DBG default: check end
+2022-05-27 23:13:03.294 DBG default: checking
+2022-05-27 23:13:03.294 DBG default: check end
+2022-05-27 23:13:05.294 DBG default: checking
+2022-05-27 23:13:05.296 DBG default: check end
+2022-05-27 23:13:07.298 DBG default: checking
+2022-05-27 23:13:07.299 DBG default: check end
+2022-05-27 23:13:09.302 DBG default: checking
+2022-05-27 23:13:09.303 DBG default: check end
+2022-05-27 23:13:11.313 DBG default: checking
+2022-05-27 23:13:11.316 DBG default: check end
+2022-05-27 23:13:13.317 DBG default: checking
+2022-05-27 23:13:13.318 DBG default: check end
+2022-05-27 23:13:15.319 DBG default: checking
+2022-05-27 23:13:15.321 DBG default: check end
+2022-05-27 23:13:17.322 DBG default: checking
+2022-05-27 23:13:17.323 DBG default: check end
+2022-05-27 23:13:19.325 DBG default: checking
+2022-05-27 23:13:19.325 DBG default: check end
+2022-05-27 23:13:21.326 DBG default: checking
+2022-05-27 23:13:21.328 DBG default: check end
+2022-05-27 23:13:23.331 DBG default: checking
+2022-05-27 23:13:23.334 DBG default: check end
+2022-05-27 23:13:25.336 DBG default: checking
+2022-05-27 23:13:25.337 DBG default: check end
+2022-05-27 23:13:27.340 DBG default: checking
+2022-05-27 23:13:27.341 DBG default: check end
+2022-05-27 23:13:29.343 DBG default: checking
+2022-05-27 23:13:29.344 DBG default: check end
+2022-05-27 23:13:31.345 DBG default: checking
+2022-05-27 23:13:31.347 DBG default: check end
+2022-05-27 23:13:33.349 DBG default: checking
+2022-05-27 23:13:33.350 DBG default: check end
+2022-05-27 23:13:35.351 DBG default: checking
+2022-05-27 23:13:35.352 DBG default: check end
+2022-05-27 23:13:37.354 DBG default: checking
+2022-05-27 23:13:37.355 DBG default: check end
+2022-05-27 23:13:39.357 DBG default: checking
+2022-05-27 23:13:39.358 DBG default: check end
+2022-05-27 23:13:41.359 DBG default: checking
+2022-05-27 23:13:41.365 DBG default: check end
+2022-05-27 23:13:43.367 DBG default: checking
+2022-05-27 23:13:43.368 DBG default: check end
+2022-05-27 23:13:45.370 DBG default: checking
+2022-05-27 23:13:45.372 DBG default: check end
+2022-05-27 23:13:47.376 DBG default: checking
+2022-05-27 23:13:47.376 DBG default: check end
+2022-05-27 23:13:49.377 DBG default: checking
+2022-05-27 23:13:49.378 DBG default: check end
+2022-05-27 23:13:51.378 DBG default: checking
+2022-05-27 23:13:51.379 DBG default: check end
+2022-05-27 23:13:53.380 DBG default: checking
+2022-05-27 23:13:53.380 DBG default: check end
+2022-05-27 23:13:55.382 DBG default: checking
+2022-05-27 23:13:55.385 DBG default: check end
+2022-05-27 23:13:57.387 DBG default: checking
+2022-05-27 23:13:57.387 DBG default: check end
+2022-05-27 23:13:59.388 DBG default: checking
+2022-05-27 23:13:59.388 DBG default: check end
+2022-05-27 23:14:01.389 DBG default: checking
+2022-05-27 23:14:01.389 DBG default: check end
+2022-05-27 23:14:03.389 DBG default: checking
+2022-05-27 23:14:03.391 DBG default: check end
+2022-05-27 23:14:05.391 DBG default: checking
+2022-05-27 23:14:05.392 DBG default: check end
+2022-05-27 23:14:07.393 DBG default: checking
+2022-05-27 23:14:07.394 DBG default: check end
+2022-05-27 23:14:09.394 DBG default: checking
+2022-05-27 23:14:09.394 DBG default: check end
+2022-05-27 23:14:11.395 DBG default: checking
+2022-05-27 23:14:11.397 DBG default: check end
+2022-05-27 23:14:13.399 DBG default: checking
+2022-05-27 23:14:13.400 DBG default: check end
+2022-05-27 23:14:15.402 DBG default: checking
+2022-05-27 23:14:15.402 DBG default: check end
+2022-05-27 23:14:17.403 DBG default: checking
+2022-05-27 23:14:17.404 DBG default: check end
+2022-05-27 23:14:19.407 DBG default: checking
+2022-05-27 23:14:19.409 DBG default: check end
+2022-05-27 23:14:21.409 DBG default: checking
+2022-05-27 23:14:21.410 DBG default: check end
+2022-05-27 23:14:23.411 DBG default: checking
+2022-05-27 23:14:23.412 DBG default: check end
+2022-05-27 23:14:25.414 DBG default: checking
+2022-05-27 23:14:25.415 DBG default: check end
+2022-05-27 23:14:27.417 DBG default: checking
+2022-05-27 23:14:27.417 DBG default: check end
+2022-05-27 23:14:29.419 DBG default: checking
+2022-05-27 23:14:29.421 DBG default: check end
+2022-05-27 23:14:31.423 DBG default: checking
+2022-05-27 23:14:31.425 DBG default: check end
+2022-05-27 23:14:33.425 DBG default: checking
+2022-05-27 23:14:33.425 DBG default: check end
+2022-05-27 23:14:35.426 DBG default: checking
+2022-05-27 23:14:35.427 DBG default: check end
+2022-05-27 23:14:37.429 DBG default: checking
+2022-05-27 23:14:37.430 DBG default: check end
+2022-05-27 23:14:39.431 DBG default: checking
+2022-05-27 23:14:39.432 DBG default: check end
+2022-05-27 23:14:41.433 DBG default: checking
+2022-05-27 23:14:41.434 DBG default: check end
+2022-05-27 23:14:43.435 DBG default: checking
+2022-05-27 23:14:43.437 DBG default: check end
+2022-05-27 23:14:45.441 DBG default: checking
+2022-05-27 23:14:45.441 DBG default: check end
+2022-05-27 23:14:47.442 DBG default: checking
+2022-05-27 23:14:47.447 DBG default: check end
+2022-05-27 23:14:49.451 DBG default: checking
+2022-05-27 23:14:49.453 DBG default: check end
+2022-05-27 23:14:51.453 DBG default: checking
+2022-05-27 23:14:51.454 DBG default: check end
+2022-05-27 23:14:53.457 DBG default: checking
+2022-05-27 23:14:53.458 DBG default: check end
+2022-05-27 23:14:55.459 DBG default: checking
+2022-05-27 23:14:55.460 DBG default: check end
+2022-05-27 23:14:57.461 DBG default: checking
+2022-05-27 23:14:57.461 DBG default: check end
+2022-05-27 23:14:59.463 DBG default: checking
+2022-05-27 23:14:59.465 DBG default: check end
+2022-05-27 23:15:01.466 DBG default: checking
+2022-05-27 23:15:01.467 DBG default: check end
+2022-05-27 23:15:03.469 DBG default: checking
+2022-05-27 23:15:03.469 DBG default: check end
+2022-05-27 23:15:05.470 DBG default: checking
+2022-05-27 23:15:05.470 DBG default: check end
+2022-05-27 23:15:07.471 DBG default: checking
+2022-05-27 23:15:07.473 DBG default: check end
+2022-05-27 23:15:09.476 DBG default: checking
+2022-05-27 23:15:09.477 DBG default: check end
+2022-05-27 23:15:11.478 DBG default: checking
+2022-05-27 23:15:11.478 DBG default: check end
+2022-05-27 23:15:13.478 DBG default: checking
+2022-05-27 23:15:13.479 DBG default: check end
+2022-05-27 23:15:15.480 DBG default: checking
+2022-05-27 23:15:15.481 DBG default: check end
+2022-05-27 23:15:17.482 DBG default: checking
+2022-05-27 23:15:17.484 DBG default: check end
+2022-05-27 23:15:19.486 DBG default: checking
+2022-05-27 23:15:19.487 DBG default: check end
+2022-05-27 23:15:21.489 DBG default: checking
+2022-05-27 23:15:21.490 DBG default: check end
+2022-05-27 23:15:23.491 DBG default: checking
+2022-05-27 23:15:23.494 DBG default: check end
+2022-05-27 23:15:25.496 DBG default: checking
+2022-05-27 23:15:25.497 DBG default: check end
+2022-05-27 23:15:27.499 DBG default: checking
+2022-05-27 23:15:27.501 DBG default: check end
+2022-05-27 23:15:29.501 DBG default: checking
+2022-05-27 23:15:29.502 DBG default: check end
+2022-05-27 23:15:31.502 DBG default: checking
+2022-05-27 23:15:31.503 DBG default: check end
+2022-05-27 23:15:33.505 DBG default: checking
+2022-05-27 23:15:33.506 DBG default: check end
+2022-05-27 23:15:35.508 DBG default: checking
+2022-05-27 23:15:35.510 DBG default: check end
+2022-05-27 23:15:37.511 DBG default: checking
+2022-05-27 23:15:37.511 DBG default: check end
+2022-05-27 23:15:39.512 DBG default: checking
+2022-05-27 23:15:39.512 DBG default: check end
+2022-05-27 23:15:41.513 DBG default: checking
+2022-05-27 23:15:41.514 DBG default: check end
+2022-05-27 23:15:43.514 DBG default: checking
+2022-05-27 23:15:43.515 DBG default: check end
+2022-05-27 23:15:45.517 DBG default: checking
+2022-05-27 23:15:45.520 DBG default: check end
+2022-05-27 23:15:47.521 DBG default: checking
+2022-05-27 23:15:47.521 DBG default: check end
+2022-05-27 23:15:49.523 DBG default: checking
+2022-05-27 23:15:49.525 DBG default: check end
+2022-05-27 23:15:51.526 DBG default: checking
+2022-05-27 23:15:51.526 DBG default: check end
+2022-05-27 23:15:53.527 DBG default: checking
+2022-05-27 23:15:53.527 DBG default: check end
+2022-05-27 23:15:55.528 DBG default: checking
+2022-05-27 23:15:55.529 DBG default: check end
+2022-05-27 23:15:57.529 DBG default: checking
+2022-05-27 23:15:57.529 DBG default: check end
+2022-05-27 23:15:59.530 DBG default: checking
+2022-05-27 23:15:59.531 DBG default: check end
+2022-05-27 23:16:01.532 DBG default: checking
+2022-05-27 23:16:01.533 DBG default: check end
+2022-05-27 23:16:03.535 DBG default: checking
+2022-05-27 23:16:03.536 DBG default: check end
+2022-05-27 23:16:05.538 DBG default: checking
+2022-05-27 23:16:05.538 DBG default: check end
+2022-05-27 23:16:07.539 DBG default: checking
+2022-05-27 23:16:07.540 DBG default: check end
+2022-05-27 23:16:09.541 DBG default: checking
+2022-05-27 23:16:09.541 DBG default: check end
+2022-05-27 23:16:11.542 DBG default: checking
+2022-05-27 23:16:11.543 DBG default: check end
+2022-05-27 23:16:13.544 DBG default: checking
+2022-05-27 23:16:13.545 DBG default: check end
+2022-05-27 23:16:15.546 DBG default: checking
+2022-05-27 23:16:15.547 DBG default: check end
+2022-05-27 23:16:17.549 DBG default: checking
+2022-05-27 23:16:17.550 DBG default: check end
+2022-05-27 23:16:19.553 DBG default: checking
+2022-05-27 23:16:19.554 DBG default: check end
+2022-05-27 23:16:21.555 DBG default: checking
+2022-05-27 23:16:21.557 DBG default: check end
+2022-05-27 23:16:23.558 DBG default: checking
+2022-05-27 23:16:23.558 DBG default: check end
+2022-05-27 23:16:25.559 DBG default: checking
+2022-05-27 23:16:25.560 DBG default: check end
+2022-05-27 23:16:27.562 DBG default: checking
+2022-05-27 23:16:27.563 DBG default: check end
+2022-05-27 23:16:29.565 DBG default: checking
+2022-05-27 23:16:29.566 DBG default: check end
+2022-05-27 23:16:31.566 DBG default: checking
+2022-05-27 23:16:31.567 DBG default: check end
+2022-05-27 23:16:32.674 DBG default: conn: Closing !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2022-05-27 23:16:33.567 DBG default: checking
+2022-05-27 23:16:33.570 DBG default: trying connect
+2022-05-27 23:16:33.576 DBG default: start connecting
+2022-05-27 23:16:33.576 DBG default: 127.0.0.1
+2022-05-27 23:16:33.577 DBG default: failed to connect
+2022-05-27 23:16:33.577 DBG default: check end
+2022-05-27 23:16:35.581 DBG default: checking
+2022-05-27 23:16:35.582 DBG default: trying connect
+2022-05-27 23:16:35.582 DBG default: start connecting
+2022-05-27 23:16:35.583 DBG default: 127.0.0.1
+2022-05-27 23:16:35.584 DBG default: failed to connect
+2022-05-27 23:16:35.585 DBG default: check end
+2022-05-27 23:16:37.586 DBG default: checking
+2022-05-27 23:16:37.588 DBG default: trying connect
+2022-05-27 23:16:37.589 DBG default: start connecting
+2022-05-27 23:16:37.590 DBG default: 127.0.0.1
+2022-05-27 23:16:37.591 DBG default: failed to connect
+2022-05-27 23:16:37.591 DBG default: check end
+2022-05-27 23:16:39.593 DBG default: checking
+2022-05-27 23:16:39.593 DBG default: trying connect
+2022-05-27 23:16:39.594 DBG default: start connecting
+2022-05-27 23:16:39.594 DBG default: 127.0.0.1
+2022-05-27 23:16:39.595 DBG default: failed to connect
+2022-05-27 23:16:39.596 DBG default: check end
+2022-05-27 23:16:41.597 DBG default: checking
+2022-05-27 23:16:41.599 DBG default: trying connect
+2022-05-27 23:16:41.600 DBG default: start connecting
+2022-05-27 23:16:41.601 DBG default: 127.0.0.1
+2022-05-27 23:16:41.603 DBG default: failed to connect
+2022-05-27 23:16:41.604 DBG default: check end
+2022-05-27 23:16:43.605 DBG default: checking
+2022-05-27 23:16:43.605 DBG default: trying connect
+2022-05-27 23:16:43.605 DBG default: start connecting
+2022-05-27 23:16:43.605 DBG default: 127.0.0.1
+2022-05-27 23:16:43.605 DBG default: failed to connect
+2022-05-27 23:16:43.605 DBG default: check end
+2022-05-27 23:16:45.606 DBG default: checking
+2022-05-27 23:16:45.607 DBG default: trying connect
+2022-05-27 23:16:45.608 DBG default: start connecting
+2022-05-27 23:16:45.609 DBG default: 127.0.0.1
+2022-05-27 23:16:45.610 DBG default: failed to connect
+2022-05-27 23:16:45.610 DBG default: check end
+2022-05-27 23:16:47.611 DBG default: checking
+2022-05-27 23:16:47.613 DBG default: trying connect
+2022-05-27 23:16:47.614 DBG default: start connecting
+2022-05-27 23:16:47.615 DBG default: 127.0.0.1
+2022-05-27 23:16:47.617 DBG default: failed to connect
+2022-05-27 23:16:47.617 DBG default: check end
+2022-05-27 23:16:49.618 DBG default: checking
+2022-05-27 23:16:49.619 DBG default: trying connect
+2022-05-27 23:16:49.620 DBG default: start connecting
+2022-05-27 23:16:49.621 DBG default: 127.0.0.1
+2022-05-27 23:16:49.622 DBG default: failed to connect
+2022-05-27 23:16:49.622 DBG default: check end
+2022-05-27 23:16:51.624 DBG default: checking
+2022-05-27 23:16:51.625 DBG default: trying connect
+2022-05-27 23:16:51.626 DBG default: start connecting
+2022-05-27 23:16:51.628 DBG default: 127.0.0.1
+2022-05-27 23:16:51.629 DBG default: failed to connect
+2022-05-27 23:16:51.630 DBG default: check end
+2022-05-27 23:16:53.631 DBG default: checking
+2022-05-27 23:16:53.632 DBG default: trying connect
+2022-05-27 23:16:53.633 DBG default: start connecting
+2022-05-27 23:16:53.634 DBG default: 127.0.0.1
+2022-05-27 23:16:53.637 DBG default: failed to connect
+2022-05-27 23:16:53.637 DBG default: check end
+2022-05-27 23:16:55.638 DBG default: checking
+2022-05-27 23:16:55.640 DBG default: trying connect
+2022-05-27 23:16:55.641 DBG default: start connecting
+2022-05-27 23:16:55.642 DBG default: 127.0.0.1
+2022-05-27 23:16:55.645 DBG default: failed to connect
+2022-05-27 23:16:55.645 DBG default: check end
+2022-05-27 23:16:57.646 DBG default: checking
+2022-05-27 23:16:57.648 DBG default: trying connect
+2022-05-27 23:16:57.649 DBG default: start connecting
+2022-05-27 23:16:57.650 DBG default: 127.0.0.1
+2022-05-27 23:16:57.651 DBG default: failed to connect
+2022-05-27 23:16:57.652 DBG default: check end
+2022-05-27 23:16:59.654 DBG default: checking
+2022-05-27 23:16:59.654 DBG default: trying connect
+2022-05-27 23:16:59.655 DBG default: start connecting
+2022-05-27 23:16:59.655 DBG default: 127.0.0.1
+2022-05-27 23:16:59.657 DBG default: failed to connect
+2022-05-27 23:16:59.661 DBG default: check end
+2022-05-27 23:17:01.662 DBG default: checking
+2022-05-27 23:17:01.663 DBG default: trying connect
+2022-05-27 23:17:01.663 DBG default: start connecting
+2022-05-27 23:17:01.663 DBG default: 127.0.0.1
+2022-05-27 23:17:01.665 DBG default: failed to connect
+2022-05-27 23:17:01.665 DBG default: check end
+2022-05-27 23:17:03.666 DBG default: checking
+2022-05-27 23:17:03.667 DBG default: trying connect
+2022-05-27 23:17:03.667 DBG default: start connecting
+2022-05-27 23:17:03.668 DBG default: 127.0.0.1
+2022-05-27 23:17:03.668 DBG default: failed to connect
+2022-05-27 23:17:03.669 DBG default: check end
+2022-05-27 23:17:05.672 DBG default: checking
+2022-05-27 23:17:05.673 DBG default: trying connect
+2022-05-27 23:17:05.673 DBG default: start connecting
+2022-05-27 23:17:05.674 DBG default: 127.0.0.1
+2022-05-27 23:17:05.674 DBG default: failed to connect
+2022-05-27 23:17:05.675 DBG default: check end
+2022-05-27 23:17:07.675 DBG default: checking
+2022-05-27 23:17:07.675 DBG default: trying connect
+2022-05-27 23:17:07.676 DBG default: start connecting
+2022-05-27 23:17:07.676 DBG default: 127.0.0.1
+2022-05-27 23:17:07.676 DBG default: failed to connect
+2022-05-27 23:17:07.676 DBG default: check end
+2022-05-27 23:17:09.677 DBG default: checking
+2022-05-27 23:17:09.678 DBG default: trying connect
+2022-05-27 23:17:09.678 DBG default: start connecting
+2022-05-27 23:17:09.679 DBG default: 127.0.0.1
+2022-05-27 23:17:09.679 DBG default: failed to connect
+2022-05-27 23:17:09.680 DBG default: check end
+2022-05-27 23:17:11.681 DBG default: checking
+2022-05-27 23:17:11.682 DBG default: trying connect
+2022-05-27 23:17:11.683 DBG default: start connecting
+2022-05-27 23:17:11.684 DBG default: 127.0.0.1
+2022-05-27 23:17:11.685 DBG default: failed to connect
+2022-05-27 23:17:11.686 DBG default: check end
+2022-05-27 23:17:13.687 DBG default: checking
+2022-05-27 23:17:13.690 DBG default: trying connect
+2022-05-27 23:17:13.691 DBG default: start connecting
+2022-05-27 23:17:13.692 DBG default: 127.0.0.1
+2022-05-27 23:17:13.693 DBG default: failed to connect
+2022-05-27 23:17:13.693 DBG default: check end
+2022-05-27 23:17:15.694 DBG default: checking
+2022-05-27 23:17:15.694 DBG default: trying connect
+2022-05-27 23:17:15.694 DBG default: start connecting
+2022-05-27 23:17:15.694 DBG default: 127.0.0.1
+2022-05-27 23:17:15.694 DBG default: failed to connect
+2022-05-27 23:17:15.695 DBG default: check end
+2022-05-27 23:17:17.695 DBG default: checking
+2022-05-27 23:17:17.697 DBG default: trying connect
+2022-05-27 23:17:17.698 DBG default: start connecting
+2022-05-27 23:17:17.700 DBG default: 127.0.0.1
+2022-05-27 23:17:17.701 DBG default: failed to connect
+2022-05-27 23:17:17.701 DBG default: check end
+2022-05-27 23:17:19.702 DBG default: checking
+2022-05-27 23:17:19.702 DBG default: trying connect
+2022-05-27 23:17:19.702 DBG default: start connecting
+2022-05-27 23:17:19.702 DBG default: 127.0.0.1
+2022-05-27 23:17:19.702 DBG default: failed to connect
+2022-05-27 23:17:19.703 DBG default: check end
+2022-05-27 23:17:21.703 DBG default: checking
+2022-05-27 23:17:21.705 DBG default: trying connect
+2022-05-27 23:17:21.706 DBG default: start connecting
+2022-05-27 23:17:21.708 DBG default: 127.0.0.1
+2022-05-27 23:17:21.709 DBG default: failed to connect
+2022-05-27 23:17:21.710 DBG default: check end
+2022-05-27 23:17:23.711 DBG default: checking
+2022-05-27 23:17:23.711 DBG default: trying connect
+2022-05-27 23:17:23.712 DBG default: start connecting
+2022-05-27 23:17:23.712 DBG default: 127.0.0.1
+2022-05-27 23:17:23.714 DBG default: failed to connect
+2022-05-27 23:17:23.715 DBG default: check end
+2022-05-27 23:17:25.717 DBG default: checking
+2022-05-27 23:17:25.718 DBG default: trying connect
+2022-05-27 23:17:25.719 DBG default: start connecting
+2022-05-27 23:17:25.720 DBG default: 127.0.0.1
+2022-05-27 23:17:25.721 DBG default: failed to connect
+2022-05-27 23:17:25.721 DBG default: check end
+2022-05-27 23:17:27.722 DBG default: checking
+2022-05-27 23:17:27.724 DBG default: trying connect
+2022-05-27 23:17:27.725 DBG default: start connecting
+2022-05-27 23:17:27.726 DBG default: 127.0.0.1
+2022-05-27 23:17:27.729 DBG default: failed to connect
+2022-05-27 23:17:27.729 DBG default: check end
+2022-05-27 23:17:29.730 DBG default: checking
+2022-05-27 23:17:29.731 DBG default: trying connect
+2022-05-27 23:17:29.731 DBG default: start connecting
+2022-05-27 23:17:29.732 DBG default: 127.0.0.1
+2022-05-27 23:17:29.733 DBG default: failed to connect
+2022-05-27 23:17:29.736 DBG default: check end
+2022-05-27 23:17:31.737 DBG default: checking
+2022-05-27 23:17:31.738 DBG default: trying connect
+2022-05-27 23:17:31.738 DBG default: start connecting
+2022-05-27 23:17:31.739 DBG default: 127.0.0.1
+2022-05-27 23:17:31.739 DBG default: failed to connect
+2022-05-27 23:17:31.739 DBG default: check end
+2022-05-27 23:17:33.740 DBG default: checking
+2022-05-27 23:17:33.742 DBG default: trying connect
+2022-05-27 23:17:33.743 DBG default: start connecting
+2022-05-27 23:17:33.744 DBG default: 127.0.0.1
+2022-05-27 23:17:33.750 DBG default: failed to connect
+2022-05-27 23:17:33.750 DBG default: check end
+2022-05-27 23:17:35.753 DBG default: checking
+2022-05-27 23:17:35.753 DBG default: trying connect
+2022-05-27 23:17:35.754 DBG default: start connecting
+2022-05-27 23:17:35.754 DBG default: 127.0.0.1
+2022-05-27 23:17:35.755 DBG default: failed to connect
+2022-05-27 23:17:35.756 DBG default: check end
+2022-05-27 23:17:37.757 DBG default: checking
+2022-05-27 23:17:37.758 DBG default: trying connect
+2022-05-27 23:17:37.759 DBG default: start connecting
+2022-05-27 23:17:37.761 DBG default: 127.0.0.1
+2022-05-27 23:17:37.762 DBG default: failed to connect
+2022-05-27 23:17:37.762 DBG default: check end
+2022-05-27 23:17:39.763 DBG default: checking
+2022-05-27 23:17:39.763 DBG default: trying connect
+2022-05-27 23:17:39.763 DBG default: start connecting
+2022-05-27 23:17:39.763 DBG default: 127.0.0.1
+2022-05-27 23:17:39.763 DBG default: failed to connect
+2022-05-27 23:17:39.763 DBG default: check end
+2022-05-27 23:17:41.764 DBG default: checking
+2022-05-27 23:17:41.764 DBG default: trying connect
+2022-05-27 23:17:41.764 DBG default: start connecting
+2022-05-27 23:17:41.764 DBG default: 127.0.0.1
+2022-05-27 23:17:41.765 DBG default: failed to connect
+2022-05-27 23:17:41.765 DBG default: check end
+2022-05-27 23:17:43.765 DBG default: checking
+2022-05-27 23:17:43.765 DBG default: trying connect
+2022-05-27 23:17:43.766 DBG default: start connecting
+2022-05-27 23:17:43.768 DBG default: 127.0.0.1
+2022-05-27 23:17:43.769 DBG default: failed to connect
+2022-05-27 23:17:43.769 DBG default: check end
+2022-05-27 23:17:45.770 DBG default: checking
+2022-05-27 23:17:45.772 DBG default: trying connect
+2022-05-27 23:17:45.772 DBG default: start connecting
+2022-05-27 23:17:45.773 DBG default: 127.0.0.1
+2022-05-27 23:17:45.774 DBG default: failed to connect
+2022-05-27 23:17:45.775 DBG default: check end
+2022-05-27 23:17:47.776 DBG default: checking
+2022-05-27 23:17:47.777 DBG default: trying connect
+2022-05-27 23:17:47.777 DBG default: start connecting
+2022-05-27 23:17:47.778 DBG default: 127.0.0.1
+2022-05-27 23:17:47.779 DBG default: failed to connect
+2022-05-27 23:17:47.780 DBG default: check end
+2022-05-27 23:17:49.781 DBG default: checking
+2022-05-27 23:17:49.781 DBG default: trying connect
+2022-05-27 23:17:49.782 DBG default: start connecting
+2022-05-27 23:17:49.782 DBG default: 127.0.0.1
+2022-05-27 23:17:49.783 DBG default: failed to connect
+2022-05-27 23:17:49.783 DBG default: check end
+2022-05-27 23:17:51.784 DBG default: checking
+2022-05-27 23:17:51.786 DBG default: trying connect
+2022-05-27 23:17:51.795 DBG default: start connecting
+2022-05-27 23:17:51.795 DBG default: 127.0.0.1
+2022-05-27 23:17:51.795 DBG default: failed to connect
+2022-05-27 23:17:51.795 DBG default: check end
+2022-05-27 23:17:53.796 DBG default: checking
+2022-05-27 23:17:53.798 DBG default: trying connect
+2022-05-27 23:17:53.799 DBG default: start connecting
+2022-05-27 23:17:53.800 DBG default: 127.0.0.1
+2022-05-27 23:17:53.801 DBG default: failed to connect
+2022-05-27 23:17:53.802 DBG default: check end
+2022-05-27 23:17:55.802 DBG default: checking
+2022-05-27 23:17:55.803 DBG default: trying connect
+2022-05-27 23:17:55.804 DBG default: start connecting
+2022-05-27 23:17:55.805 DBG default: 127.0.0.1
+2022-05-27 23:17:55.805 DBG default: failed to connect
+2022-05-27 23:17:55.805 DBG default: check end
+2022-05-27 23:17:57.805 DBG default: checking
+2022-05-27 23:17:57.810 DBG default: trying connect
+2022-05-27 23:17:57.810 DBG default: start connecting
+2022-05-27 23:17:57.810 DBG default: 127.0.0.1
+2022-05-27 23:17:57.810 DBG default: failed to connect
+2022-05-27 23:17:57.810 DBG default: check end
+2022-05-27 23:17:59.811 DBG default: checking
+2022-05-27 23:17:59.811 DBG default: trying connect
+2022-05-27 23:17:59.812 DBG default: start connecting
+2022-05-27 23:17:59.813 DBG default: 127.0.0.1
+2022-05-27 23:17:59.813 DBG default: failed to connect
+2022-05-27 23:17:59.814 DBG default: check end
+2022-05-27 23:18:01.815 DBG default: checking
+2022-05-27 23:18:01.816 DBG default: trying connect
+2022-05-27 23:18:01.817 DBG default: start connecting
+2022-05-27 23:18:01.818 DBG default: 127.0.0.1
+2022-05-27 23:18:01.820 DBG default: failed to connect
+2022-05-27 23:18:01.821 DBG default: check end
+2022-05-27 23:18:03.822 DBG default: checking
+2022-05-27 23:18:03.822 DBG default: trying connect
+2022-05-27 23:18:03.822 DBG default: start connecting
+2022-05-27 23:18:03.822 DBG default: 127.0.0.1
+2022-05-27 23:18:03.822 DBG default: failed to connect
+2022-05-27 23:18:03.823 DBG default: check end
+2022-05-27 23:18:05.824 DBG default: checking
+2022-05-27 23:18:05.826 DBG default: trying connect
+2022-05-27 23:18:05.827 DBG default: start connecting
+2022-05-27 23:18:05.828 DBG default: 127.0.0.1
+2022-05-27 23:18:05.829 DBG default: failed to connect
+2022-05-27 23:18:05.830 DBG default: check end
+2022-05-27 23:18:07.831 DBG default: checking
+2022-05-27 23:18:07.831 DBG default: trying connect
+2022-05-27 23:18:07.832 DBG default: start connecting
+2022-05-27 23:18:07.832 DBG default: 127.0.0.1
+2022-05-27 23:18:07.833 DBG default: failed to connect
+2022-05-27 23:18:07.833 DBG default: check end
+2022-05-27 23:18:09.834 DBG default: checking
+2022-05-27 23:18:09.835 DBG default: trying connect
+2022-05-27 23:18:09.840 DBG default: start connecting
+2022-05-27 23:18:09.841 DBG default: 127.0.0.1
+2022-05-27 23:18:09.841 DBG default: failed to connect
+2022-05-27 23:18:09.841 DBG default: check end
+2022-05-27 23:18:11.842 DBG default: checking
+2022-05-27 23:18:11.842 DBG default: trying connect
+2022-05-27 23:18:11.842 DBG default: start connecting
+2022-05-27 23:18:11.842 DBG default: 127.0.0.1
+2022-05-27 23:18:11.843 DBG default: failed to connect
+2022-05-27 23:18:11.843 DBG default: check end
+2022-05-27 23:18:13.844 DBG default: checking
+2022-05-27 23:18:13.846 DBG default: trying connect
+2022-05-27 23:18:13.847 DBG default: start connecting
+2022-05-27 23:18:13.848 DBG default: 127.0.0.1
+2022-05-27 23:18:13.849 DBG default: failed to connect
+2022-05-27 23:18:13.850 DBG default: check end
+2022-05-27 23:18:15.851 DBG default: checking
+2022-05-27 23:18:15.853 DBG default: trying connect
+2022-05-27 23:18:15.854 DBG default: start connecting
+2022-05-27 23:18:15.855 DBG default: 127.0.0.1
+2022-05-27 23:18:15.857 DBG default: failed to connect
+2022-05-27 23:18:15.857 DBG default: check end
+2022-05-27 23:18:17.858 DBG default: checking
+2022-05-27 23:18:17.860 DBG default: trying connect
+2022-05-27 23:18:17.861 DBG default: start connecting
+2022-05-27 23:18:17.862 DBG default: 127.0.0.1
+2022-05-27 23:18:17.864 DBG default: failed to connect
+2022-05-27 23:18:17.864 DBG default: check end
+2022-05-27 23:18:19.867 DBG default: checking
+2022-05-27 23:18:19.868 DBG default: trying connect
+2022-05-27 23:18:19.868 DBG default: start connecting
+2022-05-27 23:18:19.869 DBG default: 127.0.0.1
+2022-05-27 23:18:19.870 DBG default: failed to connect
+2022-05-27 23:18:19.871 DBG default: check end
+2022-05-27 23:18:21.872 DBG default: checking
+2022-05-27 23:18:21.874 DBG default: trying connect
+2022-05-27 23:18:21.880 DBG default: start connecting
+2022-05-27 23:18:21.880 DBG default: 127.0.0.1
+2022-05-27 23:18:21.880 DBG default: failed to connect
+2022-05-27 23:18:21.881 DBG default: check end
+2022-05-27 23:18:23.881 DBG default: checking
+2022-05-27 23:18:23.883 DBG default: trying connect
+2022-05-27 23:18:23.884 DBG default: start connecting
+2022-05-27 23:18:23.886 DBG default: 127.0.0.1
+2022-05-27 23:18:23.888 DBG default: failed to connect
+2022-05-27 23:18:23.888 DBG default: check end
+2022-05-27 23:18:25.890 DBG default: checking
+2022-05-27 23:18:25.891 DBG default: trying connect
+2022-05-27 23:18:25.893 DBG default: start connecting
+2022-05-27 23:18:25.894 DBG default: 127.0.0.1
+2022-05-27 23:18:25.897 DBG default: failed to connect
+2022-05-27 23:18:25.901 DBG default: check end
+2022-05-27 23:18:27.902 DBG default: checking
+2022-05-27 23:18:27.903 DBG default: trying connect
+2022-05-27 23:18:27.905 DBG default: start connecting
+2022-05-27 23:18:27.906 DBG default: 127.0.0.1
+2022-05-27 23:18:27.907 DBG default: failed to connect
+2022-05-27 23:18:27.907 DBG default: check end
+2022-05-27 23:18:29.909 DBG default: checking
+2022-05-27 23:18:29.911 DBG default: trying connect
+2022-05-27 23:18:29.914 DBG default: start connecting
+2022-05-27 23:18:29.914 DBG default: 127.0.0.1
+2022-05-27 23:18:29.917 DBG default: failed to connect
+2022-05-27 23:18:29.918 DBG default: check end
+2022-05-27 23:18:31.919 DBG default: checking
+2022-05-27 23:18:31.919 DBG default: trying connect
+2022-05-27 23:18:31.920 DBG default: start connecting
+2022-05-27 23:18:31.922 DBG default: 127.0.0.1
+2022-05-27 23:18:31.923 DBG default: failed to connect
+2022-05-27 23:18:31.923 DBG default: check end
+2022-05-27 23:18:33.924 DBG default: checking
+2022-05-27 23:18:33.924 DBG default: trying connect
+2022-05-27 23:18:33.924 DBG default: start connecting
+2022-05-27 23:18:33.924 DBG default: 127.0.0.1
+2022-05-27 23:18:33.924 DBG default: failed to connect
+2022-05-27 23:18:33.924 DBG default: check end
+2022-05-27 23:18:35.925 DBG default: checking
+2022-05-27 23:18:35.925 DBG default: trying connect
+2022-05-27 23:18:35.926 DBG default: start connecting
+2022-05-27 23:18:35.926 DBG default: 127.0.0.1
+2022-05-27 23:18:35.927 DBG default: failed to connect
+2022-05-27 23:18:35.928 DBG default: check end
+2022-05-27 23:18:37.929 DBG default: checking
+2022-05-27 23:18:37.929 DBG default: trying connect
+2022-05-27 23:18:37.929 DBG default: start connecting
+2022-05-27 23:18:37.929 DBG default: 127.0.0.1
+2022-05-27 23:18:37.929 DBG default: failed to connect
+2022-05-27 23:18:37.930 DBG default: check end
+2022-05-27 23:18:39.133 DBG default: Start saving TMP
+2022-05-27 23:18:39.140 DBG default: TMP saved:  2 , size =  1109
+2022-05-27 23:19:58.344 DBG default: LFR initialising
+2022-05-27 23:19:58.425 DBG default: OpenCV Version:  3 . 3 . 1
+2022-05-27 23:19:58.492 DBG default: Start loading TMP
+2022-05-27 23:19:58.493 DBG default: TMP loaded:  2
+2022-05-27 23:19:58.531 DBG default: card loaded
+2022-05-27 23:19:58.597 DBG default: Start saving TMP
+2022-05-27 23:19:58.597 DBG default: TMP saved:  2 , size =  1109
+2022-05-27 23:19:58.608 DBG default: Loading config
+2022-05-27 23:19:58.612 DBG default: Config loaded
+2022-05-27 23:19:58.719 DBG default: checking
+2022-05-27 23:19:58.719 DBG default: trying connect
+2022-05-27 23:19:58.719 DBG default: start connecting
+2022-05-27 23:19:58.719 DBG default: 127.0.0.1
+2022-05-27 23:19:58.720 DBG default: connection: sending connect query
+2022-05-27 23:19:58.721 DBG default: 8081
+2022-05-27 23:19:58.722 DBG default: CONNECTED !!!!!!!!!!!!!!!!!
+2022-05-27 23:19:58.722 DBG default: run conn
+2022-05-27 23:19:58.723 DBG default: t2
+2022-05-27 23:19:58.723 DBG default: t2
+2022-05-27 23:19:58.723 DBG default: check end
+2022-05-27 23:19:58.723 DBG default: reading socket
+2022-05-27 23:19:58.724 DBG default: sync
+2022-05-27 23:19:58.724 DBG default: 2
+2022-05-27 23:19:58.724 DBG default: recv OK
+2022-05-27 23:19:58.725 DBG default: recv OK
+2022-05-27 23:19:58.725 DBG default: cards synced
+2022-05-27 23:19:58.732 DBG default: "admin authorised"
+2022-05-27 23:19:58.844 DBG default: Start saving TMP
+2022-05-27 23:19:58.845 DBG default: TMP saved:  2 , size =  1109
+2022-05-27 23:19:58.845 DBG default: reading socket
+2022-05-27 23:20:00.724 DBG default: checking
+2022-05-27 23:20:00.726 DBG default: check end
+2022-05-27 23:20:02.727 DBG default: checking
+2022-05-27 23:20:02.729 DBG default: check end
+2022-05-27 23:20:04.732 DBG default: checking
+2022-05-27 23:20:04.733 DBG default: check end
+2022-05-27 23:20:06.734 DBG default: checking
+2022-05-27 23:20:06.735 DBG default: check end
+2022-05-27 23:20:08.737 DBG default: checking
+2022-05-27 23:20:08.738 DBG default: check end
+2022-05-27 23:20:10.739 DBG default: checking
+2022-05-27 23:20:10.740 DBG default: check end
+2022-05-27 23:20:12.740 DBG default: checking
+2022-05-27 23:20:12.741 DBG default: check end
+2022-05-27 23:20:14.741 DBG default: checking
+2022-05-27 23:20:14.741 DBG default: check end
+2022-05-27 23:20:16.742 DBG default: checking
+2022-05-27 23:20:16.743 DBG default: check end
+2022-05-27 23:20:18.141 DBG default: conn: Closing !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2022-05-27 23:20:18.743 DBG default: checking
+2022-05-27 23:20:18.745 DBG default: trying connect
+2022-05-27 23:20:18.745 DBG default: start connecting
+2022-05-27 23:20:18.746 DBG default: 127.0.0.1
+2022-05-27 23:20:18.747 DBG default: failed to connect
+2022-05-27 23:20:18.748 DBG default: check end
+2022-05-27 23:20:20.748 DBG default: checking
+2022-05-27 23:20:20.750 DBG default: trying connect
+2022-05-27 23:20:20.751 DBG default: start connecting
+2022-05-27 23:20:20.752 DBG default: 127.0.0.1
+2022-05-27 23:20:20.753 DBG default: failed to connect
+2022-05-27 23:20:20.754 DBG default: check end
+2022-05-27 23:20:22.755 DBG default: checking
+2022-05-27 23:20:22.757 DBG default: trying connect
+2022-05-27 23:20:22.759 DBG default: start connecting
+2022-05-27 23:20:22.760 DBG default: 127.0.0.1
+2022-05-27 23:20:22.761 DBG default: failed to connect
+2022-05-27 23:20:22.762 DBG default: check end
+2022-05-27 23:20:24.763 DBG default: checking
+2022-05-27 23:20:24.765 DBG default: trying connect
+2022-05-27 23:20:24.766 DBG default: start connecting
+2022-05-27 23:20:24.767 DBG default: 127.0.0.1
+2022-05-27 23:20:24.769 DBG default: failed to connect
+2022-05-27 23:20:24.769 DBG default: check end
+2022-05-27 23:20:26.770 DBG default: checking
+2022-05-27 23:20:26.772 DBG default: trying connect
+2022-05-27 23:20:26.774 DBG default: start connecting
+2022-05-27 23:20:26.776 DBG default: 127.0.0.1
+2022-05-27 23:20:26.777 DBG default: failed to connect
+2022-05-27 23:20:26.778 DBG default: check end
+2022-05-27 23:20:28.780 DBG default: checking
+2022-05-27 23:20:28.781 DBG default: trying connect
+2022-05-27 23:20:28.782 DBG default: start connecting
+2022-05-27 23:20:28.784 DBG default: 127.0.0.1
+2022-05-27 23:20:28.785 DBG default: failed to connect
+2022-05-27 23:20:28.786 DBG default: check end
+2022-05-27 23:20:30.787 DBG default: checking
+2022-05-27 23:20:30.789 DBG default: trying connect
+2022-05-27 23:20:30.790 DBG default: start connecting
+2022-05-27 23:20:30.791 DBG default: 127.0.0.1
+2022-05-27 23:20:30.793 DBG default: failed to connect
+2022-05-27 23:20:30.794 DBG default: check end
+2022-05-27 23:20:32.795 DBG default: checking
+2022-05-27 23:20:32.796 DBG default: trying connect
+2022-05-27 23:20:32.797 DBG default: start connecting
+2022-05-27 23:20:32.798 DBG default: 127.0.0.1
+2022-05-27 23:20:32.801 DBG default: failed to connect
+2022-05-27 23:20:32.801 DBG default: check end
+2022-05-27 23:20:34.803 DBG default: checking
+2022-05-27 23:20:34.805 DBG default: trying connect
+2022-05-27 23:20:34.806 DBG default: start connecting
+2022-05-27 23:20:34.807 DBG default: 127.0.0.1
+2022-05-27 23:20:34.809 DBG default: failed to connect
+2022-05-27 23:20:34.809 DBG default: check end
+2022-05-27 23:20:36.810 DBG default: checking
+2022-05-27 23:20:36.812 DBG default: trying connect
+2022-05-27 23:20:36.814 DBG default: start connecting
+2022-05-27 23:20:36.815 DBG default: 127.0.0.1
+2022-05-27 23:20:36.816 DBG default: failed to connect
+2022-05-27 23:20:36.817 DBG default: check end
+2022-05-27 23:20:38.818 DBG default: checking
+2022-05-27 23:20:38.818 DBG default: trying connect
+2022-05-27 23:20:38.818 DBG default: start connecting
+2022-05-27 23:20:38.818 DBG default: 127.0.0.1
+2022-05-27 23:20:38.818 DBG default: failed to connect
+2022-05-27 23:20:38.818 DBG default: check end
+2022-05-27 23:20:40.819 DBG default: checking
+2022-05-27 23:20:40.820 DBG default: trying connect
+2022-05-27 23:20:40.821 DBG default: start connecting
+2022-05-27 23:20:40.823 DBG default: 127.0.0.1
+2022-05-27 23:20:40.825 DBG default: failed to connect
+2022-05-27 23:20:40.825 DBG default: check end
+2022-05-27 23:20:42.826 DBG default: checking
+2022-05-27 23:20:42.827 DBG default: trying connect
+2022-05-27 23:20:42.828 DBG default: start connecting
+2022-05-27 23:20:42.830 DBG default: 127.0.0.1
+2022-05-27 23:20:42.832 DBG default: failed to connect
+2022-05-27 23:20:42.833 DBG default: check end
+2022-05-27 23:20:44.834 DBG default: checking
+2022-05-27 23:20:44.835 DBG default: trying connect
+2022-05-27 23:20:44.836 DBG default: start connecting
+2022-05-27 23:20:44.837 DBG default: 127.0.0.1
+2022-05-27 23:20:44.838 DBG default: failed to connect
+2022-05-27 23:20:44.838 DBG default: check end
+2022-05-27 23:20:46.840 DBG default: checking
+2022-05-27 23:20:46.841 DBG default: trying connect
+2022-05-27 23:20:46.843 DBG default: start connecting
+2022-05-27 23:20:46.844 DBG default: 127.0.0.1
+2022-05-27 23:20:46.845 DBG default: failed to connect
+2022-05-27 23:20:46.846 DBG default: check end
+2022-05-27 23:20:48.847 DBG default: checking
+2022-05-27 23:20:48.848 DBG default: trying connect
+2022-05-27 23:20:48.849 DBG default: start connecting
+2022-05-27 23:20:48.851 DBG default: 127.0.0.1
+2022-05-27 23:20:48.853 DBG default: failed to connect
+2022-05-27 23:20:48.853 DBG default: check end
+2022-05-27 23:20:50.854 DBG default: checking
+2022-05-27 23:20:50.855 DBG default: trying connect
+2022-05-27 23:20:50.857 DBG default: start connecting
+2022-05-27 23:20:50.858 DBG default: 127.0.0.1
+2022-05-27 23:20:50.860 DBG default: failed to connect
+2022-05-27 23:20:50.861 DBG default: check end
+2022-05-27 23:20:52.862 DBG default: checking
+2022-05-27 23:20:52.863 DBG default: trying connect
+2022-05-27 23:20:52.865 DBG default: start connecting
+2022-05-27 23:20:52.866 DBG default: 127.0.0.1
+2022-05-27 23:20:52.868 DBG default: failed to connect
+2022-05-27 23:20:52.869 DBG default: check end
+2022-05-27 23:20:54.870 DBG default: checking
+2022-05-27 23:20:54.871 DBG default: trying connect
+2022-05-27 23:20:54.872 DBG default: start connecting
+2022-05-27 23:20:54.873 DBG default: 127.0.0.1
+2022-05-27 23:20:54.875 DBG default: failed to connect
+2022-05-27 23:20:54.877 DBG default: check end
+2022-05-27 23:20:56.878 DBG default: checking
+2022-05-27 23:20:56.879 DBG default: trying connect
+2022-05-27 23:20:56.881 DBG default: start connecting
+2022-05-27 23:20:56.882 DBG default: 127.0.0.1
+2022-05-27 23:20:56.884 DBG default: failed to connect
+2022-05-27 23:20:56.885 DBG default: check end
+2022-05-27 23:20:58.886 DBG default: checking
+2022-05-27 23:20:58.888 DBG default: trying connect
+2022-05-27 23:20:58.889 DBG default: start connecting
+2022-05-27 23:20:58.890 DBG default: 127.0.0.1
+2022-05-27 23:20:58.893 DBG default: failed to connect
+2022-05-27 23:20:58.893 DBG default: check end
+2022-05-27 23:21:00.895 DBG default: checking
+2022-05-27 23:21:00.896 DBG default: trying connect
+2022-05-27 23:21:00.897 DBG default: start connecting
+2022-05-27 23:21:00.898 DBG default: 127.0.0.1
+2022-05-27 23:21:00.901 DBG default: failed to connect
+2022-05-27 23:21:00.901 DBG default: check end
+2022-05-27 23:21:02.335 DBG default: Start saving TMP
+2022-05-27 23:21:02.336 DBG default: TMP saved:  2 , size =  1109
+2022-05-27 23:21:20.310 DBG default: LFR initialising
+2022-05-27 23:21:20.347 DBG default: OpenCV Version:  3 . 3 . 1
+2022-05-27 23:21:20.375 DBG default: Start loading TMP
+2022-05-27 23:21:20.375 DBG default: TMP loaded:  2
+2022-05-27 23:21:20.414 DBG default: card loaded
+2022-05-27 23:21:20.478 DBG default: Start saving TMP
+2022-05-27 23:21:20.479 DBG default: TMP saved:  2 , size =  1109
+2022-05-27 23:21:20.490 DBG default: Loading config
+2022-05-27 23:21:20.490 DBG default: Config loaded
+2022-05-27 23:21:20.576 DBG default: checking
+2022-05-27 23:21:20.576 DBG default: trying connect
+2022-05-27 23:21:20.576 DBG default: start connecting
+2022-05-27 23:21:20.577 DBG default: 127.0.0.1
+2022-05-27 23:21:20.577 DBG default: connection: sending connect query
+2022-05-27 23:21:20.578 DBG default: 8081
+2022-05-27 23:21:20.579 DBG default: CONNECTED !!!!!!!!!!!!!!!!!
+2022-05-27 23:21:20.579 DBG default: run conn
+2022-05-27 23:21:20.579 DBG default: check end
+2022-05-27 23:21:20.579 DBG default: t2
+2022-05-27 23:21:20.579 DBG default: reading socket
+2022-05-27 23:21:20.580 DBG default: sync
+2022-05-27 23:21:20.580 DBG default: 2
+2022-05-27 23:21:20.580 DBG default: recv OK
+2022-05-27 23:21:20.581 DBG default: recv OK
+2022-05-27 23:21:20.581 DBG default: cards synced
+2022-05-27 23:21:20.596 DBG default: "admin authorised"
+2022-05-27 23:21:20.705 DBG default: Start saving TMP
+2022-05-27 23:21:20.705 DBG default: TMP saved:  2 , size =  1109
+2022-05-27 23:21:20.705 DBG default: reading socket
+2022-05-27 23:21:20.706 DBG default: personal card edited
+2022-05-27 23:21:20.706 DBG default: recv OK
+2022-05-27 23:21:20.706 DBG default: conn: personal card edited from server
+2022-05-27 23:21:20.706 DBG default: card edited slot
+2022-05-27 23:21:20.847 DBG default: Start saving TMP
+2022-05-27 23:21:20.849 DBG default: TMP saved:  2 , size =  1109
+2022-05-27 23:21:20.849 DBG default: reading socket
+2022-05-27 23:21:22.579 DBG default: checking
+2022-05-27 23:21:22.580 DBG default: check end
+2022-05-27 23:21:24.581 DBG default: checking
+2022-05-27 23:21:24.582 DBG default: check end
+2022-05-27 23:21:26.583 DBG default: checking
+2022-05-27 23:21:26.584 DBG default: check end
+2022-05-27 23:21:28.585 DBG default: checking
+2022-05-27 23:21:28.586 DBG default: check end
+2022-05-27 23:21:30.587 DBG default: checking
+2022-05-27 23:21:30.589 DBG default: check end
+2022-05-27 23:21:32.591 DBG default: checking
+2022-05-27 23:21:32.593 DBG default: check end
+2022-05-27 23:21:34.594 DBG default: checking
+2022-05-27 23:21:34.595 DBG default: check end
+2022-05-27 23:21:36.596 DBG default: checking
+2022-05-27 23:21:36.598 DBG default: check end
+2022-05-27 23:21:38.599 DBG default: checking
+2022-05-27 23:21:38.601 DBG default: check end
+2022-05-27 23:21:40.602 DBG default: checking
+2022-05-27 23:21:40.604 DBG default: check end
+2022-05-27 23:21:42.605 DBG default: checking
+2022-05-27 23:21:42.606 DBG default: check end
+2022-05-27 23:21:44.606 DBG default: checking
+2022-05-27 23:21:44.607 DBG default: check end
+2022-05-27 23:21:46.610 DBG default: checking
+2022-05-27 23:21:46.611 DBG default: check end
+2022-05-27 23:21:48.613 DBG default: checking
+2022-05-27 23:21:48.614 DBG default: check end
+2022-05-27 23:21:50.617 DBG default: checking
+2022-05-27 23:21:50.618 DBG default: check end
+2022-05-27 23:21:52.619 DBG default: checking
+2022-05-27 23:21:52.621 DBG default: check end
+2022-05-27 23:21:54.622 DBG default: checking
+2022-05-27 23:21:54.622 DBG default: check end
+2022-05-27 23:21:56.623 DBG default: checking
+2022-05-27 23:21:56.624 DBG default: check end
+2022-05-27 23:21:58.202 DBG default: Start saving TMP
+2022-05-27 23:21:58.203 DBG default: TMP saved:  2 , size =  1109

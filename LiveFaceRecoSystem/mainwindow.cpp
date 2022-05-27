@@ -5,8 +5,16 @@
 #include <iostream>
 #include <QLayout>
 #include <QTextStream>
+#include <QFile>
+#include <QDir>
+#include <QScopedPointer>
+#include <QTextStream>
+#include <QDateTime>
+#include <QLoggingCategory>
 
 using namespace std;
+
+
 
 Q_DECLARE_METATYPE(cv::Mat)
 Q_DECLARE_METATYPE(cv::Point)
@@ -46,6 +54,7 @@ MainWindow::MainWindow(QWidget *parent) :
 	QMainWindow(parent),
 	ui(new Ui::MainWindow)
 {
+	ui->setupUi(this);
 }
 
 void MainWindow::closeEvent(QCloseEvent* event)
@@ -61,6 +70,8 @@ void MainWindow::closeEvent(QCloseEvent* event)
 
 void MainWindow::init()
 {
+
+
 	//регистрация типов для сигналов/слотов
 	qRegisterMetaType<cv::Mat>();
 	qRegisterMetaType<cv::Point>();
@@ -68,7 +79,6 @@ void MainWindow::init()
 	qRegisterMetaType<PassingEvent>();
 
 	videoSourcesNumber = 0;
-	ui->setupUi(this);
 	ui->LicenseLabel->setText("Лицензия действительна до " + licenseDate.toString("dd.MM.yyyy"));
 
 
@@ -103,26 +113,10 @@ void MainWindow::init()
 	ui->splitter->setStretchFactor(1, 0);
 	ui->splitter->setStretchFactor(2, 0);
 
+	connect(this, &MainWindow::pushMsg, this, &MainWindow::pushMsgSlot);
 
 
-	m_MessageHandler = new MessageHandler;
 	m_LFRManager = new LFRManager(this);
-
-	connect(m_LFRManager, &LFRManager::sendLFR, m_MessageHandler, &MessageHandler::connectToLFR, Qt::ConnectionType::DirectConnection);
-	connect(m_MessageHandler, &MessageHandler::askForLFR, m_LFRManager, &LFRManager::askForLFR, Qt::ConnectionType::DirectConnection);
-	connect(&messageHandlerThread, &QThread::started, m_MessageHandler, &MessageHandler::run);
-	connect(m_MessageHandler, &MessageHandler::finished, &messageHandlerThread, &QThread::quit);
-	connect(m_MessageHandler, &MessageHandler::sendMessage, this, &MainWindow::addMessage);
-
-
-	m_MessageHandler->moveToThread(&messageHandlerThread);
-
-	m_MessageHandler->setRunning(true);
-
-	messageHandlerThread.start();
-
-	config.log = m_MessageHandler;
-
 
 	makePhotoForm = new MakePhotoForm;
 	connect(this, &MainWindow::pixmapUpdated, makePhotoForm, &MakePhotoForm::updatePixmap);
@@ -172,15 +166,38 @@ void MainWindow::init()
 	{
 		while(true)
 		{
+			qDebug() << "checking";
 			if (!connection->isConnected())
 			{
+				ui->ConnectionLabel->setText("Подключение отсутствует");
+				qDebug() << "trying connect";
 				if (!setupConnection())
-					cout << "failed to connect" << endl;
+					qDebug() << "failed to connect";
+				else
+					ui->ConnectionLabel->setText("Подключено");
 			}
+			qDebug() << "check end";
 			this_thread::sleep_for(chrono::milliseconds(2000));
 		}
 	});
 	connectionControlThread.detach();
+
+	std::thread logThread = std::thread([&]()
+	{
+		while(true)
+		{
+			logMut.lock();
+			while (!logs.empty())
+			{
+				emit pushMsg(logs.front());
+				logs.pop_front();
+			}
+			logMut.unlock();
+			this_thread::sleep_for(chrono::milliseconds(10));
+		}
+	});
+	logThread.detach();
+
 }
 
 void MainWindow::loadConfig()
@@ -209,6 +226,7 @@ bool MainWindow::setupConnection()
 {
 	if (!connection->connect("127.0.0.1", "127.0.0.1", 8080))
 		return false;
+	qDebug() << "run conn";
 	connection->run();
 	return true;
 }
@@ -217,7 +235,7 @@ void MainWindow::onAuthorised(QString login)
 {
 	init();
 	this->show();
-	m_MessageHandler->message(login + " authorised");
+	qDebug() << login + " authorised";
 }
 
 void MainWindow::updatePixmap(VideoDetectionHandler::VideoDisplay *videoDisplay, cv::Mat frame, DrawInfo info)
@@ -272,7 +290,7 @@ void MainWindow::updateDetectedPerson(bool detected, int id, double confidence, 
 	auto card = std::find_if(list->begin(), list->end(), [&](const PersonalCard &card) { return card.imagePath == fileName; });
 	if (card == list->end())
 	{
-		m_MessageHandler->message("Unknown filename");
+		qDebug() << "Unknown filename";
 		return;
 	}
 	auto cam = std::find_if(cameras.begin(), cameras.end(), [&](const Camera &cam) { return cam.display == videoDisplay; });
@@ -317,18 +335,13 @@ void MainWindow::updateDetectedPerson(bool detected, int id, double confidence, 
 	std::this_thread::sleep_for(std::chrono::milliseconds(100));
 }
 
-void MainWindow::addMessage(QString message)
-{
-	ui->plainTextEdit->appendPlainText(message);
-}
-
 void MainWindow::updatePersonalCards(const QList<PersonalCard> &cards)
 {
 	QStringList filenames;
 	QList<int> brightnessCorrs, contrastCorrs;
 	for (int i = 0; i < cards.size(); ++i)
 	{
-		QFile f(cards[i].imagePath);
+		QFile f("./img/" + cards[i].imagePath);
 		if (!f.exists())
 		{
 			if (!connection->getImage(cards[i].imagePath))
@@ -393,6 +406,11 @@ void MainWindow::disconnected()
 
 }
 
+void MainWindow::pushMsgSlot(QString msg)
+{
+	ui->plainTextEdit->appendPlainText(msg);
+}
+
 MainWindow::~MainWindow()
 {
 	for (int i = 0; i < cameras.size(); ++i)
@@ -401,16 +419,18 @@ MainWindow::~MainWindow()
 	delete cardManager;
 	delete m_LFRManager;
 	delete ui;
-
-	m_MessageHandler->setRunning(false);
-	delete m_MessageHandler;
-	messageHandlerThread.quit();
-	messageHandlerThread.wait();
 }
 
 void MainWindow::setLicenseDate(QDate date)
 {
 	licenseDate = date;
+}
+
+void MainWindow::logMsg(QString msg)
+{
+	logMut.lock();
+	logs.push_back(msg);
+	logMut.unlock();
 }
 
 void MainWindow::on_OpenPersonalCardEditor_triggered()
@@ -425,7 +445,7 @@ void MainWindow::on_MakePhoto_triggered()
 
 void MainWindow::Configure::saveConfig()
 {
-	log->message("Saving config");
+	qDebug() << "Saving config";
 	QFile f("config.lfr");
 	f.open(QIODevice::WriteOnly);
 	QTextStream s(&f);
@@ -447,16 +467,16 @@ void MainWindow::Configure::saveConfig()
 	}
 
 	f.close();
-	log->message("Config saved");
+	qDebug() << "Config saved";
 }
 
 void MainWindow::Configure::loadConfig()
 {
-	log->message("Loading config");
+	qDebug() << "Loading config";
 	QFile f("config.lfr");
 	if (!f.exists())
 	{
-		log->message("Config file does not exist");
+		qDebug() << "Config file does not exist";
 		return;
 	}
 	f.open(QIODevice::ReadOnly);
@@ -487,7 +507,7 @@ void MainWindow::Configure::loadConfig()
 	}
 
 	f.close();
-	log->message("Config loaded");
+	qDebug() << "Config loaded";
 }
 
 MainWindow::Configure::Cam::Cam(int videoSourceindex, const QString &rtspConnectionAddres, const QString &name, bool enterance, int id, QUuid releID) :

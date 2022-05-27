@@ -2,8 +2,40 @@
 #include <iostream>
 #include <QApplication>
 #include <QProcess>
+#include <QDebug>
 #include <thread>
 #include "authorisationform.h"
+
+// Умный указатель на файл логирования
+QScopedPointer<QFile> m_logFile;
+MainWindow* window;
+
+// Реализация обработчика
+void messageHandler(QtMsgType type, const QMessageLogContext &context, const QString &msg)
+{
+	// Открываем поток записи в файл
+	QTextStream out(m_logFile.data());
+	// Записываем дату записи
+	QString str;
+	str = QDateTime::currentDateTime().toString("yyyy-MM-dd hh:mm:ss.zzz ");
+	// По типу определяем, к какому уровню относится сообщение
+	switch (type)
+	{
+	case QtInfoMsg:     str += "INF "; break;
+	case QtDebugMsg:    str += "DBG "; break;
+	case QtWarningMsg:  str += "WRN "; break;
+	case QtCriticalMsg: str += "CRT "; break;
+	case QtFatalMsg:    str += "FTL "; break;
+	}
+	// Записываем в вывод категорию сообщения и само сообщение
+	str += context.category;
+	str += ": ";
+	str += msg + "\n";
+	window->logMsg(msg);
+	std::cout << str.toStdString() << std::flush;
+	out << str;
+	out.flush();    // Очищаем буферизированные данные
+}
 
 //проверка лицензии
 bool checkLicense(QDate &date)
@@ -20,7 +52,7 @@ bool checkLicense(QDate &date)
 	if (!licenseFile.exists())
 	{
 		QMessageBox::information(nullptr, "Not license file", "Not license file (license.lfr)");
-		std::cout << "Not license file (license.lfr)" << std::endl;
+		qDebug() << "Not license file (license.lfr)";
 		return false;
 	}
 	licenseFile.open(QFile::ReadOnly);
@@ -29,14 +61,14 @@ bool checkLicense(QDate &date)
 	if (MACaddr != readMAC)
 	{
 		QMessageBox::information(nullptr, "Not correct MAC", "Not correct MAC");
-		std::cout << "Not correct MAC" << std::endl;
+		qDebug() << "Not correct MAC";
 		return false;
 	}
 	QString readUUID = QString::fromStdString(QString(bytes).toStdString().substr(17, 20));
 	if (readUUID != "uhbygvrkismanudyeozz")
 	{
 		QMessageBox::information(nullptr, "Not correct UUID", "Not correct UUID");
-		std::cout << "Not correct UUID" << std::endl;
+		qDebug() << "Not correct UUID";
 		return false;
 	}
 	QString s = QString::fromStdString(QString(bytes).toStdString().substr(37, 10));
@@ -45,7 +77,7 @@ bool checkLicense(QDate &date)
 	if (readTIME.secsTo(QDateTime::currentDateTime()) >= 0)
 	{
 		QMessageBox::information(nullptr, "License time is gone", "License time is gone");
-		std::cout << "License time is gone" << std::endl;
+		qDebug() << "License time is gone";
 		return false;
 	}
 	return true;
@@ -54,6 +86,8 @@ bool checkLicense(QDate &date)
 int main(int argc, char *argv[])
 {
 	QApplication a(argc, argv);
+	MainWindow w;
+	window = &w;
 	QDate date;
 
 	if (!checkLicense(date))
@@ -74,6 +108,17 @@ int main(int argc, char *argv[])
 	});
 	checkLicenseThread.detach();
 
+	// Устанавливаем файл логирования,
+	// внимательно сверьтесь с тем, какой используете путь для файла
+	m_logFile.reset(new QFile("log.lfr"));
+	// Открываем файл логирования
+	m_logFile.data()->open(QFile::Append | QFile::Text);
+
+	// Устанавливаем обработчик
+	qInstallMessageHandler(messageHandler);
+
+	qDebug() << "LFR initialising";
+
 	//подключение стилей
 	QFile style("Mixchat.qss");
 	style.open(QFile::ReadOnly);
@@ -82,7 +127,6 @@ int main(int argc, char *argv[])
 
 	AuthorisationForm authForm;
 
-    MainWindow w;
 	QApplication::connect(&authForm, &AuthorisationForm::authorised, &w, &MainWindow::onAuthorised);
 	authForm.authorisation();
 	w.setLicenseDate(date);

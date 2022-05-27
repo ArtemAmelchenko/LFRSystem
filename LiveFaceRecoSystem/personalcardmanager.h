@@ -1,6 +1,5 @@
 #ifndef PERSONALCARDMANAGER_H
 #define PERSONALCARDMANAGER_H
-#include "messagehandler.h"
 
 #include <QObject>
 #include <QFile>
@@ -31,7 +30,7 @@ public:
 	const QList<PersonalCard> *personalCards() const;
 
 	void addCard(const PersonalCard &card);
-	void editCard(QUuid cardID, const PersonalCard &card);
+	void editCard(const PersonalCard &card);
 	void deleteCard(int cardIndex);
 	void deleteCard(QUuid cardID);
 	void loadCards(const QString &filename);

@@ -1,6 +1,7 @@
 #include "showingcardmanager.h"
 #include <iostream>
 #include <thread>
+#include <QDebug>
 
 using namespace std;
 
@@ -98,7 +99,7 @@ ShowingCardManager::DetectionResult ShowingCardManager::personDetected(QUuid id,
 			pe.enterance = enterance;
 			pe.passed = opening;
 			pe.time = QDateTime::currentDateTime();
-			cout << "SCM emiting !!!!!!!!!!!!!!!!!" << endl;
+			qDebug() << "SCM emiting !!!!!!!!!!!!!!!!!";
 			emit newPassingEvent(pe);
 		}
 		return res;

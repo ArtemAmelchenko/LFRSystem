@@ -6,7 +6,6 @@
 #include <QPixmap>
 #include <vector>
 #include "livefacereco.hpp"
-#include "messagehandler.h"
 
 class VideoDetectionHandler;
 

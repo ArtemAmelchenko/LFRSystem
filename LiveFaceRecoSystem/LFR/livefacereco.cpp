@@ -1,4 +1,5 @@
 #include <iostream>
+#include <QDebug>
 #include <queue>
 #include "include/FacePreprocess.h"
 #include <numeric>
@@ -48,23 +49,19 @@ void brightnessCorrection(const cv::Mat bgr_image, int brtCorr, int contrCorr)
 
 LiveFaceReco::LiveFaceReco()
 {
-	msgHandler.start();
-
-	source = new DetectionSource(&msgHandler);
+	source = new DetectionSource();
 	source->personalInfos = &personalInfos;
 }
 
 LiveFaceReco::~LiveFaceReco()
 {
-	msgHandler.stop();
 	for (int i = 0; i < videoDetections.size(); i++)
 		deleteVideoSource(i);
 	delete source;
 }
 
-LiveFaceReco::VideoDetection::VideoDetection(LFRMsgHandler *msgHandler, LiveFaceReco::DetectionSource *source)
+LiveFaceReco::VideoDetection::VideoDetection(LiveFaceReco::DetectionSource *source)
 {
-	m_msgHandler = msgHandler;
 	m_source = source;
 
 	output_size = cv::Size(320, 240);
@@ -92,11 +89,6 @@ bool LiveFaceReco::VideoDetection::connectCamera(int cameraIndex)
 bool LiveFaceReco::VideoDetection::connectCamera(const string &path)
 {
 	return initCamera(path);
-}
-
-void LiveFaceReco::VideoDetection::connectMessages(LFRMsgHandler *msgHandler)
-{
-	m_msgHandler = msgHandler;
 }
 
 LiveFaceReco::FrameInfo LiveFaceReco::VideoDetection::MTCNNDetection()
@@ -218,14 +210,9 @@ LiveFaceReco::DetectionInfo LiveFaceReco::VideoDetection::IdentPerson(cv::Mat fr
 	return ret;
 }
 
-void LiveFaceReco::connectMessages(std::queue<string> *queue, mutex *mutex)
-{
-	msgHandler.connectQueue(queue, mutex);
-}
-
 int LiveFaceReco::addVideoSource(int cameraIndex)
 {
-	VideoDetection *vd = new VideoDetection(&msgHandler, source);
+	VideoDetection *vd = new VideoDetection(source);
 	if (vd->connectCamera(cameraIndex) == false)
 	{
 		delete vd;
@@ -237,7 +224,7 @@ int LiveFaceReco::addVideoSource(int cameraIndex)
 
 int LiveFaceReco::addVideoSource(string path)
 {
-	VideoDetection *vd = new VideoDetection(&msgHandler, source);
+	VideoDetection *vd = new VideoDetection(source);
 	if (vd->connectCamera(path) == false)
 	{
 		delete vd;
@@ -260,15 +247,11 @@ void LiveFaceReco::deleteVideoSource(int index)
 
 void LiveFaceReco::loadTmpInfoFromFile(const string &fileName)
 {
-	msgHandler.addMessage("Start loading TMP");
+	qDebug() << "Start loading TMP";
 	ifstream file(fileName, ios::binary | ios::ate);
 	if (!file.is_open())
 	{
-		msgHandler.addMessage("Loading failed (can't open file)");
-		string path;
-		path.resize(1000);
-		readlink("/proc/self/exe", &path[0], path.size());
-		msgHandler.addMessage(path);
+		qDebug() << "Loading failed (can't open file)" << fileName.c_str();
 		return;
 	}
 	personalInfos.clear();
@@ -300,7 +283,7 @@ void LiveFaceReco::loadTmpInfoFromFile(const string &fileName)
 		personalInfos.push_back(info);
 	}
 	file.close();
-	msgHandler.addMessage("TMP loaded: " + to_string(personalInfos.size()));
+	qDebug() << "TMP loaded: " << to_string(personalInfos.size()).c_str();
 	delete[] bytes;
 }
 
@@ -308,7 +291,7 @@ void LiveFaceReco::saveTmpInfoToFile(const string &fileName)
 {
 	if (personalInfos.empty())
 		return;
-	msgHandler.addMessage("Start saving TMP");
+	qDebug() << "Start saving TMP";
 	int matSize = personalInfos[0].face.cols * personalInfos[0].face.rows * personalInfos[0].face.elemSize();
 	int fileSize = sizeof(int) + personalInfos.size() * (5 * sizeof(int) + matSize);
 	for (int i = 0; i < personalInfos.size(); ++i)
@@ -337,7 +320,7 @@ void LiveFaceReco::saveTmpInfoToFile(const string &fileName)
 	}
 	file.write(bytes, fileSize);
 	file.close();
-	msgHandler.addMessage("TMP saved: " + to_string(personalInfos.size()) + ", size = " + to_string(fileSize));
+	qDebug() << "TMP saved: " << to_string(personalInfos.size()).c_str() << ", size = " << to_string(fileSize).c_str();
 	delete[] bytes;
 }
 
@@ -444,15 +427,14 @@ int LiveFaceReco::VideoDetection::findLargestFace(const vector<Bbox> &faceInfo)
 	return largest_number;
 }
 
-LiveFaceReco::DetectionSource::DetectionSource(LFRMsgHandler *msgHandler)
+LiveFaceReco::DetectionSource::DetectionSource()
 {
 	live = new Live;
 	reco = new Arcface;
-	m_msgHandler = msgHandler;
 
-	cout << "OpenCV Version: " << CV_MAJOR_VERSION << "."
+	qDebug() << "OpenCV Version: " << CV_MAJOR_VERSION << "."
 		 << CV_MINOR_VERSION << "."
-		 << CV_SUBMINOR_VERSION << endl;
+		 << CV_SUBMINOR_VERSION;
 
 	configureLiveDetection();
 	initSourceMatrix();

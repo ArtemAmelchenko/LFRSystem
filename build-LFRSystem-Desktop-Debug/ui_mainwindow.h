@@ -112,6 +112,8 @@ public:
     QLabel *label_11;
     QLineEdit *NowLE;
     QCheckBox *SpuffingCB;
+    QHBoxLayout *horizontalLayout;
+    QLabel *ConnectionLabel;
     QLabel *LicenseLabel;
     QMenuBar *menuBar;
     QMenu *menu;
@@ -578,12 +580,23 @@ public:
 
         verticalLayout_8->addWidget(splitter);
 
+        horizontalLayout = new QHBoxLayout();
+        horizontalLayout->setSpacing(6);
+        horizontalLayout->setObjectName(QStringLiteral("horizontalLayout"));
+        ConnectionLabel = new QLabel(centralWidget);
+        ConnectionLabel->setObjectName(QStringLiteral("ConnectionLabel"));
+
+        horizontalLayout->addWidget(ConnectionLabel);
+
         LicenseLabel = new QLabel(centralWidget);
         LicenseLabel->setObjectName(QStringLiteral("LicenseLabel"));
         LicenseLabel->setMaximumSize(QSize(16777215, 20));
         LicenseLabel->setAlignment(Qt::AlignBottom|Qt::AlignRight|Qt::AlignTrailing);
 
-        verticalLayout_8->addWidget(LicenseLabel);
+        horizontalLayout->addWidget(LicenseLabel);
+
+
+        verticalLayout_8->addLayout(horizontalLayout);
 
         MainWindow->setCentralWidget(centralWidget);
         menuBar = new QMenuBar(MainWindow);
@@ -651,6 +664,7 @@ public:
         label_10->setText(QApplication::translate("MainWindow", "\320\222\321\213\321\210\320\273\320\276 \321\207\320\265\320\273\320\276\320\262\320\265\320\272", Q_NULLPTR));
         label_11->setText(QApplication::translate("MainWindow", "\320\222 \320\267\320\264\320\260\320\275\320\270\320\270", Q_NULLPTR));
         SpuffingCB->setText(QApplication::translate("MainWindow", "\320\235\320\265 \320\277\321\200\320\276\320\277\321\203\321\201\320\272\320\260\321\202\321\214 \320\277\321\200\320\270 \321\201\320\277\321\203\321\204\320\270\320\275\320\263\320\265", Q_NULLPTR));
+        ConnectionLabel->setText(QString());
         LicenseLabel->setText(QString());
         menu->setTitle(QApplication::translate("MainWindow", "\320\244\320\260\320\271\320\273", Q_NULLPTR));
         menu_2->setTitle(QApplication::translate("MainWindow", "\320\232\320\260\320\274\320\265\321\200\321\213", Q_NULLPTR));
