@@ -1,4 +1,8 @@
 *.o
 *.pro
 *.user
-**/img/*
+build/img/*
+build/Cards.json
+build/config.lfr
+build/Faces.tmp
+build/log.lfr
